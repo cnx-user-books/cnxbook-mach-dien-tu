@@ -1,0 +1,2210 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Transitor lưỡng cực (Bipolar junction transistor - BJT)</title>
+  <metadata>
+  <md:content-id>m30551</md:content-id><md:title>Transitor lưỡng cực (Bipolar junction transistor - BJT)</md:title>
+  <md:abstract/>
+  <md:uuid>de106620-6c63-4aea-8ae7-136f2e0b4be1</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5779984">CẤU TẠO CƠ BẢN CỦA BJT.</para>
+    <para id="id5779990">Transistor lưỡng cực gồm có hai mối P-N nối tiếp nhau, được phát minh năm 1947 bởi hai nhà bác học W.H.Britain và J.Braden, được chế tạo trên cùng một mẫu bán dẫn Germanium hay Silicium.</para>
+    <para id="id5780002">Cực phátEEmitterB Cực nền (Base)n+ pn-Cực thuCCollecterECBTransistor PNPCực phátEEmitterB Cực nền (Base)p+ np-Cực thuCCollecterECBTransistor NPNHình 1Hình sau đây mô tả cấu trúc của hai loại transistor lưỡng cực PNP và NPN.</para>
+    <para id="id5068662">Ta nhận thấy rằng, vùng phát E được pha đậm (nồng độ chất ngoại lai nhiều), vùng nền B được pha ít và vùng thu C lại được pha ít hơn nữa. Vùng nền có kích thước rất hẹp (nhỏ nhất trong 3 vùng bán dẫn), kế đến là vùng phát và vùng thu là vùng rộng nhất. Transistor NPN có đáp ứng tần số cao tốt hơn transistor PNP. Phần sau tập trung khảo sát trên transistor NPN nhưng đối với transistor PNP, các đặc tính cũng tương tự.</para>
+    <section id="id-492413483557">
+      <title>TRANSISTOR Ở TRẠNG THÁI CHƯA PHÂN CỰC.</title>
+      <para id="id5055212">Ta biết rằng khi pha chất cho (donor) vào thanh bán dẫn tinh khiết, ta được chất bán dẫn loại N. Các điện tử tự do (còn thừa của chất cho) có mức năng lượng trung bình ở gần dải dẫn điện (mức năng lượng Fermi được nâng lên). Tương tự, nếu chất pha là chất nhận (acceptor), ta có chất bán dẫn loại P. Các lỗ trống của chất nhận có mức năng lượng trung bình nằm gần dải hoá trị hơn (mức năng lượng Fermi giảm xuống).</para>
+      <para id="id5055226">Khi nối P-N được xác lập, một rào điện thế sẽ được tạo ra tại nối. Các điện tử tự do trong vùng N sẽ khuếch tán sang vùng P và ngược lại, các lỗ trống trong vùng P khuếch tán sang vùng N. Kết quả là tại hai bên mối nối, bên vùng N là các ion dương, bên vùng P là các ion âm. Chúng đã tạo ra rào điện thế.</para>
+      <para id="id5055246">Hiện tượng này cũng được thấy tại hai nối của transistor. Quan sát vùng hiếm, ta thấy rằng kích thước của vùng hiếm là một hàm số theo nồng độ chất pha. Nó rộng ở vùng chất pha nhẹ và hẹp ở vùng chất pha đậm.</para>
+      <para id="id5055260">n+Vùng phátMức Fermi tăng caopVùng nềnn-Vùng thuVùng hiếmMức Fermi giảmMức Fermi tăng nhẹn+ Vùng phátp Vùng nềnn- Vùng thuDải dẫn điệnDải hoá trịE(eV)Mức Fermi xếp thẳngDải hoá trị (valence band)Dải dẫn điện(Conductance band)Hình 2Hình sau đây mô tả vùng hiếm trong transistor NPN, sự tương quan giữa mức năng lượng Fermi, dải dẫn điện, dải hoá trị trong 3 vùng, phát nền, thu của transistor.</para>
+    </section>
+    <section id="id-644648456883">
+      <title>CƠ CHẾ HOẠT ĐỘNG CỦA TRANSISTOR LƯỠNG CỰC.</title>
+      <para id="id5055092">Trong ứng dụng thông thường (khuếch đại), nối phát nền phải được phân cực thuận trong lúc nối thu nền phải được phân cực nghịch.</para>
+      <para id="id5055102">Vì nối phát nền được phân cực thuận nên vùng hiếm hẹp lại. Nối thu nền được phân cực nghịch nên vùng hiếm rộng ra.</para>
+      <para id="id5055111">Nhiều điện tử từ cực âm của nguồn VEE đi vào vùng phát và khuếch tán sang vùng nền. Như ta đã biết, vùng nền được pha tạp chất ít và rất hẹp nên số lỗ trống không nhiều, do đó lượng lỗ trống khuếch tán sang vùng phát không đáng kể.</para>
+      <para id="id5055132">Hình 3n+Phân cực thuậnpn-Phân cực nghịchDòng điện tửIEICIBDòng điện tửVEEVCCRERCMạch phân cực như sau:</para>
+      <para id="id5272532">Do vùng nền hẹp và ít lỗ trống nên chỉ có một ít điện tử khuếch tán từ vùng phát qua tái hợp với lỗ trống của vùng nền. Hầu hết các điện tử này khuếch tán thẳng qua vùng thu và bị hút về cực dương của nguồn VCC.</para>
+      <para id="id5780082">Các điện tử tự do của vùng phát như vậy tạo nên dòng điện cực phát IE chạy từ cực phát E. Các điện tử từ vùng thu chạy về cực dương của nguồn VCC tạo ra dòng điện thu IC chạy vào vùng thu.</para>
+      <para id="id5780111">Mặt khác, một số ít điện tử là hạt điện thiểu số của vùng nền chạy về cực dương của nguồn VEE tạo nên dòng điện IB rất nhỏ chạy vào cực nền B.</para>
+      <para id="id5780133">Như vậy, theo định luật Kirchoff, dòng điện IE là tổng của các dòng điện IC và IB.</para>
+      <para id="id5780157">Ta có:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{E} } =I rSub { size 8{C} } +I rSub { size 8{B} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5080208">Dòng IB rất nhỏ (hàng microampere) nên ta có thể coi như: IE # IC</para>
+    </section>
+    <section id="id-640513304097">
+      <title>CÁC CÁCH RÁP TRANSISTOR VÀ ĐỘ LỢI DÒNG ĐIỆN.</title>
+      <para id="id5080241">Khi sử dụng, transistor được ráp theo một trong 3 cách căn bản sau:</para>
+      <list id="id5080248" list-type="bulleted">
+        <item>Ráp theo kiểu cực nền chung (1)</item>
+        <item>Ráp theo kiểu cực phát chung (2)</item>
+        <item>Ráp theo kiểu cực thu chung (3)</item>
+      </list>
+      <para id="id5080271">IEICvàoraKiểu cực nền chungIBIEvàoraKiểu cực thu chungIBICvàoraKiểu cực phát chungHình 4</para>
+      <para id="id4237279">Trong 3 cách ráp trên, cực chung chính là cực được nối mass và dùng chung cho cả hai ngõ vào và ngõ ra.</para>
+      <para id="id4237287">Trong mỗi cách ráp, người ta định nghĩa độ lợi dòng điện một chiều như sau:</para>
+      <para id="id4237295">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>Ñoä lôïi doøng ñieân</m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mtext>Doøng ñieän ngoû ra</m:mtext>
+                      <m:mtext>Doøng ñieän ngoû vaøo</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"Ñoä lôïi doøng ñieân"= {  {"Doøng ñieän ngoû ra"}  over  {"Doøng ñieän ngoû vaøo"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4237355">Độ lợi dòng điện của transistor thường được dùng là độ lợi trong cách ráp cực phát chung và cực nền chung. Độ lợi dòng điện trong cách ráp cực phát chung được cho bởi:</para>
+      <para id="id4237364">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>h</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>FE</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">≈</m:mo>
+                      <m:msub>
+                        <m:mi>β</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>DC</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "FE"} }  approx β rSub { size 8{ ital "DC"} } = {  {I rSub { size 8{C} } }  over  {I rSub { size 8{B} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5068064">Như vậy: IC = DC.IB</para>
+      <para id="id5068094">Nhưng: IE = IC + IB = DC.IB+IB</para>
+      <para id="id5068136"> IE = (DC + 1).IB</para>
+      <para id="id5068165">Độ lợi dòng điện trong cách ráp cực nền chung được cho bởi:</para>
+      <para id="id5068171">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>h</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>FB</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">≈</m:mo>
+                      <m:msub>
+                        <m:mi>α</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>DC</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>E</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "FB"} }  approx α rSub { size 8{ ital "DC"} } = {  {I rSub { size 8{C} } }  over  {I rSub { size 8{E} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4295095">DC có trị số từ vài chục đến vài trăm, thậm chí có thể lên đến hàng ngàn. DC có trị từ 0,95 đến 0,999… tuỳ theo loại transistor. Hai thông số DC và DC được nhà sản xuất cho biết.</para>
+      <para id="id4295145">Từ phương trình căn bản:</para>
+      <para id="id4295150">IE = IC + IB</para>
+      <para id="id4295169">Ta có: IC = IE – IB</para>
+      <para id="id4295192">Chia cả hai vế cho IC, ta được:</para>
+      <para id="id4295203">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>E</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>B</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>E</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mfrac>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>B</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{1= {  {I rSub { size 8{E} } }  over  {I rSub { size 8{C} } } }  -  {  {I rSub { size 8{B} } }  over  {I rSub { size 8{C} } } } = {  {1}  over  { {  {I rSub { size 8{C} } }  over  {I rSub { size 8{E} } } } } }  -  {  {1}  over  { {  {I rSub { size 8{C} } }  over  {I rSub { size 8{B} } } } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5791771">Như vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1= {  {1}  over  {α rSub { size 8{ ital "DC"} } } }  -  {  {1}  over  {β rSub { size 8{ ital "DC"} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5766307">Giải phương trình này để tìm DC hay DC, ta được:</para>
+      <para id="id5766333"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{ ital "DC"} } = {  {α rSub { size 8{ ital "DC"} } }  over  {1 - α rSub { size 8{ ital "DC"} } } } } {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α rSub { size 8{ ital "DC"} } = {  {β rSub { size 8{ ital "DC"} } }  over  {1+β rSub { size 8{ ital "DC"} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5068422">* Ghi chú: các công thức trên là tổng quát, nghĩa là vẫn đúng với transistor PNP.</para>
+      <para id="id5068430">Ta chú ý dòng điện thực chạy trong hai transistor PNP và NPN có chiều như sau:</para>
+      <para id="id5068438">IEICIEIBNPNICIBPNPHình 5</para>
+      <para id="id5796884">Thí dụ: </para>
+      <para id="id5796888">Một transistor NPN, Si được phân cực sau cho IC = 1mA và IB = 10A.</para>
+      <para id="id5796911">Tính DC, IE, DC.</para>
+      <para id="id5796940">Giải: từ phương trình:</para>
+      <para id="id5796950"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{ ital "DC"} } = {  {I rSub { size 8{C} } }  over  {I rSub { size 8{B} } } } } {}</m:annotation></m:semantics></m:math>, Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dc</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mA</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mtext>10</m:mtext><m:mi fontstyle="italic">μA</m:mi></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>100</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{ ital "dc"} } = {  {1 ital "mA"}  over  {"10"μA} } ="100"} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4227410">Từ phương trình:</para>
+      <para id="id4227415">IE = IC + IB, ta có: IE = 1mA + 0,01mA = 1,01mA</para>
+      <para id="id4227440">Và từ phương trình:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>α</m:mi><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext/><m:mprescripts/><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:none/></m:mmultiscripts><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mA</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mn>1,</m:mn><m:mtext>01</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>99</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α"" lSub { size 8{ ital "DC"} } = {  {I rSub { size 8{C} } }  over  {I rSub { size 8{E} } } } = {  {1 ital "mA"}  over  {1,"01" ital "mA"} } =0,"99"} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5031696">Một transistor Si PNP có DC = 50 khi IE = 1,5mA. Xác định IC.</para>
+      <para id="id5031723">Giải:</para>
+      <para id="id5031727">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>α</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>β</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>DC</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>β</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>DC</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mtext>50</m:mtext>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>50</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0,</m:mn>
+                    </m:mrow>
+                    <m:mtext>98</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{α rSub { size 8{ ital "DC"} } = {  {β rSub { size 8{ ital "DC"} } }  over  {1+β rSub { size 8{ ital "DC"} } } } = {  {"50"}  over  {1+"50"} } =0,"98"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4227921">IC = DC.IE = 0,98 x 1,5 = 1,47mA</para>
+    </section>
+    <section id="id-036384523426">
+      <title>DÒNG ĐIỆN RỈ TRONG TRANSISTOR.</title>
+      <para id="id4227955">Vì nối thu nền thường được phân cực nghịch nên cũng có một dòng điện rỉ ngược (bảo hoà nghịch) đi qua mối nối như trong trường hợp diode được phân cực nghịch. Dòng điện rỉ ngược này được ký hiệu là ICBO, được nhà sản xuất cho biết, được mô tả bằng hình vẽ sau:</para>
+      <para id="id4227976">IE = 0ICBOICBOVCCRCCực Eđể hởCurrent (dòng điện)Base (cực nền)Openemitter (cực phát hở)Collector (cực thu)Hình 6</para>
+      <para id="id5066852">Đây là dòng điện đi từ cực thu qua cực nền khi cực phát để hở. Hình vẽ sau đây cho ta thấy thành phần các dòng điện chạy trong transistor bao gồm cả dòng điện ICBO.</para>
+      <para id="id5066865">Hình 7n+pn-IEIC = DCIE + ICBOVEEVCCRERCDCIEICBOIEIB</para>
+      <para id="id4249917">Như vậy, ta có: IC = DCIE + ICBO</para>
+      <para id="id4249947">Nếu ICBO xấp xỉ 0, xem như không đáng kể.</para>
+      <para id="id4249958">Ta có: IC  DCIE </para>
+      <para id="id4249990">Đó là công thức lý tưởng mà ta đã thấy ở phần trên. Ngoài ta, từ phương trình dòng điện căn bản:</para>
+      <para id="id4249997">IE = IB + IC</para>
+      <para id="id4250018">Suy ra, IC = DC(IC + IB) + ICBO</para>
+      <para id="id4250054">IC = DCIC + DC IB + ICBO</para>
+      <para id="id4250098">Ta tìm thấy:</para>
+      <para id="id4250103">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>α</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>DC</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>α</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>CBO</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>α</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{C} } = {  {α rSub { size 8{ ital "DC"} } }  over  {1 - α rSub { size 8{ ital "DC"} } } } I rSub { size 8{B} } + {  {I rSub { size 8{ ital "CBO"} } }  over  {1 - α rSub { size 8{ ital "DC"} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5662593">Nhưng: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{ ital "DC"} } = {  {α rSub { size 8{ ital "DC"} } }  over  {1 - α rSub { size 8{ ital "DC"} } } } } {}</m:annotation></m:semantics></m:math> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mi>α</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1+β rSub { size 8{ ital "DC"} } = {  {α rSub { size 8{ ital "DC"} } }  over  {1 - α rSub { size 8{ ital "DC"} } } } +1} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5197144">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>β</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>DC</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>α</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>DC</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>α</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>α</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>α</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>DC</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{1+β rSub { size 8{ ital "DC"} } = {  {α rSub { size 8{ ital "DC"} } +1 - α rSub { size 8{ ital "DC"} } }  over  {1 - α rSub { size 8{ ital "DC"} } } } = {  {1}  over  {1 - α rSub { size 8{ ital "DC"} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5256948">Thay vào phương trình trên, ta tìm được:</para>
+      <para id="id5256954">IC = DCIB + (DC + 1)ICBO</para>
+      <para id="id5256993">Người ta đặt: ICEO = (DC + 1)ICBO và phương trình trên được viết lại:</para>
+      <para id="id5257020">IC = DCIB + ICEO</para>
+      <para id="id5257048">RCHình 8ICEOVCCIB = 0Cực nền hởICEOCurrent (dòng điện)Emitter (cực phát)Openbase (cực nền hở)Collector (cực thu)Như vậy, ta có thể hiểu dòng điện rỉ ICEO như là dòng điện chạy từ cực C qua cực E của transistor khi cực B để hở. Trị số của ICEO cũng được nhà sản xuất cho biết.</para>
+      <para id="id5185074">Các thông số DC, DC, ICBO, ICEO rất nhạy với nhiệt độ.</para>
+    </section>
+    <section id="id-623205727701">
+      <title>ĐẶC TUYẾN V-I CỦA TRANSISTOR.</title>
+      <para id="id5185118">Người ta thường chú ý đến 3 loại đặc tuyến của transistor:</para>
+      <list id="id5185125" list-type="bulleted">
+        <item>Đặc tuyến ngõ vào.</item>
+        <item>Đặc tuyến ngõ ra</item>
+        <item>Đặc tuyến truyền</item>
+      </list>
+      <para id="id4237995">I1I2BJTV2V1Ngõ ra V22V11 Ngõ vàoR1R2Hình 9Mạch tổng quát để xác định 3 đặc tuyến trên được biểu diễn bằng mô hình sau:</para>
+      <para id="id5195556">Điểm cần chú ý: tuỳ theo loại transistor và các cách ráp mà nguồn V11, V22 phải mắc đúng cực (sao cho nối thu nền phân cực nghịch và nối phát nền phân cực thuận). Các Ampe kế I1, I2, các volt kế V1 và V2 cũng phải mắc đúng chiều.</para>
+      <para id="id4268258">Chúng ta khảo sát hai cách mắc căn bản:L</para>
+      <section id="id-53053954855">
+        <title>Mắc theo kiểu cực nền chung:</title>
+        <para id="id4268272">Mạch điện như sau:</para>
+        <para id="id4268277">I1I2V2V1VCCVEERERCHình 10IEIC++VBEVCB++</para>
+        <para id="id5793056">Đặc tuyến ngõ vào (input curves).</para>
+        <para id="id5793060">VCB = 20VVCB = 10VVCB = 01VVCB = 00VVCB để hở0,6VBE (Volt)0,40,2IE (mA)0Hình 11Là đặc tuyến biểu diễn sự thay đổi của dòng điện IE theo điện thế ngõ vào VBE với VCB được chọn làm thông số.</para>
+        <para id="id5287133">Đặc tuyến có dạng như sau:</para>
+        <para id="id5287137">Nhận xét:</para>
+        <list id="id5287142" list-type="bulleted">
+          <item>Khi nối thu nền để hở, đặc tuyến có dạng như đặc tuyến của diode khi phân cực thuận.</item>
+          <item>Điện thế ngưỡng (knee voltage) của đặc tuyến giảm khi VCB tăng.</item>
+        </list>
+        <para id="id5287167">Đặc tuyến ngõ ra (output curves)</para>
+        <para id="id5287171">Là đặc tuyến biểu diễn sự thay đổi của dòng điện cực thu IC theo điện thế thu nền VCB với dòng điện cực phát IE làm thông số.</para>
+        <para id="id4236489">Đặc tuyến có dạng như sau: Ta chú ý đến ba vùng hoạt động của transistor.</para>
+        <para id="id4236495">Vùng tác động: Nối nền phát phân cực thuận, nối thu nền phân cực nghịch. Trong vùng này đặc tuyến là những đường thẳng song song và cách đều. Trong các ứng dụng thông thường, transistor được phân cực trong vùng tác động.</para>
+        <para id="id4236509">01234562468IE= 0mA1 mA2 mA3 mA4 mA5 mA6 mAVCB (V)IC (mA)Vùng ngưngVùng tác độngVùng bão hòaHình 12ICBO </para>
+        <para id="id4311749">Vùng ngưng: nối nền phát phân cực nghịch (IE=0), nối thu nền phân cực nghịch. Trong vùng này transistor không hoạt động.</para>
+        <para id="id4311764">Vùng bảo hoà: nối phát nền phân cực thuận, nối thu nền phân cực thuận. Trong các ứng dụng đặc biệt, transistor mới được phân cực trong vùng này.</para>
+      </section>
+      <section id="id-0640835216792">
+        <title>Mắc theo kiểu cực phát chung.</title>
+        <para id="id4311783">+I1I2V2V1VCCVBBRBRCHình 13IBIC+VBEVCB++Đây là cách mắc thông dụng nhất trong các ứng dụng của transistor. Mạch điện như sau:</para>
+        <para id="id5196892">Đặc tuyến ngõ vào:</para>
+        <para id="id5196896">IB (A)0VBE (V)0,20,40,60,8VCE = 0VVCE = 1VVCE = 10V20406080100Hình 14Biểu diễn sự thay đổi của dòng điện IB theo điện thế ngõ vào VBE. Trong đó hiệu thế thu phát VCE chọn làm thông số.</para>
+        <para id="id5301620">Đặc tuyến như sau:</para>
+        <para id="id5301625">Đặc tuyến ngõ ra:</para>
+        <para id="id5301629">Biểu diễn dòng điện cực thu IC theo điện thế ngõ ra VCE với dòng điện ngõ vào IB được chọn làm thông số.</para>
+        <para id="id5301654">Dạng đặc tuyến như sau:</para>
+        <para id="id5301660">01234562468IB= 0 A20 A40 A60 A80 A100 A120 AVCE (V)IC (mA)Vùng ngưngVùng tác độngVùng bão hòaHình 15ICEO </para>
+        <list id="id5028440" list-type="bulleted">
+          <item>Ta thấy cũng có 3 vùng hoạt động của transistor: vùng bảo hoà, vùng tác động và vùng ngưng.</item>
+          <item>Khi nối tắt VBE (tức IB=0) dòng điện cực thu xấp xĩ dòng điện rĩ ICEO.</item>
+        </list>
+        <para id="id5028476">Đặc tuyến truyền: (Transfer characteristic curve)</para>
+        <para id="id5028481">IC (mA)0VBE (V)VCE =10(V)ICES = ICBO.1.2.3.4.5.6.7.8Vùng ngưngVùngtác độngVùng bảo hoàVBE(sat) cut-inHình 16Từ đặc tuyến ngõ vào và đặc tuyến ngõ ra. Ta có thể suy ra đặc tuyến truyền của transistor. Đặc tuyến truyền biểu diễn sự thay đổi của dòng điện ngõ ra IC theo điện thế ngõ vào VBE với điện thế ngõ ra VCE làm thông số.</para>
+        <para id="id5315996">Đặc tuyến có dạng như sau: </para>
+        <para id="id5316001">Đối với transistor Si, vùng hoạt động có VBE nằm trong khoảng 0,5-0,8V. Trong vùng này, đặc tuyến truyền có dạng hàm mũ. Ở vùng bão hoà, dòng IC tăng nhanh khi VBE thay đổi. Ở vùng ngưng, khi VBE còn nhỏ, dòng rỉ qua transistor ICES rất nhỏ, thường xấp xĩ ICBO.</para>
+        <para id="id5316047">Ngay cả trong vùng hoạt động, khi VBE thay đổi một lượng nhỏ (từ dòng IB thạy đổi) thì dòng IC thay đổi một lượng khá lớn. Vì thế, trong các ứng dụng, người ta dùng điện thế cực nền VBE làm điện thế điều khiển và cực B còn gọi là cực khiển.</para>
+      </section>
+      <section id="id-899711272894">
+        <title>Ảnh hưởng của nhiệt độ lên các đặc tuyến của BJT.</title>
+        <para id="id5154720">Như ta đã thấy, các tính chất điện của chất bán dẫn đều thay đổi theo nhiệt độ. Do đó, các đặc tuyến của BJT đều thay đổi khi nhiệt độ thay đổi.</para>
+        <list id="id5154731" list-type="bulleted">
+          <item>Khi nhiệt độ tăng, các dòng điện rỉ của cực thu (ICBO,Iceo, ICES) đều tăng.</item>
+          <item>Khi nhiệt độ tăng, các độ lợi điện thế DC, DC cũng tăng.</item>
+          <item>Khi nhiệt độ tăng, điện thế phân cực thuận (điện thế ngưỡng) nối nền phát VBE giảm. Thông thường, VBE giảm 2,2mV khi nhiệt độ tăng 10C.</item>
+          <item>Dòng điện rỉ ICBO tăng gấp đôi khi nhiệt độ tăng 80C trong transistor Si.</item>
+        </list>
+        <para id="id5154825">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>CBO</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:msup>
+                        <m:mi>t</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>CBO</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:msup>
+                        <m:mtext>25</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>C</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mtext>.</m:mtext>
+                      <m:mfenced open="[" close="]">
+                        <m:msup>
+                          <m:mn>2</m:mn>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>t</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>25</m:mtext>
+                                </m:mrow>
+                                <m:mn>8</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mfenced>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{ ital "CBO"} }  \( t rSup { size 8{0} } C \) =I rSub { size 8{ ital "CBO"} }  \( "25" rSup { size 8{0} } C \)  "."  left [2 rSup { size 8{ {  {t - "25"}  over  {8} } } }  right ]} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5154976">VBE (mV)0IB (A)645 700 500C250C(2,2mV/0C)IC (mA)500C250C250AIB =0A200A150A100A50AVCE (Volt)0VBE (mV)0IC (mA)645 700 500C250C(2,2mV/0C)10VCE =15VHình 17Tác động của nhiệt độ ảnh hưởng quan trọng đến điểm điều hành của transistor. Nó là nguyên nhân làm cho thông số của transistor thay đổi và kết quả là tín hiệu có thể bị biến dạng.</para>
+      </section>
+    </section>
+    <section id="id-83382592757">
+      <title>ĐIỂM ĐIỀU HÀNH – ĐƯỜNG THẲNG LẤY ĐIỆN MỘT CHIỀU.</title>
+      <para id="id5040752"><figure id="id5040764"><media id="id8061126" alt=""><image src=".wmf" mime-type="image/wmf" height="210" width="352"/></media></figure>VEEVCCVBEVCB++IEICRERCVàoRaHình 18Ta xem mạch dùng transistor BJT NPN trong mô hình cực nền chung như sau:</para>
+      <para id="id5271932">Để xác định điểm tỉnh điều hành Q và đường thẳng lấy điện một chiều, người ta thường dùng 3 bước:</para>
+      <para id="id5271939">1. Mạch ngõ vào:</para>
+      <para id="id5271944">Ta có: VBE + REIE - VEE = 0</para>
+      <para id="id5271970">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>E</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>EE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>BE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>R</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>E</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ drarrow I rSub { size 8{E} } = {  {V rSub { size 8{ ital "EE"} }  - V rSub { size 8{ ital "BE"} } }  over  {R rSub { size 8{E} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4233803">Chú ý là VBE = 0,7V với BJT là Si và VBE = 0,3V nếu BJT là Ge.</para>
+      <para id="id4233820">2. Từ công thức IC = DCIE  IE.</para>
+      <para id="id4233857">Suy ra dòng điện cực thu IC.</para>
+      <para id="id4233868">3. Mạch ngõ ra:</para>
+      <para id="id4233873">Ta có: VCB - VCC + RCIC = 0</para>
+      <para id="id4233902">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>CB</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>R</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>CC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>R</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ drarrow I rSub { size 8{C} } = -  {  {V rSub { size 8{ ital "CB"} } }  over  {R rSub { size 8{C} } } } + {  {V rSub { size 8{ ital "CC"} } }  over  {R rSub { size 8{C} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4234030">Đây là phương trình đường thẳng lấy điện một chiều (đường thẳng lấy điện tỉnh). Trên đặc tuyến ra, giao điểm của đường thẳng lấy điện với IE tương ứng (thông số) của đặc tuyến ra chính là điểm tỉnh điều hành Q.</para>
+      <para id="id4234046">Ta chú ý rằng:</para>
+      <list id="id4234051" list-type="bulleted">
+        <item>Khi VCB = 0 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SH</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ drarrow I rSub { size 8{C} } =I rSub { size 8{ ital "SH"} } = {  {V rSub { size 8{ ital "CC"} } }  over  {R rSub { size 8{C} } } } } {}</m:annotation></m:semantics></m:math> (Dòng điện bảo hoà)</item>
+        <item>Khi IC = 0 (dòng ngưng), ta có: VCB = VCC = VOC</item>
+      </list>
+      <para id="id5184567">VCB(Volt)0IC (mA)IE = 6mAIE = 5mAIE = 4mAIE = 3mAIE = 2mAIE = 1mA0mAQVCBQ<figure id="id5691584"><media id="id1166376916746" alt=""><image src=".wmf" mime-type="image/wmf" height="47" width="72"/></media></figure>VCB=VCC=VOCHình 19</para>
+      <para id="id5691762">Một số nhận xét:</para>
+      <para id="id5691768">Để thấy ảnh hưởng tương đối của RC,VCC, IE lên điểm điều hành, ta xem ví dụ sau đây:</para>
+      <para id="id5691790">1. Ảnh hưởng của điện trở cực thu RC: RC = 1,5K; 2K; 3 K</para>
+      <para id="id5691823"><figure id="id5691833"><media id="id1166376833501" alt=""><image src=".wmf" mime-type="image/wmf" height="210" width="352"/></media></figure>VEE = 1VVCC = 12VIE = 3mAICRE = 100Hình 20RC</para>
+      <para id="id5793435"/>
+      <para id="id5793446">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>EE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1,7</m:mn></m:mrow><m:mn>0,1</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mA</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">≈</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{E} } = {  {V rSub { size 8{ ital "EE"} }  - V rSub { size 8{ ital "BE"} } }  over  {R rSub { size 8{E} } } } = {  {1 - 1,7}  over  {0,1} } =3 ital "mA" approx I rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5793606">* Khi RC = 2 K, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{C} } = -  {  {V rSub { size 8{ ital "CB"} } }  over  {R rSub { size 8{C} } } } + {  {V rSub { size 8{ ital "CC"} } }  over  {R rSub { size 8{C} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4296287">VCB(Volt)0IC (mA)IE = 3mAQ24681012VOCHình 21654321
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mtext>12</m:mtext><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3= -  {  {V rSub { size 8{ ital "CB"} } }  over  {2} } + {  {"12"}  over  {2} }  drarrow V rSub { size 8{ ital "CB"} } =6 ital "mA"} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4254746">* Khi RC = 1,5 K (RC giảm), giữ RE, VEE, VCC không đổi.</para>
+      <para id="id4254784">IC # IE # 3mA</para>
+      <para id="id4254799">VCB = VCC - RC.IC = 12 - 1,5x3 =7,5V</para>
+      <para id="id4254825">VCB(Volt)0IC (mA)IE = 3mAQ24681012VOCHình 22876543217,5V
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SH</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>12</m:mtext><m:mn>1,5</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{ ital "SH"} } = {  {V rSub { size 8{ ital "CC"} } }  over  {R rSub { size 8{C} } } } = {  {"12"}  over  {1,5} } =8 ital "mA"} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5662102">* Khi RC = 3 K (RC tăng)</para>
+      <para id="id5662123">IC # IE =3mA</para>
+      <para id="id5662138">VCB = VCC - RC.IC = 12 - 3x3 = 3V</para>
+      <para id="id5662164">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>SH</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>CC</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>R</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mtext>12</m:mtext>
+                          <m:mn>3</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mA</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{ ital "SH"} } = {  {V rSub { size 8{ ital "CC"} } }  over  {R rSub { size 8{C} } } } = {  {"12"}  over  {3} } =4 ital "mA"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5662279">VCB(Volt)0IC (mA)IE = 3mAQ24681012VOCHình 234321</para>
+      <para id="id5141578">Như vậy, khi giữ các nguồn phân cực VCC, VEE và RE cố định, thay đổi RC, điểm điều hành Q sẽ chạy trên đặc tuyến tương ứng với IE = 3mA. Khi RC tăng thì VCB giảm và ngược lại.</para>
+      <para id="id5141626">2. Ảnh hưởng của nguồn phân cực nối thu nền VCC.</para>
+      <para id="id5141638">Nếu giữ IE là hằng số (tức VEE và RE là hằng số), RC là hằng số, thay đổi nguồn VCC, ta thấy: Khi VCC tăng thì VCB tăng, khi VCC giảm thì VCB giảm.</para>
+      <para id="id5141696">Thí dụ:</para>
+      <para id="id5141701"><figure id="id5141712"><media id="id7978769" alt=""><image src=".wmf" mime-type="image/wmf" height="201" width="275"/></media></figure>VEE = 1VVCC: 10V12V14V+RE = 100Hình 24RC = 2KICIC (mA)765432124681012140IE =3 (mA)VCBQ1Q1Q2VCC = 14VVCC = 12VVCC = 10V</para>
+      <para id="id5951345">3. Ảnh hưởng của IE lên điểm điều hành:</para>
+      <para id="id5951357">Hình 25IC (mA)765432124681012140IE =3 (mA)VCBQ3Q<figure id="id5226068"><media id="id1166376893263" alt=""><image src=".wmf" mime-type="image/wmf" height="71" width="135"/></media></figure>IE =2 (mA)IE =1 (mA)IE =4 (mA)IE =5 (mA)IE =6 (mA)Q1Q2TăngGiảmQ4ICBONếu ta giữ RC và VCC cố định, thay đổi IE (tức thay đổi RE hoặc VEE) ta thấy: khi IE tăng thì VCB giảm (tức IC tăng), khi IC giảm thì VCB tăng (tức IC giảm).</para>
+      <para id="id5070414">Khi IE tăng thì IC tăng theo và tiến dần đến trị ISH. Transistor dần dần đi vào vùng bảo hoà. Dòng tối đa của IC, tức dòng bảo hoà gọi là IC(sat). Như vậy:</para>
+      <para id="id5070452">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>C</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>sat</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>SH</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>CC</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>R</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{C} }  \(  ital "sat" \) =I rSub { size 8{ ital "SH"} } = {  {V rSub { size 8{ ital "CC"} } }  over  {R rSub { size 8{C} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5749185">Lúc này, VCB giảm rất nhỏ và xấp xĩ bằng 0V (thật sự là 0,2V).</para>
+      <para id="id5749198">Khi IE giảm thì IC giảm theo. Transistor đi dần vào vùng ngưng, VCB lúc đó gọi là VCB(off) và IC = ICBO.</para>
+      <para id="id5749238">Như vậy, VCB(off) = VOC = VCC.</para>
+      <para id="id5749258">Vùng bảo hoà và vùng ngưng là vùng hoạt động không tuyến tính của BJT.</para>
+      <para id="id5749266">Đối với mạch cực phát chung, ta cũng có thể khảo sát tương tự.</para>
+    </section>
+    <section id="id-918066068321">
+      <title>KIỂU MẪU MỘT CHIỀU CỦA BJT.</title>
+      <para id="id5749280">ECBTransistor NPNECBTransistor PNPECBDCIEIEIC=DCIEIEECBDCIEIEIC=DCIEIEHình 26Qua khảo sát ở phần trước, người ta có thể dùng kiểu mẫu gần đúng sau đây của transistor trong mạch điện một chiều:</para>
+      <para id="id5285817">Tuy nhiên, khi tính các thành phần dòng điện và điện thế một chiều của transistor, người ta thường tính trực tiếp trên mạch điện với chú ý là điện thế thềm VBE khi phân cực thuận là 0,3V đối với Ge và 0,7V đối với Si.</para>
+      <para id="id5285836">Thí dụ 1: tính IE, IC và VCB của mạch cực nền chung như sau:</para>
+      <para id="id5285859">SiHình 27VEEVCCRERC0,7V VCBICIESiVEEVCCRERC0,7V VCBICIE++--++--</para>
+      <para id="id5196368">Ta dùng 3 bước:</para>
+      <para id="id5196373">Mạch nền phát (ngõ vào): 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>EE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mn>0,7</m:mn></m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{E} } = {  {V rSub { size 8{ ital "EE"} }  - 0,7}  over  {R rSub { size 8{E} } } } } {}</m:annotation></m:semantics></m:math>; IC # DC # IE</para>
+      <para id="id4295708">Áp dụng định luật kirchoff (ngõ ra), ta có:</para>
+      <list id="id4295713" list-type="bulleted">
+        <item>Với transistor NPN: VCB = VCC - RC.IC; VCB &gt; 0</item>
+        <item>Với transistor PNP: VCB = -VCC + RC.IC; VCB &lt;0</item>
+      </list>
+      <para id="id4295784">-Hình 28VBBVCCRBRC0,7V + VCEICIB-++VBBVCCRBRC0,7V - VCEICIB-+Thí dụ 2: Tính dòng điện IB, IC và điện thế VCE của mạch cực phát chung.</para>
+      <para id="id4250214">Mạch nền phát (ngõ vào): 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mn>0,7</m:mn></m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{B} } = {  {V rSub { size 8{ ital "BB"} }  - 0,7}  over  {R rSub { size 8{B} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4250306">Dòng IC = DC .IB</para>
+      <para id="id4250330">Mạch thu phát (ngõ ra)</para>
+      <list id="id4250335" list-type="bulleted">
+        <item>Với transistor NPN: VCE = VCC -RC IC &gt;0</item>
+        <item>Với transistor PNP: VCE = -VCC + RC.IC &lt;0</item>
+      </list>
+      <para id="id4250394">Đây chính là phương trình đường thẳng lấy điện tỉnh trong mạch cực phát chung.</para>
+    </section>
+    <section id="id-372122855582">
+      <title>BJT VỚI TÍN HIỆU XOAY CHIỀU.</title>
+      <section id="id-326464649091">
+        <title>Mô hình của BJT:</title>
+        <para id="id4250416">Tín hiệu vàoVS(t)-VEE+VCCRE RC<figure id="id4250555"><media id="id1166377004358" alt=""><image src=".wmf" mime-type="image/wmf" height="218" width="299"/></media></figure>Hình 29Tín hiệu raV0(t)Ta xem lại mạch cực nền chung, bây giờ nếu ta đưa vào BJT một nguồn xoay chiều VS(t) có biên độ nhỏ như hình vẽ.</para>
+        <para id="id4250649">Đây là mô hình của một mạch khuếch đại ráp theo kiểu cực nền chung. Ở ngõ vào và ngõ ra, ta có hai tụ liên lạc C1 và C2 có điện dung như thế nào để dung kháng XC khá nhỏ ở tần số của nguồn tín hiệu để có thể xem như nối tắt (Short circuit) đối với tín hiệu xoay chiều và có thể xem như hở mạch (open circuit) đối với điện thế phân cực.</para>
+        <para id="id4250682">Mạch tương đương một chiều như sau:</para>
+        <para id="id4250688">Hình 30SiVEEVCCRERC0,7V VCBICIEIE++--</para>
+        <para id="id5833555">Đây là mạch mà chúng ta đã khảo sát ở phần trước. Nguồn điện thế xoay chiều VS(t) khi đưa vào mạch sẽ làm cho thông số transistor thay đổi. Ngoài thành phần một chiều còn có thành phần xoay chiều của nguồn tín hiệu tạo ra chồng lên.</para>
+        <para id="id5833574">Nghĩa là: iB(t) = IB + ib(t)</para>
+        <para id="id5833597">iC(t) = IC + ic(t)</para>
+        <para id="id5833617">iE(t) = IE + ie(t)</para>
+        <para id="id5833638">vCB(t) = VCB + vcb(t)</para>
+        <para id="id5833659">vBE(t) = VBE + vbe(t)</para>
+        <para id="id5833680">Thành phần tức thời = thành phần DC + thành phần xoay chiều.</para>
+        <para id="id5833686">n+pB’n-ieib’icBCEHình 31Trong mô hình các dòng điện chạy trong transistor ta thấy: điểm B’ nằm trong vùng nền được xem như trung tâm giao lưu của các dòng điện. Do nối nền phát phân cực thuận nên giữa B’ và E cũng có một điện trở động re giống như điện trở động rd trong nối P-N khi phân cực thuận nên: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>26</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mV</m:mtext></m:mrow></m:mstyle></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{e} } = {  {"26" ital "mV"}  over  {I rSub { size 8{E} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id4303789">Ngoài ra, ta cũng có điện trở rb của vùng bán dẫn nền phát (ở đây, ta có thể coi như đây là điện trở giữa B và B’). Do giữa B’ và C phân cực nghịch nên có một điện trở r­0 rất lớn. Tuy nhiên, vẫn có dòng điện ic = .ie = ib chạy qua và được coi như mắc song song với r0.</para>
+        <para id="id4303848">*  là độ lợi dòng điện xoay chiều trong cách mắc nền chung:</para>
+        <para id="id4303860">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>α</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msub>
+                              <m:mi>α</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>ac</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi fontstyle="italic">ΔI</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi fontstyle="italic">ΔI</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>E</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mtext>di</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>C</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mtext>di</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>E</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>i</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>i</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>e</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{α=α rSub { size 8{ ital "ac"} } = {  {ΔI rSub { size 8{C} } }  over  {ΔI rSub { size 8{E} } } } = {  { ital "di" rSub { size 8{C} } }  over  { ital "di" rSub { size 8{E} } } } = {  {i rSub { size 8{c} } }  over  {i rSub { size 8{e} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id4304020">Thông thường  hoặc ac gần bằng DC và xấp xĩ bằng đơn vị.</para>
+        <para id="id4304051">*  là độ lợi dòng điện xoay chiều trong cách mắc cực phát chung.</para>
+        <para id="id4304064">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>β</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>β</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>ac</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msub>
+                              <m:mi>h</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>fe</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi fontstyle="italic">Δi</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi fontstyle="italic">Δi</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>B</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mtext>di</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>C</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mtext>di</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>B</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>i</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>i</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{β=β rSub { size 8{ ital "ac"} } =h rSub { size 8{ ital "fe"} } = {  {Δi rSub { size 8{C} } }  over  {Δi rSub { size 8{B} } } } = {  { ital "di" rSub { size 8{C} } }  over  { ital "di" rSub { size 8{B} } } } = {  {i rSub { size 8{c} } }  over  {i rSub { size 8{b} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id4304244">Thông thường  hoặc ac gần bằng DC và cũng thay đổi theo dòng ic.</para>
+        <para id="id4304281">Trị số ,  cũng được nhà sản xuất cung cấp.</para>
+        <para id="id4304298">CEBrorbreBB’ibie.ie = .ibHình 32Như vậy, mô hình của transistor đối với tín hiệu xoay chiều có thể được mô tả như sau:</para>
+        <para id="id4294760">rb thường có trị số khoảng vài chục , r0 rất lớn nên có thể bỏ qua trong mô hình của transistor.</para>
+      </section>
+      <section id="id-624693101372">
+        <title>Điện dẫn truyền (transconductance)</title>
+        <para id="id4294792">Ta thấy rằng, dòng điện cực thu IC thay đổi theo điện thế nền phát VBE. Người ta có thể biểu diễn sự thay đổi này bằng một đặc tuyến truyền (transfer curve) của transistor. Đặc tuyến này giống như đặc tuyến của diode khi phân cực thuận.</para>
+        <para id="id4294818">ID(mA)IC(mA) = IE00VD(volt)VBE(volt)ID=IO.exp(VD/VT)IC=ICES.exp(VBE/VT)IC(mA)0VBE(mV)ID=IO.exp(VD/VT)QTiếp tuyến có độ dốc =gm=IC/VTvbeECBECB+-gmvbeHình 33</para>
+        <para id="id5675298">Người ta định nghĩa điện dẫn truyền của transistor là:</para>
+        <para id="id5675305">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>g</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi fontstyle="italic">Δi</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>c</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi fontstyle="italic">ΔV</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>BE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>c</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>be</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  {Δi rSub { size 8{c} } }  over  {ΔV rSub { size 8{ ital "BE"} } } } = {  {i rSub { size 8{c} }  \( t \) }  over  {v rSub { size 8{ ital "be"} }  \( t \) } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5538281">Và đó chính là độ dốc của tiếp tuyến với đặc tuyến truyền tại điểm điều hành Q.</para>
+        <para id="id5538289">Tương tự như diode, ta cũng có:</para>
+        <para id="id5538295">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>CES</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:msup>
+                        <m:mi>e</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:msub>
+                                <m:mi>V</m:mi>
+                                <m:mstyle fontsize="6pt">
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>BE</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:msub>
+                                <m:mi>V</m:mi>
+                                <m:mstyle fontsize="6pt">
+                                  <m:mrow>
+                                    <m:mi>T</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{C} } =I rSub { size 8{ ital "CES"} }  "." e rSup { size 8{ {  {V rSub { size 6{ ital "BE"} } }  over  {V rSub { size 6{T} } } } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5538405">Trong đó, IC là dòng điện phân cực cực thu;</para>
+        <para id="id5538417">ICES là dòng điện rĩ cực thu khi VBE = 0V</para>
+        <para id="id5538433"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KT</m:mtext></m:mrow></m:mstyle><m:mi>e</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{T} } = {  { ital "KT"}  over  {e} } } {}</m:annotation></m:semantics></m:math> (T: nhiệt độ Kelvin)</para>
+        <para id="id5538503">Ở nhiệt độ bình thường (250C), VT = 26mV</para>
+        <para id="id5538518">Ta có thể tính gm bằng cách lấy đạo hàm của IC theo VBE.</para>
+        <para id="id5538541">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>g</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>m</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mtext>dI</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>C</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mtext>dV</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mstyle fontstyle="italic">
+                                        <m:mrow>
+                                          <m:mtext>BE</m:mtext>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>CES</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>VT</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:msup>
+                        <m:mi>e</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:msub>
+                                <m:mi>V</m:mi>
+                                <m:mstyle fontsize="6pt">
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>BE</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:msub>
+                                <m:mi>V</m:mi>
+                                <m:mstyle fontsize="6pt">
+                                  <m:mrow>
+                                    <m:mi>T</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  { ital "dI" rSub { size 8{C} } }  over  { ital "dV" rSub { size 8{ ital "BE"} } } } = {  {I rSub { size 8{ ital "CES"} } }  over  { ital "VT"} }  "." e rSup { size 8{ {  {V rSub { size 6{ ital "BE"} } }  over  {V rSub { size 6{T} } } } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5538703">Và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  {I rSub { size 8{C} } }  over  {V rSub { size 8{T} } } }  \(  %OMEGA  \) } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5538797">Ở nhiệt độ bình thường (250C) ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mtext>26</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  {I rSub { size 8{C} } }  over  {"26" ital "mV"} } } {}</m:annotation></m:semantics></m:math></para>
+      </section>
+      <section id="id-374397135869">
+        <title>Tổng trở vào của transistor:</title>
+        <para id="id5202266">BJTiin+-vinHình 34<figure id="id5202594"><media id="id5830853" alt=""><image src=".wmf" mime-type="image/wmf" height="47" width="67"/></media></figure>Người ta định nghĩa tổng trở vào của transistor bằng mô hình sau đây:</para>
+        <para id="id5202623">Ta có hai loại tổng trở vào: tổng trở vào nhìn từ cực phát E và tổng trở vào nhìn từ cực nền B.</para>
+        <para id="id5202632">Tổng trở vào nhìn từ cực phát E:</para>
+        <para id="id5202637">ie = -iin+-vbe = -vinHình 35<figure id="id4296962"><media id="id1166376760838" alt=""><image src=".wmf" mime-type="image/wmf" height="47" width="107"/></media></figure>ECB</para>
+        <para id="id4297050">Theo mô hình của transistor đối với tín hiệu xoay chiều, ta có mạch tương đương ở ngõ vào như sau:</para>
+        <para id="id4297059">-+EB’Biereibrb-+EB’Biereie<figure id="id5032888"><media id="id8087323" alt=""><image src=".wmf" mime-type="image/wmf" height="46" width="36"/></media></figure>Hình 36Vì ie=(+1)ib nên mạch trên có thể vẽ lại như hình phía dưới bằng cách coi như dòng ie chạy trong mạch và phải thay rb bằng 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {r rSub { size 8{b} } }  over  {β+1} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id5033029">Vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>in</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">+</m:mo><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{ ital "in"} } = {  {v rSub { size 8{ ital "be"} } }  over  {i rSub { size 8{e} } } } = {  {r rSub { size 8{b} } }  over  {β+1} } +r rSub { size 8{e} } = {  {r rSub { size 8{b} } + \( β+1 \) r rSub { size 8{e} } }  over  {β+1} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5033229">Đặt: h­ie = rb+(+1).re</para>
+        <para id="id5033258">Suy ra: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>in</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ie</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{ ital "in"} } = {  {h rSub { size 8{ ital "ie"} } }  over  {β+1} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id4269563">Do &gt;&gt;1, rb nhỏ nên 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mtext>&lt;&lt;</m:mtext><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {r rSub { size 8{b} } }  over  {β+1} } "&lt;&lt;"r rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math> nên người ta thường coi như:</para>
+        <para id="id4269655"><figure id="id4269795"><media id="id1166379155060" alt=""><image src=".wmf" mime-type="image/wmf" height="50" width="75"/></media></figure>BEC+-vbe = vinib = iinHình 37
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>in</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">≈</m:mo><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{ ital "in"} } =r rSub { size 8{e} } + {  {r rSub { size 8{b} } }  over  {β+1} }  approx r rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5660423">Tổng trở vào nhìn từ cực nền B:</para>
+        <para id="id5660429">Xem mô hình định nghĩa sau (hình 37):</para>
+        <para id="id5660435">Mạch tương đương ngõ vào:</para>
+        <para id="id5660441">+-EB’Bibrbiere-+EB’Bibrbib<figure id="id4230356"><media id="id1166376796248" alt=""><image src=".wmf" mime-type="image/wmf" height="25" width="56"/></media></figure>Hình 38</para>
+        <para id="id4230401">Do ie=(+1)ib nên mạch hình (a) có thể được vẽ lại như mạch hình (b).</para>
+        <para id="id4230425">Vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>in</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ie</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{ ital "in"} } = {  {v rSub { size 8{ ital "be"} } }  over  {i rSub { size 8{b} } } } =r rSub { size 8{b} } + \( β+1 \) r rSub { size 8{e} } =h rSub { size 8{ ital "ie"} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5661391">Người ta đặt: r=(1+).rere</para>
+        <para id="id5661423">Thông thường re&gt;&gt;rb nên: Rin=hie rre</para>
+        <para id="id5661476">Ngoài ra, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>26</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mV</m:mtext></m:mrow></m:mstyle></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">≈</m:mo><m:mfrac><m:mrow><m:mtext>26</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mV</m:mtext></m:mrow></m:mstyle></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mtext>26</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{e} } = {  {"26" ital "mV"}  over  {I rSub { size 8{E} } } }  approx  {  {"26" ital "mV"}  over  {I rSub { size 8{C} } } } = {  {1}  over  { {  {I rSub { size 8{C} } }  over  {"26" ital "mV"} } } } = {  {1}  over  {g rSub { size 8{m} } } } } {}</m:annotation></m:semantics></m:math>; Vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>π</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>β</m:mi><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{π} } = {  {β}  over  {g rSub { size 8{m} } } } } {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{e} } = {  {1}  over  {g rSub { size 8{m} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5661782">Ta chú ý thêm là: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≈</m:mo><m:mfrac><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">≈</m:mo><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi fontstyle="italic">βi</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{e} }  approx  {  {v rSub { size 8{ ital "be"} } }  over  {i rSub { size 8{e} } } } = {  {1}  over  {g rSub { size 8{m} } } }  drarrow g rSub { size 8{m} } v rSub { size 8{ ital "be"} } =i rSub { size 8{e} }  approx i rSub { size 8{c} } =βi rSub { size 8{b} } } {}</m:annotation></m:semantics></m:math>; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi fontstyle="italic">βi</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ drarrow g rSub { size 8{m} } v rSub { size 8{ ital "be"} } =βi rSub { size 8{b} } } {}</m:annotation></m:semantics></m:math></para>
+      </section>
+      <section id="id-263612205316">
+        <title>Hiệu ứng Early (Early effect)</title>
+        <para id="id5156130">Ta xem lại đặc tuyến ngõ ra của transistor trong cách mắc cực phát chung. Năm 1952. J.Early thuộc phòng thí nghiệm Bell đã nghiên cứu và hiện tượng này được mang tên Ông. Ông nhận xét:</para>
+        <para id="id5156142">Ở những giá trị cao của dòng điện cực thu IC, dòng IC tăng nhanh theo VCE (đặc tuyến có dốc đứng).</para>
+        <para id="id5156165">Ở những giá trị thấp của IC, dòng IC tăng không đáng kể khi VCE tăng (đặc tuyến gần như nằm ngang).</para>
+        <para id="id5156188">01020304050VCE(volt)Early voltageVCE = -VA = -200VIC(mA)0VCE(volt)IC(mA)ICQVCEQQIC = ICQVCE = VCE -(-VA) = VCE + VA  VAHình 39Nếu ta kéo dài đặc tuyến này, ta thấy chúng hội tụ tại một điểm nằm trên trục VCE. Điểm này được gọi là điểm điện thế Early VA. Thông thường trị số này thay đổi từ 150V đến 250V và người ta thường coi VA = 200V.</para>
+        <para id="id4065997">Người ta định nghĩa tổng trở ra của transistor:</para>
+        <para id="id4066003">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>r</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi fontstyle="italic">ΔV</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>CE</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>V</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mstyle fontstyle="italic">
+                                        <m:mrow>
+                                          <m:mtext>CE</m:mtext>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mo stretchy="false">(</m:mo>
+                              </m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msub>
+                                <m:mi>V</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>A</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>CE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>A</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{0} } = {  {ΔV rSub { size 8{ ital "CE"} } }  over  {I rSub { size 8{C} } } } = {  {V rSub { size 8{ ital "CE"} }  -  \(  - V rSub { size 8{A} }  \) }  over  {I rSub { size 8{C} }  - 0} } = {  {V rSub { size 8{ ital "CE"} } +V rSub { size 8{A} } }  over  {I rSub { size 8{C} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id4066206">Thường VA&gt;&gt;VCE nên: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>200</m:mtext><m:mi>V</m:mi></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{0} } = {  {V rSub { size 8{A} } }  over  {I rSub { size 8{C} } } } = {  {"200"V}  over  {I rSub { size 8{C} } } } } {}</m:annotation></m:semantics></m:math></para>
+      </section>
+      <section id="id-573204101498">
+        <title>Mạch tương đương xoay chiều của BJT:</title>
+        <para id="id5162945">Với tín hiệu có biện độ nhỏ và tần số không cao lắm, người ta thường dùng hai kiểu mẫu sau đây:</para>
+        <para id="id5162956">Kiểu hỗn tạp: (hybrid-)</para>
+        <para id="id5162973">Với mô hình tương đương của transistor và các tổng trở vào, tổng trở ra, ta có mạch tương đương hỗn tạp như sau:</para>
+        <para id="id5162982">BCEvbeibrbrgmvberoicHình 40(a)</para>
+        <para id="id5314565">Kiểu mẫu re: (re model)</para>
+        <para id="id5314590">Cũng với mô hình tương đương xoay chiều của BJT, các tổng trở vào, tổng trở ra, ta có mạch tương đương kiểu re. Trong kiểu tương đương này, người ta thường dùng chung một mạch cho kiểu ráp cực phát chung và cực thu chung và một mạch riêng cho nền chung.</para>
+        <list id="id5314611" list-type="bulleted">
+          <item>Kiểu cực phát chung và thu chung:</item>
+        </list>
+        <para id="id5314623">BC (E)E (C)vbeibreibroicHình 40(b)IBICvàoraKiểu cực phát chungIBIEvàoraKiểu cực thu chung</para>
+        <list id="id5315456" list-type="bulleted">
+          <item>Kiểu cực nền chung</item>
+        </list>
+        <para id="id5315466">BCBiereieicHình (c)roIEICvàoraKiểu cực nền chung</para>
+        <para id="id5242240">Thường người ta có thể bỏ ro trong mạch tương đương khi RC quá lớn.</para>
+        <para id="id5242257">Kiểu thông số h: (h-parameter)</para>
+        <para id="id5242263">Nếu ta coi vbe và ic là một hàm số của iB và vCE, ta có:</para>
+        <para id="id5242291">vBE = f(iB,vCE) và iC = f(iB,vCE)</para>
+        <para id="id4307118">Lấy đạo hàm:</para>
+        <para id="id4307123">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>be</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mtext>dv</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>BE</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δv</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>BE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δi</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>B</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msub>
+                              <m:mtext>di</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>B</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δv</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>BE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δv</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>CE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>dv</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>CE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ ital "be"} } = ital "dv" rSub { size 8{ ital "BE"} } = {  {δv rSub { size 8{ ital "BE"} } }  over  {δi rSub { size 8{B} } } }  ital "di" rSub { size 8{B} } + {  {δv rSub { size 8{ ital "BE"} } }  over  {δv rSub { size 8{ ital "CE"} } } }  ital "dv" rSub { size 8{ ital "CE"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id4307317">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>c</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mtext>di</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>C</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δi</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δi</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>B</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msub>
+                              <m:mtext>di</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>B</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δi</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi fontstyle="italic">δv</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>CE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>dv</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>CE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{i rSub { size 8{c} } = ital "di" rSub { size 8{C} } = {  {δi rSub { size 8{C} } }  over  {δi rSub { size 8{B} } } }  ital "di" rSub { size 8{B} } + {  {δi rSub { size 8{C} } }  over  {δv rSub { size 8{ ital "CE"} } } }  ital "dv" rSub { size 8{ ital "CE"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id4307491">Trong kiểu mẫu thông số h, người ta đặt:</para>
+        <para id="id4307497"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ie</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi fontstyle="italic">δv</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi fontstyle="italic">δi</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mi>;</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "ie"} } = {  {δv rSub { size 8{ ital "BE"} } }  over  {δi rSub { size 8{B} } } } ;} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>re</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi fontstyle="italic">δv</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi fontstyle="italic">δv</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "re"} } = {  {δv rSub { size 8{ ital "BE"} } }  over  {δv rSub { size 8{ ital "CE"} } } } } {}</m:annotation></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>β</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi fontstyle="italic">δi</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi fontstyle="italic">δi</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "fe"} } =β= {  {δi rSub { size 8{C} } }  over  {δi rSub { size 8{B} } } } } {}</m:annotation></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>oe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi fontstyle="italic">δi</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi fontstyle="italic">δv</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "oe"} } = {  {δi rSub { size 8{C} } }  over  {δv rSub { size 8{ ital "CE"} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5255346">Vậy, ta có:</para>
+        <para id="id5255350">vbe­ = hie.ib + hre.vce</para>
+        <para id="id5255381">ic = hfe.ib + hoe.vce</para>
+        <para id="id5255411">Từ hai phương trình này, ta có mạch điện tương đương theo kiểu thông số h:</para>
+        <para id="id5255418">BCEvbeibhiehrevcehfeib<figure id="id5690536"><media id="id9067436" alt=""><image src=".wmf" mime-type="image/wmf" height="47" width="29"/></media></figure>Hình 41vce~+-</para>
+        <para id="id5690796">hre thường rất nhỏ (ở hàng 10-4), vì vậy, trong mạch tương đương người ta thường bỏ hre.vce.</para>
+        <para id="id5690825">So sánh với kiểu hỗn tạp, ta thấy rằng:</para>
+        <para id="id5690832">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>h</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>ie</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>r</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>b</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>β</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>r</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>e</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>r</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>b</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">rπ</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "ie"} } =r rSub { size 8{b} } + \( β+1 \) r rSub { size 8{e} } =r rSub { size 8{b} } +rπ} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5690965">Do rb&lt;&lt;r nên hie = r</para>
+        <para id="id5690991">Nếu bỏ qua hre, ta thấy:</para>
+        <para id="id5691001"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ie</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{i rSub { size 8{b} } = {  {v rSub { size 8{ ital "be"} } }  over  {h rSub { size 8{ ital "ie"} } } } } {}</m:annotation></m:semantics></m:math> Vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ie</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{ ital "fe"} } i rSub { size 8{b} } =h rSub { size 8{ ital "fe"} }  "."  {  {v rSub { size 8{ ital "be"} } }  over  {h rSub { size 8{ ital "ie"} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5098113">Do đó, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mfrac><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>be</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } v rSub { size 8{ ital "be"} } =h rSub { size 8{ ital "fe"} } i rSub { size 8{b} } =h rSub { size 8{ ital "fe"} }  {  {v rSub { size 8{ ital "be"} } }  over  {h rSub { size 8{ ital "fe"} } } } } {}</m:annotation></m:semantics></m:math>;</para>
+        <para id="id5098265">Hay 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ie</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  {h rSub { size 8{ ital "fe"} } }  over  {h rSub { size 8{ ital "ie"} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5098356">Ngoài ra, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>oe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{0} } = {  {1}  over  {h rSub { size 8{ ital "oe"} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5098434">Các thông số h do nhà sản xuất cho biết.</para>
+        <para id="id5098440">Trong thực hành, r0 hay 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>oe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {h rSub { size 8{ ital "oe"} } } } } {}</m:annotation></m:semantics></m:math> mắc song song với tải. Nếu tải không lớn lắm (khoảng vài chục K trở lại), trong mạch tương đương, người ta có thể bỏ qua r0 (khoảng vài trăm K).</para>
+        <para id="id5098533">BCEvbeibrgmvberoicHình 42BCEvbeibhiehfeibic<figure id="id5301307"><media id="id4200804" alt=""><image src=".wmf" mime-type="image/wmf" height="47" width="29"/></media></figure>Mạch tương đương đơn giản: (có thể bỏ r0 hoặc 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>oe</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {h rSub { size 8{ ital "oe"} } } } } {}</m:annotation></m:semantics></m:math>)</para>
+        <para id="id5301398">Bài tập cuối chương</para>
+        <list id="id5301404" list-type="enumerated">
+          <item>Tính điện thế phân cực VC, VB, VE trong mạch:</item>
+        </list>
+        <para id="id5301430"><figure id="id5301440"><media id="id7799858" alt=""><image src=".wmf" mime-type="image/wmf" height="131" width="341"/></media></figure>=100/Si</para>
+        <list id="id5301490" list-type="enumerated">
+          <item>Tính IC, VCE trong mạch điện:</item>
+        </list>
+        <para id="id5301513">=100/SiIC<figure id="id5748133"><media id="id7075115" alt=""><image src=".wmf" mime-type="image/wmf" height="254" width="134"/></media></figure></para>
+        <list id="id5748157" list-type="enumerated">
+          <item><figure id="id5748174"><media id="id8697035" alt=""><image src=".wmf" mime-type="image/wmf" height="267" width="166"/></media></figure>=100/SiVCVEVBTính VB, VC, VE trong mạch điện:</item>
+        </list>
+      </section>
+    </section>
+  </content>
+</document>

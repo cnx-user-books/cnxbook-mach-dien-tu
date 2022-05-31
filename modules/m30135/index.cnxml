@@ -1,0 +1,383 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Mức năng lượng và giải năng lượng</title>
+  <metadata>
+  <md:content-id>m30135</md:content-id><md:title>Mức năng lượng và giải năng lượng</md:title>
+  <md:abstract>Nhắc lại các kiến thức cơ bản về cơ học nguyên lượng, sự phân bố điện tử trong nguyên tử theo năng lượng, từ đó hình thành dải năng lượng trong tinh thể chất bán dẫn.</md:abstract>
+  <md:uuid>b2c2c45d-cefc-450c-ba23-0a77dd588d64</md:uuid>
+</metadata>
+
+<content>
+    <para id="id4253396">KHÁI NIỆM VỀ CƠ HỌC NGUYÊN LƯỢNG:</para>
+    <para id="id4253402">Ta biết rằng vật chất được cấu tạo từ những nguyên tử (đó là thành phần nhỏ nhất của nguyên tố mà còn giữ nguyên tính chất của nguyên tố đó). Theo mô hình của nhà vật lý Anh Rutherford (1871-1937), nguyên tử gồm có một nhân mang điện tích dương (Proton mang điện tích dương và Neutron trung hoà về điện) và một số điện tử (electron) mang điện tích âm chuyển động chung quanh nhân và chịu tác động bởi lực hút của nhân. Nguyên tử luôn luôn trung hòa điện tích, số electron quay chung quanh nhân bằng số proton chứa trong nhân - điện tích của một proton bằng điện tích một electron nhưng trái dấu). Điện tích của một electron là -1,602.10-19Coulomb, điều này có nghĩa là để có được 1 Coulomb điện tích phải có 6,242.1018 electron. điện tích của điện tử có thể đo được trực tiếp nhưng khối lượng của điện tử không thể đo trực tiếp được. Tuy nhiên, người ta có thể đo được tỉ số giữa điện tích và khối lượng (e/m), từ đó suy ra được khối lượng của điện tử là:</para>
+    <para id="id4253458">mo=9,1.10-31Kg</para>
+    <para id="id4253473"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>e</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{e} } = {  {m rSub { size 8{o} } }  over  { sqrt {1 -  {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } } } } {}</m:annotation></m:semantics></m:math>Đó là khối lượng của điện tử khi nó chuyển động với vận tốc rất nhỏ so với vận tốc ánh sáng (c=3.108m/s). Khi vận tốc điện tử tăng lên, khối lượng của điện tử được tính theo công thức Lorentz-Einstein:</para>
+    <para id="id4253594">Mỗi điện tử chuyển động trên một đường tròn và chịu một gia tốc xuyên tâm. Theo thuyết điện từ thì khi chuyển động có gia tốc, điện tử phải phát ra năng lượng. Sự mất năng lượng này làm cho quỹ đạo của điện tử nhỏ dần và sau một thời gian ngắn, điện tử sẽ rơi vào nhân. Nhưng trong thực tế, các hệ thống này là một hệ thống bền theo thời gian. Do đó, giả thuyết của Rutherford không đứng vững.</para>
+    <para id="id4253608">Nhà vật lý học Đan Mạch Niels Bohr (1885- 1962) đã bổ túc bằng các giả thuyết sau:</para>
+    <para id="id4253616">Có những quỹ đạo đặt biệt, trên đó điện tử có thể di chuyển mà không phát ra năng lượng. Tương ứng với mỗi quỹ đạo có một mức năng lượng nhất định. Ta có một quỹ đạo dừng.</para>
+    <para id="id4253629">Khi điện tử di chuyển từ một quỹ đạo tương ứng với mức năng lượng w1 sang quỹ đạo khác tương ứng với mức năng lượng w2 thì sẽ có hiện tượng bức xạ hay hấp thu năng lượng. Tần số của bức xạ (hay hấp thu) này là:</para>
+    <para id="id4253654">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>w</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>w</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>h</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f= {  {w rSub { size 8{2} }  - w rSub { size 8{1} } }  over  {h} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="id5065586">Trong đó, h=6,62.10-34 J.s (hằng số Planck).</para>
+    <para id="id5065597">Trong mỗi quỹ đạo dừng, moment động lượng của điện tử bằng bội số của 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">ℏ</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {h}  over  {2π} } = hbar } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id5065660">Moment động lượng: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mtext>.</m:mtext><m:mi>v</m:mi><m:mtext>.</m:mtext><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mi>n</m:mi></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">ℏ</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m "." v "." r=n "."  {  {h}  over  {2π} } =n hbar } {}</m:annotation></m:semantics></m:math></para>
+    <figure id="id5065748">
+      <media id="id1170013373993" alt=""><image src="../../media/graphics1-658c.png" mime-type="image/png" height="238" width="227"/></media>
+    </figure>
+    <para id="id5065772">Với giả thuyết trên, người ta đã dự đoán được các mức năng lượng của nguyên tử hydro và giải thích được quang phổ vạch của Hydro, nhưng không giải thích được đối với những nguyên tử có nhiều điện tử. Nhận thấy sự đối tính giữa sóng và hạt, Louis de Broglie (Nhà vật lý học Pháp) cho rằng có thể liên kết mỗi hạt điện khối lượng m, chuyển động với vận tốc v một bước sóng 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>h</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ= {  {h}  over  { ital "mv"} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id5065845">Tổng hợp tất cả giả thuyết trên là môn cơ học nguyên lượng, khả dĩ có thể giải thích được các hiện tượng quan sát được ở cấp nguyên tử.</para>
+    <para id="id5065856">Phương trình căn bản của môn cơ học nguyên lượng là phương trình Schrodinger được viết như sau:</para>
+    <para id="id5065864">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mo stretchy="false">ℏ</m:mo>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">∇</m:mo>
+                  <m:mrow>
+                    <m:mi>ϕ</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>E</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi>U</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mrow>
+                    <m:mi>ϕ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ -  {  { hbar  rSup { size 8{2} } }  over  {2 "." m} }  nabla ϕ+ \( E - U \) ϕ=0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="id5065976"> là toán tử Laplacien</para>
+    <para id="id5065986">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">∇</m:mo>
+                  <m:mrow>
+                    <m:mi>ϕ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>δ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>ϕ</m:mi>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mi fontstyle="italic">δx</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfrac>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>δ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>ϕ</m:mi>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mi fontstyle="italic">δy</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>δ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mi>ϕ</m:mi>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi fontstyle="italic">δz</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ nabla ϕ= {  {δ rSup { size 8{2} } ϕ}  over  {δx rSup { size 8{2} } } } + {  {δ rSup { size 8{2} } ϕ}  over  {δy rSup { size 8{2} } } } + {  {δ rSup { size 8{2} } ϕ}  over  {δz rSup { size 8{2} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="id4282556">E: năng lượng toàn phần</para>
+    <para id="id4282562">U: thế năng</para>
+    <para id="id4282566">(E-U): động năng</para>
+    <para id="id4282571"> là một hàm số gọi là hàm số sóng. Hàm số này xác định xác suất tìm thấy hạt điện trong miền không gian đang khảo sát.</para>
+    <para id="id4282586">Trong khi giải phương trình Schrodinger để tìm năng lượng của những điện tử trong một nguyên tử duy nhất, người ta thấy rằng mỗi trạng thái năng lượng của electron phụ thuộc vào 4 số nguyên gọi là 4 số nguyên lượng:</para>
+    <para id="id4282599">Số nguyên lượng xuyên tâm: (Số nguyên lượng chính)</para>
+    <para id="id4282606">Xác định kích thước của quỹ đạo n=1,2,3,…7</para>
+    <para id="id4282612">Số nguyên lượng phương vị: (Số nguyên lượng phụ)</para>
+    <para id="id4282619">Xác định hình thể quỹ đạo l=1,2,3,…,n-1</para>
+    <para id="id4282625">Số nguyên lượng từ:</para>
+    <para id="id4282630">Xác định phương hướng của quỹ đạo ml=0,1, …,  l</para>
+    <para id="id4282647">Số nguyên lượng Spin:</para>
+    <para id="id4282652">Xác định chiều quay của electron 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>=+</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mtext> và -</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } "=+" {  {1}  over  {2} } " và -" {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id4282725">Trong một hệ thống gồm nhiều nguyên tử, các số nguyên lượng tuân theo nguyên lý ngoại trừ Pauli. Nguyên lý này cho rằng: trong một hệ thống không thể có 2 trạng thái nguyên lượng giống nhau, nghĩa là không thể có hai điện tử có 4 số nguyên lượng hoàn toàn giống nhau.</para>
+    <section id="id-31784454671">
+      <title>PHÂN BỐ ĐIỆN TỬ TRONG NGUYÊN TỬ THEO NĂNG LƯỢNG:</title>
+      <para id="id4282748">Tất cả các nguyên tử có cùng số nguên lượng chính hợp thành một tầng có tên là K,L,M,N,O,P,Q ứng với n=1,2,3,4,5,6,7.</para>
+      <para id="id4282758">Ở mỗi tầng, các điện tử có cùng số l tạo thành các phụ tầng có tên s,p,d,f tương ứng với l=0,1,2,3</para>
+      <para id="id4282764">Tầng K (n=1) có một phụ tầng s có tối đa 2 điện tử.</para>
+      <para id="id4282771">Tầng L (n=2) có một phụ tầng s có tối đa 2 điện tử và một phụ tầng p có tối đa 6 điện tử.</para>
+      <para id="id4282779">Tầng M (n=3) có một phụ tầng s (tối đa 2 điện tử), một phụ tầng p (tối đa 6 điện tử) và một phụ tầng d (tối đa 10 điện tử).</para>
+      <para id="id4282789">Tầng N (n=4) có một phụ tầng s (tối đa 2 điện tử), một phụ tầng p (tối đa 6 điện tử), một phụ tầng d (tối đa 10 điện tử) và một phụ tầng f (tối đa 14 điện tử).</para>
+      <para id="id4282801">Như vậy: Tầng K có tối đa 2 điện tử.</para>
+      <para id="id4282807">Tầng L có tối đa 8 điện tử.</para>
+      <para id="id4282813">Tầng M có tối đa 18 điện tử.</para>
+      <para id="id4282819">Tầng N có tối đa 32 điện tử.</para>
+      <para id="id4282825">Các tầng O,P,Q cũng có 4 phụ tầng và cũng có tối đa 32 điện tử.</para>
+      <para id="id4282832">Ứng với mỗi phụ tầng có một mức năng lượng và các mức năng lượng được xếp theo thứ tự như sau:</para>
+      <para id="id4282839"><figure id="id4282842"><media id="id1170011509997" alt=""><image src="../../media/graphics2-352f.png" mime-type="image/png" height="331" width="600"/></media></figure>Khi không bị kích thích, các trạng thái năng lượng nhỏ bị điện tử chiếm trước (gần nhân hơn) khi hết chỗ mới sang mức cao hơn (xa nhân hơn). Thí dụ: nguyên tử Na có số điện tử z=11, có các phụ tầng 1s,2s,2p bị các điện tử chiếm hoàn toàn nhưng chỉ có 1 điện tử chiếm phụ tầng 3s.</para>
+      <para id="id4282878">Cách biểu diễn:</para>
+      <figure id="id4282886">
+        <media id="id1170007282211" alt=""><image src="../../media/graphics3-0bab.png" mime-type="image/png" height="768" width="595"/></media>
+      </figure>
+      <para id="id4282910">Lớp bảo hòa: Một phụ tầng bảo hòa khi có đủ số điện tử tối đa.</para>
+      <para id="id4282918">Một tầng bảo hòa khi mọi phụ tầng đã bảo hòa. Một tầng bảo hòa rất bền, không nhận thêm và cũng khó mất điện tử.</para>
+      <para id="id4282927">Tầng ngoài cùng: Trong một nguyên tử, tầng ngoài cùng không bao giờ chứa quá 8 điện tử. Nguyên tử có 8 điện tử ở tầng ngoài cùng đều bền vững (trường hợp các khí trơ).</para>
+      <para id="id4282939">Các điện tử ở tầng ngoài cùng quyết định hầu hết tính chất hóa học của một nguyên tố.</para>
+    </section>
+    <section id="id-956393877927">
+      <title>DẢI NĂNG LƯỢNG: (ENERGY BANDS)</title>
+      <para id="id4282956">Những công trình khảo cứu ở tia X chứng tỏ rằng hầu hết các chất bán dẫn đều ở dạng kết tinh.</para>
+      <para id="id4282965">Ta xét một mạng tinh thể gồm N nguyên tử thuộc nhóm 4A, thí dụ C6. Ta tưởng tượng rằng có thể thay đổi được khoảng cách giữa các nguyên tử mà không thay đổi cấu tạo căn bản của tinh thể. Nếu các nguyên tử cách nhau một khoảng d1 sao cho tác động lẫn nhau không đáng kể thì các mức năng lượng của chúng trùng với các mức năng lượng của một nguyên tử độc nhất. Hai phụ tầng ngoài cùng có 2 điện tử s và 2 điện tử p (C6=1s22s22p2). Do đó, nếu ta không để ý đến các tầng trong, ta có 2N điện tử chiếm tất cả 2N trạng thái s và có cùng mức năng lượng; Ta cũng có 2N điện tử p chiếm 2N trạng thái p. Vậy có 4N trạng thái p chưa bị chiếm. Giả sử khoảng cách giữa các nguyên tử được thu nhỏ hơn thành d2, tác dụng của một nguyên tử bất kỳ lên các nguyên tử lân cận trở thành quan trọng.</para>
+      <figure id="id4252581">
+        <media id="id1170009028580" alt=""><image src="../../media/graphics4-e362.png" mime-type="image/png" height="345" width="600"/></media>
+      </figure>
+      <para id="id4252605">Ta có một hệ thống gồm N nguyên tử, do đó các nguyên tử phải tuân theo nguyên lý Pauli. 2N điện tử s không thể có cùng mức năng lượng mà phải có 2N mức năng lượng khác nhau; khoảng cách giữa hai mức năng kượng rất nhỏ nhưng vì N rất lớn nên khoảng cách giữa mức năng lượng cao nhất và thấp nhất khá lớn, ta có một dải năng lượng. 2N trạng thái của dải năng lượng này đều bị 2N điện tử chiếm. Tương tự, bên trên dải năng lượng này ta có một dải gồm 6N trạng thái p nhưng chỉ có 2N trạng thái p bị chiếm chỗ.</para>
+      <para id="id4252632">Ta để ý rằng, giữa hai dải năng lượng mà điện tử chiếm-được có một dải cấm. Điện tử không thể có năng lượng nằm trong dải cấm, khoảng cách (dải cấm) càng thu hẹp khi khoảng cách d càng nhỏ (xem hình). Khi khoảng cách d=d3, các dải năng lượng chồng lên nhau, 6N trạng thái của dải trên hoà với 2N trạng thái của dải dưới cho ta 8N trạng thái, nhưng chỉ có 4N trạng thái bị chiếm. Ở khoảng cách này, mỗi nguyên tử có 4 điện tử tầng ngoài nhưng ta không thể phân biệt được điện tử nào là điện tử s và điện tử nào là điện tử p, ở khoảng cách từ đó, tác dụng của các nguyên tử lên nhau rất mạnh. Sự phân bố các dải năng lượng tuỳ thuộc vào dạng tinh thể và nguyên tử số. Người ta xác định sự phân bố này bằng cách giải phương trình Schrodinger và có kết quả như hình vẽ. Ta có một dải hoá trị (valence band) gồm 4N trạng thái hoàn toàn bị chiếm và một dải dẫn điện (conduction band) gồm 4N trạng thái chưa bị chiếm. Giữa hai dải năng lượng này, có một dải năng lượng cấm có năng lượng khoảng 6eV. (eV: ElectronVolt)</para>
+      <para id="id4252682">1 volt là hiệu điện thế giữa hai điểm của một mạch điện khi năng lượng cung cấp là 1 Joule để chuyển một điện tích 1 Coloumb từ điểm này đến điểm kia.</para>
+      <para id="id4252693">Vậy, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>volt</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">←</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:msubsup><m:mfrac><m:mi>W</m:mi><m:mi>Q</m:mi></m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">→</m:mo><m:mtext> Coloumb</m:mtext></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">→</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Joule</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "volt" leftarrow V= {  {W}  over  {Q} }  rSub { size 8{ rightarrow " Coloumb"} }  rSup { size 8{ rightarrow  ital "Joule"} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4252800">Vậy năng lượng mà một điện tử tiếp nhận khi vượt một hiệu điện thế 1 volt là:</para>
+      <para id="id4252808">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>V</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mi>W</m:mi>
+                      <m:mi>Q</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{V= {  {W}  over  {Q} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4252863">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:mn>1V</m:mn>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mi>W</m:mi>
+                        <m:mrow>
+                          <m:mn>1,</m:mn>
+                          <m:mtext>602</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:msup>
+                            <m:mtext> 10</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>-19</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ drarrow 1V= {  {W}  over  {1,"602"  "." " 10" rSup { size 8{"-19"} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4252944">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:mi>W</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1,</m:mn>
+                    </m:mrow>
+                    <m:mtext>602</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>19</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>Joule</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ drarrow W=1,"602" "." "10" rSup { size 8{ - "19"} }  ital "Joule"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4253030">Năng lượng này được gọi là 1eV (1eV=1,602.10-19J)</para>
+      <para id="id4253042">Ta đã khảo sát trường hợp đặc biệt của tinh thể Cacbon. Nếu ta khảo sát một tinh thể bất kỳ, năng lượng của điện tử cũng được chia thành từng dải. Dải năng lượng cao nhất bị chiếm gọi là dải hóa trị, dải năng lượng thấp nhất chưa bị chiếm gọi là dải dẫn điện. Ta đặc biệt chú ý đến hai dải năng lượng này.</para>
+      <figure id="id4253060">
+        <media id="id1170006674760" alt=""><image src="../../media/graphics5-5171.png" mime-type="image/png" height="312" width="637"/></media>
+      </figure>
+      <para id="id4253084">* Ta có 3 trường hợp:</para>
+      <para id="id4253089">Dải cấm có độ cao khá lớn (EG&gt;5eV). Đây là trường hợp của các chất cách điện. Thí dụ như kim cương có EG=7eV, SiO2 EG=9eV.</para>
+      <para id="id4253126">Dải cấm có độ cao nhỏ (EG&lt;5eV). Đây là trường hợp chất bán dẫn điện.</para>
+      <para id="id4253139">Thí dụ: Germanium có EG=0,75eV</para>
+      <para id="id4253150">Silicium có EG=1,12eV</para>
+      <para id="id4253161">Galium Arsenic có EG=1,4eV</para>
+      <para id="id4253172">Dải hóa trị và dải dẫn điện chồng lên nhau, đây là trường hợp của chất dẫn điện. Thí dụ như đồng, nhôm…</para>
+      <figure id="id5066052">
+        <media id="id1170016134472" alt=""><image src="../../media/graphics6-2ce1.png" mime-type="image/png" height="268" width="625"/></media>
+      </figure>
+      <para id="id5066076">Giả sử ta tăng nhiệt độ của tinh thể, nhờ sự cung cấp nhiệt năng, điện tử trong dải hóa trị tăng năng lượng. Trong trường hợp (a), vì EG lớn, điện tử không đủ năng lượng vượt dải cấm để vào dải dẫn điện. Nếu ta cho tác dụng một điện trường vào tinh thể, vì tất cả các trạng thái trong dải hóa trị điều bị chiếm nên điện tử chỉ có thể di chuyển bằng cách đổi chỗ cho nhau. Do đó, số điện tử đi, về một chiều bằng với số điện tử đi, về theo chiều ngược lại, dòng điện trung bình triệt tiêu. Ta có chất cách điện.</para>
+      <para id="id5066102">Trong trường hợp (b), một số điện tử có đủ năng lượng sẽ vượt dải cấm vào dải dẫn điện. Dưới tác dụng của điện trường, các điện tử này có thể thay đổi năng lượng dễ dàng vì trong dải dẫn điện có nhiều mức năng lượng trống để tiếp nhận chúng. Vậy điện tử có năng lượng trong dải dẫn điện có thể di chuyển theo một chiều duy nhất dưới tác dụng của điện trường, ta có chất bán dẫn điện.</para>
+      <para id="id5066116">Trong trường hợp (c) cũng giống như trường hợp (b) nhưng số điện tử trong dải dẫn điện nhiều hơn làm cho sự di chuyển mạnh hơn, ta có kim loại hay chất dẫn điện.</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,780 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sự dẫn điện trong kim loại</title>
+  <metadata>
+  <md:content-id>m29976</md:content-id><md:title>Sự dẫn điện trong kim loại</md:title>
+  <md:abstract>Ôn lại khái niệm về độ linh động của điện tử, dẫn suất của kim loại, từ đó đưa ra phương pháp khảo sát chuyển động của hạt tử bằng năng lượng.</md:abstract>
+  <md:uuid>c90ac94c-2ccc-4f0d-9506-a28a975ca43a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id4312072">ĐỘ LINH ĐỘNG VÀ DẪN XUẤT:</para>
+    <para id="id4312076">Trong chương I, hình ảnh của dải năng lượng trong kim loại đã được trình bày. Theo sự khảo sát trên, dải năng lượng do điện tử chiếm có thể chưa đầy và không có dải cấm cho những năng lượng cao. Nghĩa là điện tử có thể di chuyển tự do trong kim loại dưới tác dụng của điện trường.</para>
+    <figure id="id4312094">
+      <media id="id1166369584143" alt=""><image src="../../media/graphics1-4065.png" mime-type="image/png" height="304" width="471"/></media>
+    </figure>
+    <para id="id4312118">Hình trên vẽ phân bố điện tích trong tinh thể Na. Những chỗ gạch chéo tiêu biểu cho những điện tử ở dải hóa trị có năng lượng thấp nhất, những chỗ trắng chứa những điện tử có năng lượng cao nằm trong dải dẫn điện. Chính những điện tử này là những điện tử không thể nói thuộc hẳn vào một nguyên tử nhất định nào và có thể di chuyển tự do từ nguyên tử này sang nguyên tử khác. Vậy kim loại được coi là nơi các ion kết hợp chặt chẽ với nhau và xếp đều đặn trong 3 chiều trong một đám mây điện tử mà trong đó điện tử có thể di chuyển tự do.</para>
+    <para id="id4312147">Hình ảnh này là sự mô tả kim loại trong chất khí điện tử. Theo thuyết chất khí điện tử kim loại, điện tử chuyển động liên tục với chiều chuyển động biến đổi mỗi lần va chạm với ion dương nặng, được xem như đứng yên. Khoảng cách trung bình giữa hai lần va chạm được gọi là đoạn đường tự do trung bình. Vì đây là chuyển động tán loạn, nên ở một thời điểm nào đó, số điện tử trung bình qua một đơn vị diện tích theo bất cứ chiều nào sẽ bằng số điện tử qua đơn vị diện tích ấy theo chiều ngược lại. Như vậy , dòng điện trung bình triệt tiêu.</para>
+    <para id="id4312176">Giả sử, một điện trường 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ widevec  {E} } {}</m:annotation></m:semantics></m:math> được thiết lập trong mạng tinh thể kim loại, ta thử khảo sát chuyển động của một điện tử trong từ trường nầy.</para>
+    <figure id="id4312460">
+      <media id="id1166368396679" alt=""><image src="../../media/graphics2-4be7.png" mime-type="image/png" height="153" width="398"/></media>
+    </figure>
+    <para id="id4312483">Hình trên mô tả chuyển động của điện tử dưới tácdụng của điện trường 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ widevec  {E} } {}</m:annotation></m:semantics></m:math>. Quỹ đạo của điện tử là một đường gấp khúc vì điện tử chạm vào các ion dương và đổi hướng chuyển động. Trong thời gian t=n lần thời gian tự do trung bình, điện tử di chuyển được một đoạn đường là x. Vận tốc 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>t</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= {  {x}  over  {t} } } {}</m:annotation></m:semantics></m:math> gọi là vận tốc trung bình. Vận tốc này tỉ lệ với điện trường 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ widevec  {E} } {}</m:annotation></m:semantics></m:math>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">μE</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=μE} {}</m:annotation></m:semantics></m:math></para>
+    <para id="id4357118">Hằng số tỉ lệ  gọi là độ linh động của điện tử, tính bằng m2/Vsec.</para>
+    <para id="id4357136">Điện tích đi qua mỗi đơn vị diện tích trong một đơn vị thời gian được gọi là mật độ dòng điện J.</para>
+    <para id="id4357142">Ta có: J = n.e.v</para>
+    <para id="id4357147">Trong đó, n: mật độ điện tử, e: điện tích của một electron</para>
+    <para id="id4357154">t = -1t = 0S’ SvHình 3Bây giờ, ta xét một điện tích vi cấp S đặt thẳng góc với chiều di chuyển của điện tử. Những điện tử tới mặt S ở thời điểm t=0 (t=0 được chọn làm thời điểm gốc) là những điện tử ở trên mặt S’ cách S một khoảng v (vận tốc trung bình của điện tủ) ở thời điểm t=-1. Ở thời điểm t=+1, những điện tử đi qua mặt S chính là những điện tử chứa trong hình trụ giới hạn bởi mặt S và S’. Điện tích của số điện tử này là q=n.e.v.s, với n là mật độ điện tử di chuyển. Vậy điện tích đi ngang qua một đơn vị diện tích trong một đơn vị thời gian là: J=n.e.v</para>
+    <para id="id4255415">Nhưng 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">μE</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=μE} {}</m:annotation></m:semantics></m:math>nên 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>J</m:mi><m:mo stretchy="false">=</m:mo><m:mi>n</m:mi></m:mrow><m:mtext>.</m:mtext><m:mi>e</m:mi><m:mtext>.</m:mtext><m:mi>μ</m:mi><m:mtext>.</m:mtext><m:mi>E</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{J=n "." e "." μ "." E} {}</m:annotation></m:semantics></m:math></para>
+    <para id="id5072336">Người ta đặt 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>σ</m:mi><m:mo stretchy="false">=</m:mo><m:mi>n</m:mi></m:mrow><m:mtext>.</m:mtext><m:mi>e</m:mi><m:mtext>.</m:mtext><m:mi>μ</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ=n "." e "." μ} {}</m:annotation></m:semantics></m:math> (đọc là Sigma)</para>
+    <para id="id5072403">Nên 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>J</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">σE</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{J=σE} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>σ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ} {}</m:annotation></m:semantics></m:math>gọi là dẫn xuất của kim loại</para>
+    <para id="id4311668">Và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>σ</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ= {  {1}  over  {σ} } } {}</m:annotation></m:semantics></m:math> gọi là điện trở suất của kim loại</para>
+    <para id="id4311730">Điện trở suất tính bằng m và dẫn suất tính bằng mho/m</para>
+    <section id="id-524454946873">
+      <title>PHƯƠNG PHÁP KHẢO SÁT CHUYỄN ĐỘNG CỦA HẠT TỬ BẰNG NĂNG LƯỢNG:</title>
+      <figure id="id4311754">
+        <media id="id1166368319293" alt=""><image src="../../media/graphics3-d759.png" mime-type="image/png" height="201" width="308"/></media>
+      </figure>
+      <para id="id4311778">Phương pháp khảo sát này căn cứ trên định luật bảo toàn lượng. Để dễ hiểu, ta xét thí dụ sau đây:</para>
+      <para id="id4311787">Một diode lý tưởng gồm hai mặt phẳng song song bằng kim loại cách nhau 5 Cm. Anod A có hiệu điện thế là –10V so với Catod K. Một điện tử rời Catod K với năng lượng ban đầu Ec=2eV. Tính khoảng cách tối đa mà điện tử có thể rời Catod.</para>
+      <para id="id4311807">Giả sử, điện tử di chuyển tới điểm M có hoành độ là x. Điện thế tại điểm M sẽ tỉ lệ với hoành độ x vì điện trường giữa Anod và Catod đều.</para>
+      <para id="id4311818">Điện thế tại một điểm có hoành độ x là:</para>
+      <para id="id4311824">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>V</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi fontstyle="italic">αx</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>β</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{V=αx+β} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4311888">Khi x=0, (tại Catod) 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ drarrow V=0 drarrow β=0} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4311965">Nên 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">αx</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V=αx} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4235090">Tại x=5 Cm (tại Anod A) thì V=-10volt 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ drarrow α= - 2} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4235158">Vậy V=-2x (volt) với x tính bằng Cm</para>
+      <para id="id4235164">Suy ra thế năng tại điểm M là:</para>
+      <para id="id4235170"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>QV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>=+</m:mtext><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mi>e</m:mi><m:mtext>.</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Joule</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U= ital "QV""=+"2 "." e "." x  \( "Joule" \) } {}</m:annotation></m:semantics></m:math>với e là điện tích của điện tử.</para>
+      <para id="id4235256">Ta có thể viết 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U=2 "." x  \( "eV" \) } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4235328">Năng lượng toàn phần tại điểm M là:</para>
+      <para id="id4235334">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>T</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>mv</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>U</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{T= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } +U} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4228198">Năng lượng này không thay đổi. Trên đồ thị, T được biểu diễn bằng đường thẳng song song với trục x.</para>
+      <para id="id4228207">Hiệu 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">−</m:mo><m:mi>U</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>mv</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T - U= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>là động năng của điện tử. Động năng này tối đa tại điểm O (Catod) rồi giảm dần và triệt tiêu tại điểm P có hoành độ x0. Nghĩa là tại điểm x0, điện tử dừng lại và di chuyển trở về catod K. Vậy x0 là khoảng cách tối đa mà điện tử có thể rời xa Catod.</para>
+      <figure id="id4228321">
+        <media id="id1166369608434" alt=""><image src="../../media/graphics4-a986.png" mime-type="image/png" height="258" width="451"/></media>
+      </figure>
+      <para id="id4228345">Tại điểm M (x=x0) ta có:</para>
+      <para id="id4228355">T-U=0</para>
+      <para id="id4228360">Mà T=+Ec (năng lượng ban đầu)</para>
+      <para id="id4228371">T=2.e.V</para>
+      <para id="id4228376">Vậy, U=2.x0 (eV)</para>
+      <para id="id4228387">=&gt; 2-2.x0=0=&gt; x0=1Cm</para>
+      <para id="id4228404">Về phương diện năng lượng, ta có thể nói rằng với năng lượng toàn phần có sẵn T, điện tử không thể vượt qua rào thế năng U để vào phần có gạch chéo.</para>
+      <para id="id4228416">Ta thấy rằng nếu biết năng lượng toàn phần của hạt điện và sự phân bố thế năng trong môi trường hạt điện, ta có thể xác định được đường di chuyển của hạt điện.</para>
+      <para id="id4228428">Phần sau đây, ta áp dụng phương pháp trên để khảo sát sự chuyển động của điện tử trong kim loại.</para>
+    </section>
+    <section id="id-526465586843">
+      <title>THẾ NĂNG TRONG KIM LOẠI:</title>
+      <para id="id4228445">Nếu ta có một nguyên tử duy nhất  thì điện thế tại một điểm cách  một khoảng r là:</para>
+      <para id="id4228465">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>V</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mi>k</m:mi>
+                        <m:mi>r</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{V= {  {k}  over  {r} } +C} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4228529">Nếu chọn điện thế tại một điểm rất xa làm điện thế Zero thì C=0. Vậy một điện tử có điện tích –e ở cách nhân  một đoạn r sẽ có thế năng là:</para>
+      <para id="id4228546">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>U</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>eV</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>ke</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mi>r</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{U= -  ital "eV"= -  {  { ital "ke"}  over  {r} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <figure id="id4229564">
+        <media id="id1166366387710" alt=""><image src="../../media/graphics5-7c6c.png" mime-type="image/png" height="279" width="340"/></media>
+      </figure>
+      <para id="id4229588">Hình trên là đồ thị của thế năng U theo khoảng cách r. Phần đồ thị không liên tục ứng với một điện tử ở bên trái nhân . Nếu ta có hai nhân  và  thì trong vùng giữa hai nhân này thế năng của điện tử là tổng các thế năng do  và  tạo ra. Trong kim loại, các nhân được sắp xếp đều đặn theo 3 chiều. Vậy, ta có thể khảo sát sự phân bố của thế năng bằng cách xét sự phân bố dọc theo dải ,  và ...</para>
+      <figure id="id4229657">
+        <media id="id1166378389444" alt=""><image src="../../media/graphics6-1751.png" mime-type="image/png" height="412" width="600"/></media>
+      </figure>
+      <para id="id4229681">Hình trên biểu diễn sự phân bố đó.</para>
+      <para id="id4229687">Ta thấy rằng có những vùng đẳng thế rộng nằm xen kẻ với những vùng điện thế thay đổi rất nhanh. Mặt ngoài của mỗi kim loại không được xác định hoàn toàn và cách nhân cuối cùng một khoảng cách nhỏ. Vì bên phải của nhân  không còn nhân nên thế năng tiến tới Zero chứ không giữ tính tuần hoàn như bên trong kim loại. Do đó, ta có một rào thế năng tại mặt ngoài của kim loại.</para>
+      <para id="id4229714">Ta xét một điện tử của nhân  và có năng lượng nhỏ hơn U0, điện tử này chỉ có thể di chuyển trong một vùng nhỏ cạnh nhân giữa hai rào thế năng tương ứng. Đó là điện tử buộc và không tham gia vào sự dẫn điện của kim loại. Trái lại, một điện tử có năng lượng lớn hơn U0 có thể di chuyển từ nguyên tử này qua nguyên tử khác trong khối kim loại nhưng không thể vượt ra ngoài khối kim loại được vì khi đến mặt phân cách, điện tử đụng vào rào thế năng. Các điện tử có năng lượng lớn hơn U0 được gọi là các điện tử tự do. Trong các chương sau, ta đặt biệt chú ý đến các điện tử này.</para>
+      <para id="id4229766">Vì hầu hết khối kim loại đều có cùng điện thế V0 tương ứng với thế năng U0=-eV0 nên ta có thể giả sử khối kim loại là một khối đẳng thế V0. Nhưng điện thế tùy thuộc vào một hằng số cộng nên ta có thể chọn V0 làm điện thế gốc (V0=0V). Gọi EB là chiều cao của rào thế năng giữa bên trong và bên ngoài kim loại. Một điện tử bên trong khối kim loại muốn vượt ra ngoài phải có ít nhất một năng lượng U=EB, vì vậy ta cần phải biết sự phân bố của điện tử theo năng lượng.</para>
+    </section>
+    <section id="id-378371368375">
+      <title>SỰ PHÂN BỐ CỦA ĐIỆN TỬ THEO NĂNG LƯỢNG:</title>
+      <para id="id4229844">Gọi nE= là số điện tử trong một đơn vị thể tích có năng lượng từ E đến E+E. Theo định nghĩa, mật độ điện tử trung bình có năng lượng từ E đến E+E là tỉ số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi fontstyle="italic">Δn</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub><m:mi fontstyle="italic">ΔE</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Δn rSub { size 8{E} } }  over  {ΔE} } } {}</m:annotation></m:semantics></m:math>. Giới hạn của tỉ số này khi 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi fontstyle="italic">ΔE</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE rightarrow 0} {}</m:annotation></m:semantics></m:math> gọi là mật độ điện tử có năng lượng E.</para>
+      <para id="id4358301">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi fontstyle="italic">ΔE</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle></m:munder></m:mrow><m:mrow><m:mfrac><m:msub><m:mi fontstyle="italic">Δn</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub><m:mi fontstyle="italic">ΔE</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>dn</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dE</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ \( E \) = {"lim"}  cSub { size 8{ΔE rightarrow 0} }  {  {Δn rSub { size 8{E} } }  over  {ΔE} } = {  { ital "dn" rSub { size 8{E} } }  over  { ital "dE"} } "    " \( 1 \) } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4358448">Vậy, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>dn</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mi>ρ</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dE</m:mtext></m:mrow></m:mstyle><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "dn" rSub { size 8{E} } =ρ \( E \)  "."  ital "dE""                  " \( 2 \) } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4226853">Do đó, nếu ta biết được hàm số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ \( E \) } {}</m:annotation></m:semantics></m:math>ta có thể suy ra được số điện tử có năng lượng trong khoảng từ E đến E+dE bằng biểu thức (2). Ta thấy rằng (E) chính là số trạng thái năng lượng E đã bị điện tử chiếm. Nếu gọi n(E) là số trạng thái năng lượng có năng lượng E mà điện tử có thể chiếm được. Người ta chứng minh được rằng: tỉ số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {ρ \( E \) }  over  {n \( E \) } } } {}</m:annotation></m:semantics></m:math> bằng một hàm số f(E), có dạng:</para>
+      <para id="id4227008">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>E</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>ρ</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>E</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>E</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mi>E</m:mi>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msub>
+                                      <m:mi>E</m:mi>
+                                      <m:mstyle fontsize="6pt">
+                                        <m:mrow>
+                                          <m:mi>F</m:mi>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                  </m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>KT</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{f \( E \) = {  {ρ \( E \) }  over  {n \( E \) } } = {  {1}  over  {1+e rSup { size 8{ {  {E - E rSub { size 6{F} } }  over  { ital "KT"} } } } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4227159">Trong đó, K=1,381.10-23 J/0K (hằng số Boltzman)</para>
+      <para id="id4227178">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>K</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>1,</m:mn>
+                            <m:mtext>381</m:mtext>
+                            <m:mtext>.</m:mtext>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mtext>23</m:mtext>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mi>e</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>8,</m:mn>
+                    </m:mrow>
+                    <m:mtext>62</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mtext/>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mtext>V/</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mi>K</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{K= {  {1,"381" "." "10" rSup { size 8{ - "23"} } }  over  {e} } =8,"62" "." "10" rSup { size 8{ - 5} } "  " \( "V/" rSup { size 8{0} } K \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4238433">EF năng lượng Fermi, tùy thuộc vào bản chất kim loại.</para>
+      <para id="id4238447">Mức năng lượng này nằm trong dải cấm.</para>
+      <para id="id4238456">Ở nhiệt độ rất thấp (T00K)</para>
+      <para id="id4238471">Nếu E&lt;EF, ta có f(E)=1</para>
+      <para id="id4238482">Nếu E&gt;EF, ta có f(E)=0</para>
+      <para id="id4238492">Vậy f(E) chính là xác suất để tìm thấy điện tử có năng lượng E ở nhiệt độ T.</para>
+      <para id="id4238500">Hình sau đây là đồ thị của f(E) theo E khi T00K và khi T=2.5000K.</para>
+      <figure id="id4238526">
+        <media id="id1166378680907" alt=""><image src="../../media/graphics7-4769.png" mime-type="image/png" height="182" width="581"/></media>
+      </figure>
+      <para id="id4238550">Ta chấp nhận rằng:</para>
+      <para id="id4238556"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>γ</m:mi></m:mrow><m:mtext>.</m:mtext><m:msup><m:mi>E</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N \( E \) =γ "." E rSup { size 8{ {  {1}  over  {2} } } } } {}</m:annotation></m:semantics></m:math>  là hằng số tỉ lệ.</para>
+      <para id="id4238649">Lúc đó, mật độ điện tử có năng lượng E là:</para>
+      <para id="id4238656">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>ρ</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>E</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>E</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>N</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>E</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>γ</m:mi>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>E</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>E</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ρ \( E \) =f \( E \)  "." N \( E \) =γ "." E {  {1}  over  {2} }  "." f \( E \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5032411">Hình trên là đồ thị của (E) theo E tương ứng với nhiệt độ T=00K và T=2.5000K.</para>
+      <para id="id5032435">Ta thấy rằng hàm (E) biến đổi rất ít theo nhiệt độ và chỉ biến đổi trong vùng cận của năng lượng EF. Do đó, ở nhiệt độ cao (T=2.5000K) có một số rất ít điện tử có năng lượng lớn hơn EF, hầu hết các điện tử đều có năng lượng nhỏ hơn EF. Diện tích giới hạn bởi đường biểu diễn của (E) và trục E cho ta số điện tử tự do n chứa trong một đơn vị thể tích.</para>
+      <para id="id5032488">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:munderover>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>E</m:mi>
+                                <m:mstyle fontsize="6pt">
+                                  <m:mrow>
+                                    <m:mi>F</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:munderover>
+                        <m:mrow>
+                          <m:mi>ρ</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>E</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mtext>.</m:mtext>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dE</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:munderover>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:msub>
+                          <m:mi>E</m:mi>
+                          <m:mstyle fontsize="6pt">
+                            <m:mrow>
+                              <m:mi>F</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:munderover>
+                      <m:mrow>
+                        <m:mi>γ</m:mi>
+                        <m:mtext>.</m:mtext>
+                        <m:msup>
+                          <m:mi>E</m:mi>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msup>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>.</m:mtext>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dE</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mfrac>
+                                  <m:mn>2</m:mn>
+                                  <m:mn>3</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mi>γ</m:mi>
+                              <m:mtext>.</m:mtext>
+                              <m:msubsup>
+                                <m:mi>E</m:mi>
+                                <m:mi>F</m:mi>
+                                <m:mfrac>
+                                  <m:mn>3</m:mn>
+                                  <m:mn>2</m:mn>
+                                </m:mfrac>
+                              </m:msubsup>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= Int cSub { size 8{0} }  cSup { size 8{E rSub { size 6{F} } } }  {ρ \( E \)  "."  ital "dE"} = Int cSub {0}  cSup {E rSub { size 6{F} } }  {γ "." E rSup { {  {1}  over  {2} } }  size 12{ "."  ital "dE"= {  {2}  over  {3} } γ "." E rSub {F}  rSup { {  {3}  over  {2} } } }} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5032674">(Để ý là f(E)=1 và T=00K)</para>
+      <para id="id5032685">Từ đây ta suy ra năng lượng Fermi EF</para>
+      <para id="id5032695">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>E</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>F</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mfenced open="" close="">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>3</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                          <m:mtext>.</m:mtext>
+                          <m:mfrac>
+                            <m:mi>n</m:mi>
+                            <m:mi>γ</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>2</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{F} } = left ( {  {3}  over  {2} }  "."  {  {n}  over  {γ} }  right ) rSup { size 8{ {  {2}  over  {3} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4254276">Nếu ta dùng đơn vị thể tích là m3 và đơn vị năng lượng là eV thì  có trị số là:</para>
+      <para id="id4254295"> = 6,8.1027</para>
+      <para id="id4254308">Do đó, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>F</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3,</m:mn></m:mrow><m:mtext>64</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:msup><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{F} } =3,"64" "." "10" rSup { size 8{ - "19"} }  "." n rSup { size 8{ {  {2}  over  {3} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4254408">Nếu biết được khối lượng riêng của kim loại và số điện tử tự do mà mỗi nguyên tử có thể nhả ra, ta tính được n và từ đó suy ra EF. Thông thường EF &lt; 10eV.</para>
+      <para id="id4254430">Thí dụ, khối lượng riêng của Tungsten là d = 18,8g/cm3, nguyên tử khối là A = 184, biết rằng mỗi nguyên tử cho v = 2 điện tử tự do. Tính năng lượng Fermi.</para>
+      <para id="id4254446">Giải: Khối lượng mỗi cm3 là d, vậy trong mỗt cm3 ta có một số nguyên tử khối là d/A. Vậy trong mỗi cm3, ta có số nguyên tử thực là:</para>
+      <para id="id4254472"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mi>d</m:mi><m:mi>A</m:mi></m:mfrac><m:mtext>.</m:mtext><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {d}  over  {A} }  "." A rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> với A0 là số Avogadro (A0 = 6,023.1023)</para>
+      <para id="id4254552">Mỗi nguyên tử cho v = 2 điện tử tự do, do đó số điện tử tự do trong mỗi m3 là:</para>
+      <para id="id4254566">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mi>d</m:mi>
+                        <m:mi>A</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>v</m:mi>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= {  {d}  over  {A} }  "." A rSub { size 8{0} }  "." v "." "10" rSup { size 8{6} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4236839">Với Tungsten, ta có:</para>
+      <para id="id4236844"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>18</m:mtext><m:mi>,</m:mi><m:mn>8</m:mn></m:mrow><m:mtext>184</m:mtext></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mn>6,</m:mn><m:mtext>203</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>23</m:mtext></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">≈</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>23</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>29</m:mtext></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= {  {"18",8}  over  {"184"} }  "." 6,"203" "." "10" rSup { size 8{"23"} }  "." 2 "." "10" rSup { size 8{6} }  approx 1,"23" "." "10" rSup { size 8{"29"} }  } {}</m:annotation></m:semantics></m:math>điện tử/m3</para>
+      <para id="id4236974">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>E</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>F</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>3,</m:mn>
+                    </m:mrow>
+                    <m:mtext>64</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>19</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mfenced open="" close="">
+                        <m:mrow>
+                          <m:mn>1,</m:mn>
+                          <m:mtext>23</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>29</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>2</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ drarrow E rSub { size 8{F} } =3,"64" "." "10" rSup { size 8{ - "19"} }  "."  left (1,"23" "." "10" rSup { size 8{"29"} }  right ) rSup { size 8{ {  {2}  over  {3} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4237098">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>E</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>F</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">≈</m:mo>
+                      <m:mn>8,</m:mn>
+                    </m:mrow>
+                    <m:mtext>95</m:mtext>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>eV</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ drarrow E rSub { size 8{F} }  approx 8,"95" ital "eV"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+    </section>
+    <section id="id-97964730173">
+      <title>CÔNG RA (HÀM CÔNG):</title>
+      <para id="id4237183">Ta thấy rằng ở nhiệt độ thấp (T 00K), năng lượng tối đa của điện tử là EF (E&lt;EF&lt;EB), do đó, không có điện tử nào có năng lượng lớn hơn rào thế năng EB, nghĩa là không có điện tử nào có thể vượt ra ngoài khối kim loại. Muốn cho điện tử có thể vượt ra ngoài, ta phải cung cấp cho điện tử nhanh nhất một năng lượng là:</para>
+      <para id="id4237235">EW = EB-EF</para>
+      <para id="id4237255">EW được gọi là công ra của kim loại.</para>
+      <figure id="id5036853">
+        <media id="id1166376575360" alt=""><image src="../../media/graphics8-3bdb.png" mime-type="image/png" height="196" width="502"/></media>
+      </figure>
+      <para id="id5036877">Nếu ta nung nóng khối kim loại tới nhiệt độ T=2.5000K, sẽ có một số điện tử có năng lượng lớn hơn EB­, các điện tử này có thể vượt được ra ngoài kim loại. Người ta chứng minh được rằng, số điện tử vượt qua mỗi đơn vị diện tích trong một đơn vị thời gian là:</para>
+      <para id="id5036900"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>J</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>th</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mi>T</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>E</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>w</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KT</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{J rSub { size 8{ ital "th"} } =A rSub { size 8{0} } T rSup { size 8{2} } e rSup { size 8{ {  { - E rSub { size 6{w} } }  over  { ital "KT"} } } } } {}</m:annotation></m:semantics></m:math> Trong đó, A0 = 6,023.1023 và K = 1,38.10-23 J/0K</para>
+      <para id="id5037044">Đây là phương trình Dushman-Richardson.</para>
+      <para id="id5037049">Người ta dùng phương trình này để đo EW vì ta có thể đo được dòng điện Jth; dòng điện này chính là dòng điện bảo hòa trong một đèn hai cực chân không có tim làm bằng kim loại muốn khảo sát.</para>
+    </section>
+    <section id="id-60097518858">
+      <title>ĐIỆN THẾ TIẾP XÚC (TIẾP THẾ):</title>
+      <para id="id5037080">Xét một nối C giữa hai kim loại I và II. Nếu ta dùng một Volt kế nhạy để đo hiệu điện thế giữa hai đầu của nối (A và B), ta thấy hiệu số điện thế này không triệt tiêu, theo định nghĩa, hiệu điện thế này gọi là tiếp thế. Ta giải thích tiếp thế như sau:</para>
+      <figure id="id5037098">
+        <media id="id1166375806450" alt=""><image src="../../media/graphics9-a44e.png" mime-type="image/png" height="268" width="599"/></media>
+      </figure>
+      <para id="id5037122">Giả sử kim loại I có công ra EW1 nhỏ hơn công ra EW2 của kim loại II. Khi ta nối hai kim loại với nhau, điện tử sẽ di chuyển từ (I) sang (II) làm cho có sự tụ tập điện tử bên (II) và có sự xuất hiện các Ion dương bên (I). Cách phân bố điện tích như trên tạo ra một điện trường Ei hướng từ (I) sang (II) làm ngăn trở sự di chuyển của điện tử. Khi Ei đủ mạnh, các điện tử không di chuyển nữa, ta có sự cân bằng nhiệt động học của hệ thống hai kim loại nối với nhau. Sự hiện hữu của điện trường Ei chứng tỏ có một hiệu điện thế giữa hai kim loại.</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,285 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Linh kiện có 4 lớp bán dẫn PNPNN và những linh kiện khác</title>
+  <metadata>
+  <md:content-id>m30646</md:content-id><md:title>Linh kiện có 4 lớp bán dẫn PNPNN và những linh kiện khác</md:title>
+  <md:abstract/>
+  <md:uuid>ddf1fadd-9b28-4af3-b440-d5891001d0ff</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-0583851829179">
+      <title>LINH KIỆN CÓ BỐN LỚP BÁN DẪN PNPN VÀ NHỮNG LINH KIỆN KHÁC</title>
+      <para id="id5681954">
+        <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+      </para>
+    </section>
+    <section id="id-600663612907">
+      <title>SCR (THYRISTOR – SILICON CONTROLLED RECTIFIER).</title>
+      <section id="id-316071445233">
+        <title>Cấu tạo và đặc tính:</title>
+        <para id="id5681980">SCR được cấu tạo bởi 4 lớp bán dẫn PNPN (có 3 nối PN). Như tên gọi ta thấy SCR là một diode chỉnh lưu được kiểm soát bởi cổng silicium. Các tíêp xúc kim loại được tạo ra các cực Anod A, Catot K và cổng G.</para>
+        <para id="id5681995">AnodAKCatodGCổng(Gate)PNPNKCatodGCổng(Gate)NPNAnodAPNPCBECBEAAKKGIGIC2IC1IB2T1T2GCấu tạoMô hình tương đươngMô hình tương đươngKý hiệuHình 1</para>
+        <para id="id5135986">Nếu ta mắc một nguồn điện một chiều VAA vào SCR như hình sau. một dòng điện nhỏ IG kích vào cực cổng G sẽ làm nối PN giữa cực cổng G và catot K dẫn phát khởi dòng điện anod IA qua SCR lớn hơn nhiều. Nếu ta đổi chiều nguồn VAA (cực dương nối với catod, cục âm nối với anod) sẽ không có dòng điện qua SCR cho dù có dòng điện kích IG. Như vậy ta có thể hiểu SCR như một diode nhưng có thêm cực cổng G và để SCR dẫn điện phải có dòng điện kích IG vào cực cổng.</para>
+        <para id="id5136042">AKGCổng(Gate)PNPNRGVGGRAVAAIAIGVAKHình 2</para>
+        <para id="id5121515">Ta thấy SCR có thể coi như tương đương với hai transistor PNP và NPN liên kết nhau qua ngõ nền và thu</para>
+        <para id="id5121523">Khi có một dòng điện nhỏ IG kích vào cực nền của Transistor NPN T1 tức cổng G của SCR. Dòng điện IG sẽ tạo ra dòng cực thu IC1 lớn hơn, mà IC1 lại chính là dòng nền IB2 của transistor PNP T2 nên tạo ra dòng thu IC2 lại lớn hơn trước… Hiện tượng này cứ tiếp tục nên cả hai transistor nhanh chóng trở nên bảo hòa. Dòng bảo hòa qua hai transistor chính là dòng anod của SCR. Dòng điện này tùy thuộc vào VAA và điện trở tải RA.</para>
+        <para id="id5121599">Cơ chế hoạt động như trên của SCR cho thấy dòng IG không cần lớn và chỉ cần tồn tại trong thời gian ngắn. Khi SCR đã dẫn điện, nếu ta ngắt bỏ IG thì SCR vẫn tiếp tục dẫn điện, nghĩa là ta không thể ngắt SCR bằng cực cổng, đây cũng là một nhược điểm của SCR so với transistor.</para>
+        <para id="id5121626">Người ta chỉ có thể ngắt SCR bằng cách cắt nguồn VAA hoặc giảm VAA sao cho dòng điện qua SCR nhỏ hơn một trị số nào đó (tùy thuộc vào từng SCR) gọi là dòng điện duy trì IH (hodding current).</para>
+      </section>
+      <section id="id-398547240004">
+        <title>Đặc tuyến Volt-Ampere của SCR:</title>
+        <para id="id5129741">Đặc tuyến này trình bày sự biến thiên của dòng điện anod IA theo điện thế anod-catod VAK với dòng cổng IG coi như thông số.</para>
+        <para id="id5129765">- Khi SCR được phân cực nghịch (điện thế anod âm hơn điện thế catod), chỉ có một dòng điện rỉ rất nhỏ chạy qua SCR. </para>
+        <para id="id5129778">- Khi SCR được phân cực thuận (điện thế anod dương hơn điện thế catod), nếu ta nối tắt (hoặc để hở) nguồn VGG (IG=0), khi VAK còn nhỏ, chỉ có một dòng điện rất nhỏ chạy qua SCR (trong thực tế người ta xem như SCR không dẫn điện), nhưng khi VAK đạt đền một trị số nào đó (tùy thuộc vào từng SCR) gọi là điện thế quay về VBO thì điện thế VAK tự động sụt xuống khoảng 0,7V như diode thường. Dòng điện tương ứng bây giờ chính là dòng điện duy trì IH. Từ bây giờ, SCR chuyển sang trạng thái dẫn điện và có đặc tuyến gần giống như diode thường.</para>
+        <para id="id5129843">Nếu ta tăng nguồn VGG để tạo dòng kích IG, ta thấy điện thế quay về nhỏ hơn và khi dòng kích IG càng lớn, điện thế quay về VBO càng nhỏ.</para>
+        <para id="id5129874">0IHIASCRDiode thườngVAK0,7VVBOIG = 0IG2 &gt; IG1 &gt; 0VBRHình 3</para>
+      </section>
+      <section id="id-241385855539">
+        <title>Các thông số của SCR:</title>
+        <para id="id5688684">Sau đây là các thông số kỹ thuật chính của SCR</para>
+        <para id="id5688691">- Dòng thuận tối đa: </para>
+        <para id="id5688696">Là dòng điện anod IA trung bình lớn nhất mà SCR có thể chịu đựng được liên tục. Trong trường hợp dòng lớn, SCR phải được giải nhiệt đầy đủ. Dòng thuận tối đa tùy thuộc vào mỗi SCR, có thể từ vài trăm mA đến hàng trăm Ampere.</para>
+        <para id="id5688716">- Điện thế ngược tối đa:</para>
+        <para id="id5688722">Đây là điện thế phân cực nghịch tối đa mà chưa xảy ra sự hủy thác (breakdown). Đây là trị số VBR ở hình trên. SCR được chế tạo với điện thế nghịch từ vài chục volt đến hàng ngàn volt.</para>
+        <para id="id5688738">- Dòng chốt (latching current):</para>
+        <para id="id5688744">Là dòng thuận tối thiểu để giữ SCR ở trạng thái dẫn điện sau khi SCR từ trạng thái ngưng sang trạng thái dẫn. Dòng chốt thường lớn hơn dòng duy trì chút ít ở SCR công suất nhỏ và lớn hơn dòng duy trì khá nhiều ở SCR có công suất lớn.</para>
+        <para id="id5688758">- Dòng cổng tối thiểu (Minimun gate current):</para>
+        <para id="id5688764">Như đã thấy, khi điện thế VAK lớn hơn VBO thì SCR sẽ chuyển sang trạng thái dẫn điện mà không cần dòng kích IG. Tuy nhiên trong ứng dụng, thường người ta phải tạo ra một dòng cổng để SCR dẫn điện ngay. Tùy theo mỗi SCR, dòng cổng tối thiểu từ dưới 1mA đến vài chục mA. Nói chung, SCR có công suất càng lớn thì cần dòng kích lớn. Tuy nhiên, nên chú ý là dòng cổng không được quá lớn, có thể làm hỏng nối cổng-catod của SCR.</para>
+        <para id="id5688800">- Thời gian mở (turn – on time):</para>
+        <para id="id5688806">Là thời gian từ lúc bắt đầu có xung kích đến lúc SCR dẫn gần bảo hòa (thường là 0,9 lần dòng định mức). Thởi gian mở khoảng vài S. Như vậy, thời gian hiện diện của xung kích phải lâu hơn thời gian mở.</para>
+        <para id="id5688825">- Thời gian tắt (turn – off time):</para>
+        <para id="id5688830">Để tắt SCR, người ta giảm điện thế VAK xuống 0Volt, tức dòng anod cũng bằng 0. Thế nhưng nếu ta hạ điện thế anod xuống 0 rồi tăng lên ngay thì SCR vẫn dẫn điện mặc dù không có dòng kích. Thời gian tắt SCR là thời gian từ lúc điện thế VAK xuống 0 đến lúc lên cao trở lại mà SCR không dẫn điện trở lại. Thời gian này lớn hơn thời gian mở, thường khoảng vài chục S. Như vậy, SCR là linh kiện chậm, hoạt động ở tần số thấp, tối đa khoảng vài chục KHz.</para>
+        <para id="id5688870">- Tốc độ tăng điện thế dv/dt:</para>
+        <para id="id5680257">AKGCRHình 4Ta có thể làm SCR dẫn điện bằng cách tăng điện thế anod lên đến điện thế quay về VBO hoặc bằng cách dùng dòng kích cực cổng. Một cách khác là tăng điện thế anod nhanh tức dv/dt lớn mà bản thân điện thế V anod không cần lớn. Thông số dv/dt là tốc độ tăng thế lớn nhất mà SCR chưa dẫn, vượt trên vị trí này SCR sẽ dẫn điện. Lý do là có một điện dung nội Cb giữa hai cực nền của transistor trong mô hình tương đương của SCR. dòng điện qua tụ là: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>cb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dV</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{i rSub { size 8{ ital "cb"} } =C rSub { size 8{b} }  {  { ital "dV"}  over  { ital "dt"} } } {}</m:annotation></m:semantics></m:math>. Dòng điện này chạy vào cực nền của T1. Khi dV/dt đủ lớn thì icb lớn đủ sức kích SCR. Người ta thường tránh hiện tượng này bằng cách mắc một tụ C và điện trở R song song với SCR để chia bớt dòng icb.</para>
+        <para id="id5114364">- Tốc độ tăng dòng thuận tối đa di/dt:</para>
+        <para id="id5114371">Đây là trị số tối đa của tốc độ tăng dòng anod. Trên trị số này SCR có thể bị hư. Lý do là khi SCR chuyển từ trạng thái ngưng sang trạng thái dẫn, hiệu thế giữa anod và catod còn lớn trong lúc dòng điện anod tăng nhanh khiến công suất tiêu tán tức thời có thể quá lớn. Khi SCR bắt đầu dẫn, công suất tiêu tán tập trung ở gần vùng cổng nên vùng này dễ bị hư hỏng. Khả năng chịu đựng của di/dt tùy thuộc vào mỗi SCR.</para>
+      </section>
+      <section id="id-100526071509">
+        <title>SCR hoạt động ở điện thế xoay chiều</title>
+        <para id="id5114403">Khi SCR hoạt động ở điện thế xoay chiều tần số thấp (thí dụ 50Hz hoặc 60Hz) thì vấn đề tắt SCR được giải quyết dễ dàng. Khi không có xung kích thì mạng điện xuống gần 0V, SCR sẽ ngưng. Dĩ nhiên ở bán kỳ âm SCR không hoạt động mặc dù có xung kích.</para>
+        <para id="id5114407">Tải L~IG220V/50HzIGV TảiGóc dẫnSCR ngưngSCR dẫnHình 5V</para>
+        <para id="id5803915">Để tăng công suất cho tải, người ta cho SCR hoạt động ở nguồn chỉnh lưu toàn kỳ.</para>
+        <para id="id5803921">Tải L~IG220V/50HzIGV TảiGóc dẫnHình 6</para>
+        <para id="id4312865">Vì điện 50Hz có chu kỳ T=1/50=20nS nên thời gian điện thế xấp xỉ 0V đủ làm ngưng SCR.</para>
+      </section>
+      <section id="id-166511829543">
+        <title>Vài ứng dụng đơn giản:</title>
+        <para id="id4312882"><figure id="id4312893"><media id="id1165063806236" alt=""><image src=".wmf" mime-type="image/wmf" height="208" width="387"/></media></figure>220V/50HzĐược chọn tùy theo dòng nạp accu+-Hình 7Mạch đèn khẩn cấp khi mất điện:</para>
+        <para id="id5685997">Bình thường đèn 6V cháy sáng nhờ nguồn điện qua mạch chỉnh lưu. Lúc này SCR ngưng dẫn do bị phân cực nghịch, accu được nạp qua D1, R1. Khi mất điện, nguồn điện accu sẽ làm thông SCR và thắp sáng đèn.</para>
+        <para id="id5686020">Mạch nạp accu tự động (trang sau)</para>
+        <para id="id5686026"><figure id="id5686037"><media id="id1165057122136" alt=""><image src=".wmf" mime-type="image/wmf" height="218" width="545"/></media></figure>+-R1 47 2WR2 47 2WVZ = 11VR4 47 2WVR 7502WHình 8~220V6V</para>
+        <para id="id5175621">- Khi accu nạp chưa đầy, SCR1 dẫn, SCR2 ngưng</para>
+        <para id="id5175642">- Khi accu đã nạp đầy, điện thế cực dương lên cao, kích SCR2 làm SCR2 dẫn, chia bớt dòng nạp bảo vệ accu.</para>
+        <para id="id5175666">- VR dùng để chỉnh mức bảo vệ (giảm nhỏ dòng nạp)</para>
+      </section>
+    </section>
+    <section id="id-149134203889">
+      <title>TRIAC (TRIOD AC SEMICONDUCTOR SWITCH).</title>
+      <para id="id5175683">IGnppnnnnnT2T1ĐầuGCổng(Gate)pnpT1ĐầuT2G+npnpT1ĐầuT2GIG+--+T2T1T2T1GG+T2T1GT2T1Hình 9Thường được coi như một SCR lưỡng hướng vì có thể dẫn điện theo hai chiều. Hình sau đây cho thấy cấu tạo, mô hình tương đương và cấu tạo của Triac.</para>
+      <para id="id5803355">Như vậy, ta thấy Triac như gồm bởi một SCR PNPN dẫn điện theo chiều từ trên xuống dưới, kích bởi dòng cổng dương và một SCR NPNP dẫn điện theo chiều từ dưới lên kích bởi dòng cổng âm. Hai cực còn lại gọi là hai đầu cuối chính (main terminal).</para>
+      <para id="id5803369">- Do đầu T2 dương hơn đầu T1, để Triac dẫn điện ta có thể kích dòng cổng dương và khi đầu T2 âm hơn T1ta có thể kích dòng cổng âm.</para>
+      <para id="id5803401">T2T1GIG0IHIAV210,7V+VBO-VBOHình 10V21- Như vậy đặc tuyến V-I của Triac có dạng sau:</para>
+      <para id="id5809499">T2T1GIG &gt; 0+-T2T1GIG &lt; 0+-T2T1GIG &lt; 0-+T2T1GIG &gt; 0-+Cách 1Cách 2Cách 3Cách 4Hình 11- Thật ra, do sự tương tác của vùng bán dẫn, Triac được nảy theo 4 cách khác nhau, được trình bày bằng hình vẽ sau đây:</para>
+      <para id="id5116020">Cách (1) và cách (3) nhạy nhất, kế đến là cách (2) và cách (4). Do tính chất dẫn điện cả hai chiều, Triac dùng trong mạng điện xoay chiều thuận lợi hơn SCR. Thí dụ sau đây cho thấy ứng dụng của Triac trong mạng điện xoay chiều.</para>
+      <para id="id5116034"><figure id="id5116079"><media id="id6119565" alt=""><image src=".wmf" mime-type="image/wmf" height="163" width="355"/></media></figure>220V/50HzTải+-VLHình 12Góc dẫnTriac dẫntVL</para>
+    </section>
+    <section id="id-452514974797">
+      <title>SCS (SILICON – CONTROLLED SWITCH).</title>
+      <para id="id5174829">NNAnodAKCatodGKCổngCatodCấu tạoPPGACổngAnodKAGKGAAKGKGAMô hình tương đươngHình 13Ký hiệuKAGKGASCS còn được gọi là Tetrode thyristor (thyristor có 4 cực). Về mặt cấu tạo, SCS giống như SCR nhưng có thêm một cổng gọi là cổng anod nên cổng kia (ở SCR) được gọi là cổng catod.</para>
+      <para id="id5251223"><figure id="id5251234"><media id="id1165059844587" alt=""><image src=".wmf" mime-type="image/wmf" height="299" width="649"/></media></figure>Hình 15Relais đóng mạch báo độngNhư vậy, khi ta áp một xung dương vào cổng catod thi SCS dẫn điện. Khi SCS đang hoạt động, nếu ta áp một xung dương vào cổng anod thì SCS sẽ ngưng dẫn. Như vậy, đối với SCS, cổng catod dùng để mở SCS, và cổng anod dùng để tắt SCS. Tuy có khả năng như SCR, nhưng thường người ta chỉ chế tạo SCS công suất nhỏ (phần lớn dưới vài trăm miniwatt) và do cổng catod rất nhạy (chỉ cần kích cổng catod khoảng vài chục A) nên SCS được ứng dụng làm một switch điện tử nhạy.</para>
+      <para id="id5122015">Ví dụ sau là một mạch báo động dùng SCS như một cảm biến điện thế:</para>
+      <para id="id5122022">Ở ngõ vào thường người ta mắc một miếng kim loại, khi sờ tay vào, SCS dẫn điện Led tương ứng cháy sáng, Relais hoạt động đóng mạch báo động hoạt động.</para>
+    </section>
+    <section id="id-502725440453">
+      <title>DIAC</title>
+      <para id="id5122038">ppnnnAnod 1Anod 2Cấu tạoAnod 1Anod 2Ký hiệuAnod 1Anod 2Tương đươngAnod 1Anod 2Hình 16Về cấu tạo, DIAC giống như một SCR không có cực cổng hay đúng hơn là một transistor không có cực nền. Hình sau đây mô tả cấu tạo, ký hiệu và mạch tương đương của DIAC.</para>
+      <para id="id5117015">Khi áp một hiệu điện thế một chiều theo một chiều nhất định thì khi đến điện thế VBO, DIAC dẫn điện và khi áp hiệu thế theo chiều ngược lại thì đến trị số -VBO, DIAC cũng dẫn điện, DIAC thể hiện một điện trở âm (điện thế hai đầu DIAC giảm khi dòng điện qua DIAC tăng). Từ các tính chất trên, DIAC tương đương với hai Diode Zener mắc đối đầu. Thực tế, khi không có DIAC, người ta có thể dùng hai Diode Zener có điện thế Zener thích hợp để thay thế. (Hình 17)</para>
+      <para id="id5117048">Trong ứng dụng, DIAC thường dùng để mở Triac. Thí dụ như mạch điều chỉnh độ sáng của bóng đèn (Hình 18)</para>
+      <para id="id5117057">0IV+VBO-VBOHình 17<figure id="id5802906"><media id="id1165053799946" alt=""><image src=".wmf" mime-type="image/wmf" height="184" width="332"/></media></figure>Bóng ĐènBóng ĐènCHình 18220V/50Hz</para>
+      <para id="id5803038">Ở bán ký dương thì điện thế tăng, tụ nạp điện cho đến điện thế VBO thì DIAC dẫn, tạo dòng kích cho Triac dẫn điện. Hết bán kỳ dương, Triac tạm ngưng. Đến bán kỳ âm tụ C nạp điện theo chiều ngược lại đến điện thế -VBO, DIAC lại dẫn điện kích Triac dẫn điện. Ta thay đổi VR để thay đổi thời hằng nạp điện của tụ C, do đó thay đổi góc dẫn của Triac đưa đến làm thay đổi độ sáng của bóng đèn.</para>
+    </section>
+    <section id="id-135710148433">
+      <title>DIOD SHOCKLEY.</title>
+      <para id="id4273061">NNAnodAKCatodPPHình 19- K+ AIA-+VfIBOVBO0VfDiod shockley gầm có 4 lớp bán dẫn PNPN (diod 4 lớp) nhưng chỉ có hai cực. Cấu tạo cơ bản và ký hiệu cùng với đặc tuyến Volt-Ampere khi phân cực thuận được mô tả ở hình vẽ sau đây:</para>
+      <para id="id5120937">Ta thấy đặc tuyến giống như SCR lúc dòng cổng IG=0V, nhưng điện thế quay về VBO của Diod shockley nhỏ hơn nhiều. Khi ta tăng điện thế phân cực thuận, khi điện thế anod-catod tới trị số VBO thì Diod shockley bắt đầu dẫn, điện thế hai đầu giảm nhỏ và sau đó hoạt động như Diod bình thường.</para>
+      <para id="id5120970"><figure id="id5120981"><media id="id1165061764724" alt=""><image src=".wmf" mime-type="image/wmf" height="148" width="345"/></media></figure>TảiHình 20220V/50HzÁp dụng thông thường của Diod shockley là dùng để kích SCR. Khi phân cực nghịch, Diod shockley cũng không dẫn điện.</para>
+      <para id="id5811309">- Bán kỳ dương, tụ C nạp điện đến điện thế VBO thì Diod shockley dẫn điện, kích SCR dẫn.</para>
+      <para id="id5811325">Bán kỳ âm, Diod shockley ngưng, SCR cũng ngưng.</para>
+    </section>
+    <section id="id-618473761568">
+      <title>GTO (GATE TURN – OFF SWITCH).</title>
+      <para id="id5811340">GTO là một linh kiện có 4 lớp bán dẫn PNPN như SCR. cấu tạo và ký hiệu được mô tả như sau:</para>
+      <para id="id5811349">NNAnodAKCatodPPG CổngG CổngAnodAKCatodHình 21Ký hiệu</para>
+      <para id="id5684593">Tuy có ký hiệu khác với SCR và SCS nhưng các tính chất thì tương tự. Sự khác biệt cơ bản cũng là sự tiến bộ của GTO so với SCR hoặc SCS là có thể mở hoặc tắt GTO chỉ bằng một cổng (mở GTO bằng cách đưa xung dương vào cực cổng và tắt GTO bằng cách đưa xung âm vào cực cổng).</para>
+      <para id="id5684608">- So với SCR, GTO cần dòng điện kích lớn hơn (thường hàng trăm mA)</para>
+      <para id="id5684615">AKR2VAA=+200V+VoR1VRC1VRHình 22AKG- Một tính chất quan trọng nữa của GTO là tính chuyển mạch. Thới gian mở của GTO cũng giống như SCR (khoảng 1s), nhưng thời gian tắt (thời gian chuyển từ trạng thái dẫn điện sang trạng thái ngưng dẫn) thì nhỏ hơn SCR rất nhiều (khoảng 1s ở GTO và từ 5s đến 30s ở SCR). Do đó GTO dùng như một linh kiệncó chuyển mạch nhanh. GTO thường được dùng rất phổ biến trong các mạch đếm, mạch tạo xung, mạch điều hoà điện thế… mạch sau đây là một ứng dụng của GTO để tạo tín hiệu răng cưa kết hợp với Diod Zener.</para>
+      <para id="id5680109">Khi cấp điện, GTO dẫn, anod và catod xem như nối tắt. C1 nạp điện đến điện thế nguồn VAA, lúc đó VGK&lt;0 làm GTO ngưng dẫn. Tụ C1 xả điện qua R3=VR+R2. Thời gian xả điện tùy thuộc vào thời hằng =R3C1. Khi Vo&lt;VZ, GTO lại dẫn điện và chu kỳ mới lại được lập lại.</para>
+      <para id="id5680190">Hình 23VoVAAVZ0</para>
+    </section>
+    <section id="id-481154485631">
+      <title>UJT (UNIJUNCTION TRANSISTOR – TRANSISTOR ĐỘC NỐI).</title>
+      <para id="id5254583">Transistor thường (BJT) gọi là Transistor lưỡng cực vì có hai nối PN trong lúc UJT chỉ có một độc nhất nối P-N. Tuy không thông dụng như BJT, nhưng UJT có một số đặc tính đặc biệt nên một thời đã giữ vai trò quan trọng trong các mạch tạo dạng sóng và định giờ.</para>
+      <section id="id-948942201104">
+        <title>Cấu tạo và đặc tính của UJT:</title>
+        <para id="id5254606">n-pB2B1NềnNềnEPhátEB2B1EB1B2Hình 24Hình sau đây mô tả cấu tạo đơn giản hoá và ký hiệu của UJT</para>
+        <para id="id6203139">Một thỏi bán dẫn pha nhẹ loại n­- với hai lớp tiếp xúc kim loại ở hai đầu tạo thành hai cực nền B1 và B2. Nối PN được hình thành thường là hợp chất của dây nhôm nhỏ đóng vai trò chất bán dẫn loại P. Vùng P này nằm cách vùng B1 khoảng 70% so với chiều dài của hai cực nền B1, B2. Dây nhôm đóng vai trò cực phát E.</para>
+        <para id="id6203189"><figure id="id6203200"><media id="id6864916" alt=""><image src=".wmf" mime-type="image/wmf" height="233" width="588"/></media></figure>Mạch tương đương của UJTIEREEEHình 25Hình sau đây trình bày cách áp dụng điện thế một chiều vào các cực của UJT để khảo sát các đặc tính của nó.</para>
+        <para id="id6203441">- Khi chưa áp VEE vào cực phát E (cực phát E để hở) thỏi bán dẫn là một điện trở với nguồn điện thế VBB, được ký hiệu RBB và gọi là điện trở liên nền (thường có trị số từ 4 K đến 10 K). Từ mô hình tương đương ta thấy Diod được dùng để diễn tả nối P-N giữa vùng P và vùng n-. Điện trở RB1 và RB2 diễn tả điện trở của thỏi bán dẫn n-. Như vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:msub><m:mo stretchy="false">∣</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{ ital "BB"} } =R rSub { size 8{B1} } +R rSub { size 8{B2} }   \rline  rSub { size 8{I rSub { size 6{E} } =0} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id6203636">Vậy điện thế tại điểm A là:</para>
+        <para id="id6203642">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>A</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>R</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi fontstyle="italic">B1</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>R</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi fontstyle="italic">B1</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>R</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi fontstyle="italic">B2</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>BB</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mtext/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext/>
+                      </m:mrow>
+                      <m:mi>η</m:mi>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>BB</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">&gt;</m:mo>
+                        <m:mtext> 0</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{A} } = {  {R rSub { size 8{B1} } }  over  {R rSub { size 8{B1} } +R rSub { size 8{B2} } } } V rSub { size 8{ ital "BB"} } "  "="  "η "." V rSub { size 8{"BB"} }  &gt;" 0"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5114610">Trong đó: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>η</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η= {  {R rSub { size 8{B1} } }  over  {R rSub { size 8{B1} } +R rSub { size 8{B2} } } } = {  {R rSub { size 8{B1} } }  over  {R rSub { size 8{ ital "BB"} } } } } {}</m:annotation></m:semantics></m:math>được gọi là tỉ số nội tại (intrinsic stand – off) RBB và  được cho bởi nhà sản xuất.</para>
+        <para id="id5114758">- Bây giờ, ta cấp nguồn VEE vào cực phát và nền B1 (cực dương nối về cực phát). Khi VEE=0V (nối cực phát E xuống mass), vì VA có điện thế dương nên Diod được phân cực nghịch và ta chỉ có một dòng điện rỉ nhỏ chạy ra từ cực phát. tăng VEE lớn dần, dòng điện IE bắt đầu tăng theo chiều dương (dòng rỉ ngược IE giảm dần, và triệt tiêu, sau đó dương dần). Khi VE có trị số</para>
+        <para id="id5114821">VE=VD+VA </para>
+        <para id="id5114844">VE=0,5V +  VB2B1 (ở đây VB2B1 = VBB) thì Diod phân cực thậun và bắt đầu dẫn điện mạnh.</para>
+        <para id="id5114879">Vùng điện trở âm0VEIEVPVVIPIV0ĐỉnhThung lũngVEIEVPIV0VVHình 26Điện thế VE=0,5V +  VB2B1=VP được gọi là điện thế đỉnh (peak-point voltage) của UJT.</para>
+        <para id="id5535852">Khi VE=VP, nối P-N phân cực thuận, lỗ trống từ vùng phát khuếch tán vào vùng n- và di chuyển đến vùng nền B1, lúc đó lỗ trống cũng hút các điện tử từ mass lên. Vì độ dẫn điện của chất bán dẫn là một hàm số của mật độ điện tử di động nên điện trở RB1 giảm. Kết quả là lúc đó dòng IE tăng và điện thế VE giảm. Ta có một vùng điện trở âm.</para>
+        <para id="id5535909">Điện trở động nhìn từ cực phát E trong vùng điện trở âm là: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi fontstyle="italic">ΔV</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi fontstyle="italic">ΔI</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{d} } = -  {  {ΔV rSub { size 8{E} } }  over  {ΔI rSub { size 8{E} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5536003">Khi IE tăng, RB1 giảm trong lúc RB2 ít bị ảnh hưởng nên điện trở liên nền RBB giảm. Khi IE đủ lớn, điện trở liên nền RBB chủ yếu là RB2. Kết thúc vùng điện trở âm là vùng thung lũng, lúc đó dòng IE đủ lớn và RB1 quá nhỏ không giảm nữa (chú ý là dòng ra cực nền B1) gồm có dòng điện liên nền IB cộng với dòng phát IE ) nên VE không giảm mà bắt đầu tăng khi IE tăng. Vùng này được gọi là vùng bảo hòa.</para>
+        <para id="id5183651">Như vây ta nhận thấy:</para>
+        <para id="id5183656">- Dòng đỉnh IP là dòng tối thiểu của cực phát E để đặt UJT hoạt động trong vùng điện trở âm. Dòng điện thung lũng IV là dòng điện tối đa của IE trong vùng điện trở âm.</para>
+        <para id="id5183684">- Tương tự, điện thế đỉnh VP là điện thế thung lũng VV là điện thế tối đa và tối thiểu của VEB1 đặt UJT trong vùng điện trở âm.</para>
+        <para id="id5183710">Trong các ứng dụng của UJT, người ta cho UJT hoạt động trong vùng điện trở âm, muốn vậy, ta phải xác định điện trở RE để IP&lt;IE&lt;IV </para>
+        <para id="id5183745">Q<figure id="id5183777"><media id="id1165051047814" alt=""><image src=".wmf" mime-type="image/wmf" height="216" width="113"/></media></figure>VEB1IE0VEB1IE0IPIVVVVPVBB &gt; VPREmaxREminHình 27Thí dụ trong mạch sau đây, ta xác định trị số tối đa và tối thiểu của RE</para>
+        <para id="id5248430">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>E</m:mi><m:mtext>max</m:mtext></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi fontstyle="italic">ΔV</m:mi><m:mi fontstyle="italic">ΔI</m:mi></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{E"max"} } = -  {  {ΔV}  over  {ΔI} } = -  {  {V rSub { size 8{ ital "BB"} }  - V rSub { size 8{P} } }  over  {0 - I rSub { size 8{P} } } } = {  {V rSub { size 8{ ital "BB"} }  - V rSub { size 8{P} } }  over  {I rSub { size 8{P} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5248625">Và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>E</m:mi><m:mtext>min</m:mtext></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi fontstyle="italic">ΔV</m:mi><m:mi fontstyle="italic">ΔI</m:mi></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{E"min"} } = -  {  {ΔV}  over  {ΔI} } = -  {  {V rSub { size 8{ ital "BB"} }  - V rSub { size 8{V} } }  over  {0 -  ital "IV"} } = {  {V rSub { size 8{ ital "BB"} }  - V rSub { size 8{V} } }  over  {I rSub { size 8{V} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5248813">Như vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>E</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">≤</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {V rSub { size 8{ ital "BB"} }  - V rSub { size 8{V} } }  over  {I rSub { size 8{V} } } }  &lt;= R rSub { size 8{E} }  &lt;=  {  {V rSub { size 8{ ital "BB"} }  - V rSub { size 8{P} } }  over  {I rSub { size 8{P} } } } } {}</m:annotation></m:semantics></m:math></para>
+      </section>
+      <section id="id-170772540474">
+        <title>Các thông số kỹ thuật của UJT và vấn đề ổn định nhiệt cho đỉnh:</title>
+        <para id="id5249454">Sau đây là các thông số của UJT:</para>
+        <para id="id5249460">- Điện trở liên nền RBB: là điện trở giữa hai cực nên khi cực phát để hở. RBB tăng khi nhiệt độ tăng theo hệ số 0,8%/1oC</para>
+        <para id="id5249486">- Tỉ số nội tại: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>η</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η= {  {R rSub { size 8{B1} } }  over  {R rSub { size 8{B1} } +R rSub { size 8{B2} } } } = {  {R rSub { size 8{B1} } }  over  {R rSub { size 8{ ital "BB"} } } } } {}</m:annotation></m:semantics></m:math> Tỉ số này cũng được định nghĩa khi cực phát E để hở.</para>
+        <para id="id5249622">- Điện thế đỉnh VP và dòng điện đỉnh IP. VP giảm khi nhiệt độ tăng vì điện thế ngưỡng của nối PN giảm khi nhiệt độ tăng. Dòng IP giảm khi VBB tăng.</para>
+        <para id="id5249659">- Điện thế thung lũng VV và dòng điện thung lũng IV. Cả VV và IV đều tăng khi VBB tăng.</para>
+        <para id="id5249694">- Điện thế cực phát bảo hòa VEsat: là hiệu điện thế giữa cực phát E và cực nền B1 được đo ở IE=10mA hay hơn và VBB ở 10V. Trị số thông thường của VEsat là 4 volt (lớn hơn nhiều so với diod thường).</para>
+        <para id="id5249734">Ổn định nhiệt cho đỉnh: Điện thế đỉnh VP là thông số quan trọng nhất của UJT. Như đã thấy, sự thay đổi của điện thế đỉnh VP chủ yếu là do điện thế ngưỡng của nối PN vì tỉ số  thay đổi không đáng kể.</para>
+        <para id="id5249763"><figure id="id5249774"><media id="id1165060850732" alt=""><image src=".wmf" mime-type="image/wmf" height="233" width="219"/></media></figure>Hình 28Người ta ổn định nhiệt cho VP bằng cách thêm một điện trở nhỏ R2 (thường khoảng vài trăm ohm) giữa nền B2 và nguồn VBB. Ngoài ra người ta cũng mắc một điện trở nhỏ R1 cũng khoảng vài trăm ohm ở cực nền B1 để lấy tín hiệu ra.</para>
+        <para id="id5249862">Khi nhiệt độ tăng, điện trở liên nền RBB tăng nên điện thế liên nền VB2B1 tăng. Chọn R2 sao cho sự tăng của VB2B1 bù trừ sự giảm của điện thế ngưỡng của nối PN. Trị của R2 được chọn gần đúng theo công thức: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≈</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,4</m:mn><m:mo stretchy="false">→</m:mo><m:mn>0,8</m:mn><m:mo stretchy="false">)</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi fontstyle="italic">ηV</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{2} }  approx  {  { \( 0,4 rightarrow 0,8 \) R rSub { size 8{ ital "BB"} } }  over  {ηV rSub { size 8{ ital "BB"} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5945443">Ngoài ra R2 còn phụ thuộc vào cấu tạo của UJT. Trị chọn theo thực nghiệm khoảng vài trăm ohm.</para>
+      </section>
+      <section id="id-544774148166">
+        <title>Ứng dụng đơn giản của UJT:</title>
+        <para id="id5945465">Mạch dao động thư giãn (relaxation oscillator)</para>
+        <para id="id5945471"><figure id="id5945482"><media id="id5269803" alt=""><image src=".wmf" mime-type="image/wmf" height="233" width="239"/></media></figure>VEtVC1 = VP0C1 nạpC1 xã (rất nhanh)VB2VB1VEtttVPVVHình 29Người ta thường dùng UJT làm thành một mạch dao động tạo xung. Dạng mạch và trị số các linh kiện điển hình như sau:</para>
+        <para id="id5941748">Khi cấp điện, tụ C1 bắt đầu nạp điện qua điện trở RE. (Diod phát-nền 1 bị phân cực nghịch, dòng điện phát IE xấp xỉ bằng không). Điện thế hai đầu tụ tăng dần, khi đến điện thế đỉnh VP, UJT bắt đều dẫn điện. Tụ C1 phóng nhanh qua UJT và điện trở R1. Điện thế hai đầu tụ (tức VE) giảm nhanh đến điện thế thung lũng VV. Đến đây UJT bắt đầu ngưng và chu kỳ mới lập lại.</para>
+        <para id="id5941811"><figure id="id5941822"><media id="id1165059886390" alt=""><image src=".wmf" mime-type="image/wmf" height="246" width="594"/></media></figure>Hình 30220V/50HzTải* Dùng UJT tạo xung kích cho SCR</para>
+        <para id="id5297296">- Bán kỳ dương nếu có xung đưa vào cực cổng thì SCR dẫn điện. Bán kỳ âm SCR ngưng.</para>
+        <para id="id5297305">- Điều chỉnh góc dẫn của SCR bằng cách thay đổi tần số dao động của UJT.</para>
+      </section>
+    </section>
+    <section id="id-0553620613008">
+      <title>PUT (Programmable Unijunction Transistor).</title>
+      <para id="id5297321">Như tên gọi, PUT giống như một UJT có đặc tính thay đổi được. Tuy vậy về cấu tạo, PUT khác hẳn UJT </para>
+      <para id="id5297330">NNAnodAKCatodPPG CổngG CổngAnodAKCatodCấu tạoKý hiệuPhân cực<figure id="id5297853"><media id="id1165059535491" alt=""><image src=".wmf" mime-type="image/wmf" height="160" width="340"/></media></figure>Hình 31</para>
+      <para id="id5297940">Để ý là cổng G nằm ở vùng N gần anod nên để PUT dẫn điện, ngoài việc điện thế anod lớn hơn điện thế catod, điện thế anod còn phải lớn hơn điện thế cổng một điện thế ngưỡng của nối PN.</para>
+      <para id="id5297949">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GK</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi fontstyle="italic">ηV</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{ ital "GK"} } = {  {R rSub { size 8{B1} } }  over  {R rSub { size 8{B1} } +R rSub { size 8{B2} } } } V rSub { size 8{ ital "BB"} } =ηV rSub { size 8{ ital "BB"} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5686195">Trong đó: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>η</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B1</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">B2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η= {  {R rSub { size 8{B1} } }  over  {R rSub { size 8{B1} } +R rSub { size 8{B2} } } } } {}</m:annotation></m:semantics></m:math> như được định nghĩa trong UJT </para>
+      <para id="id5686295">Tuy nhiên, nên nhớ là UJT, RB1và RB2 là điện trở nội của UJT, Trong lúc ở PUT, RB1 và RB2 là các điện trở phân cực bên ngoài.</para>
+      <para id="id5686325">VAK0IPIVIAVPVùng điện trở âmHình 32Đặc tuyến của dòng IA theo điện thế cổng VAK cũng giống như ở UJT </para>
+      <para id="id5686650">Điện thế đỉnh VP được tính bởi: VP = VD+VBB </para>
+      <para id="id5686682">mà VD = 0,7V (thí dụ Si)</para>
+      <para id="id5686693">VG = VBB  VP = VG + 0,7V</para>
+      <para id="id5686729">Tuy PUT và UJT có đặc tính giống nhau nhưng dòng điện đỉnh và thung lũng của PUT nhỏ hơn UJT </para>
+      <para id="id5686738">tVA0VPVV<figure id="id5298417"><media id="id1165051690835" alt=""><image src=".wmf" mime-type="image/wmf" height="306" width="271"/></media></figure>KXảNạpHình 33+ Mạch dao động thư giãn dùng PUT</para>
+      <para id="id5298565">Chú ý trong mạch dùng PUT, ngõ xả của tụ điện là anod. Tín hiệu ra được sử dụng thường lấy ở catod (và có thể dùng kích SCR như ở UJT)</para>
+      <para id="id5298576">VGVKttVK = VBBVK = VP-VVHình 3434</para>
+    </section>
+  </content>
+</document>

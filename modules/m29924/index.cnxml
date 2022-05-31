@@ -1,0 +1,263 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sơ lược về IC</title>
+  <metadata>
+  <md:content-id>m29924</md:content-id><md:title>Sơ lược về IC</md:title>
+  <md:abstract>Sơ lược về IC</md:abstract>
+  <md:uuid>6beccf95-c887-4e39-bf8a-5efd3b58e320</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5789558">KHÁI NIỆM VỀ IC - SỰ KẾT TỤ TRONG HỆ THỐNG ĐIỆN TỬ.</para>
+    <para id="id5789565">IC (Intergated-Circuit) là một mạch điện tử mà các thành phần tác động và thụ động đều được chế tạo kết tụ trong hoặc trên một đế (subtrate) hay thân hoặc không thể tách rời nhau được. Đế này, có thể là một phiến bán dẫn (hầu hết là Si) hoặc một phiến cách điện.</para>
+    <para id="id5789580">Một IC thường có kích thước dài rộng cỡ vài trăm đến vài ngàn micron, dày cỡ vài trăm micron được đựng trong một vỏ bằng kim lọai hoặc bằng plastic. Những IC như vậy thường là một bộ phận chức năng (function device) tức là một bộ phận có khả năng thể hiện một chức năng điện tử nào đó. Sự kết tụ (integration) các thành phần của mạch điện tử cũng như các bộ phận cấu thành của một hệ thống điện tử vẫn là hướng tìm tòi và theo đuổi từ lâu trong ngành điện tử. Nhu cầu của sự kết tụ phát minh từ sự kết tụ tất nhiên của các mạch và hệ thống điện tử theo chiều hướng từ đơn giản đến phức tạp, từ nhỏ đến lớn, từ tần số thấp (tốc độ chậm) đến tần số cao (tốc độ nhanh). Sự tiến triển này là hậu quả tất yếu của nhu cầu ngày càng tăng trong việc xử lý lượng tin tức (information) ngày càng nhiều của xã hội phát triển.</para>
+    <para id="id5789615">Những hệ thống điện tử công phu và phức tạp gồm rất nhiều thành phần, bộ phận. Do đó nảy ra nhiều vấn đề cần giải quyết:</para>
+    <para id="id5789625">1. Khoảng không gian mà số lượng lớn các thành phần chiếm đoạt (thể tích). Một máy tính điện tử cần dùng đến hàng triệu, hàng vài chục triệu bộ phận rời. Nếu không thực hiện bằng mạch IC, thì không những thể tích của nó sẽ lớn một cách bất tiện mà điện năng cung cấp cho nó cũng sẽ vô cùng phức tạp. Mà nếu có thỏa mãn chăng nữa, thì máy cũng không thực dụng.</para>
+    <para id="id5789640">2. Độ khả tín (reliability) của hệ thống điện tử: là độ đáng tin cậy trong hoạt động đúng theo tiêu chuẩn thiết kế. Độ khả tín của một hệ thống tất nhiên phụ thuộc vào độ khả tín của các thành phần cấu thành và các bộ phận nối tiếp giữa chúng. Hệ thống cáng phức tạp, số bộ phận càng tăng và chỗ nối tiếp càng nhiều. Vì vậy, nếu dùng bộ phận rời cho các hệ thống phức tạp, độ khả tín của nó sẽ giảm thấp. Một hệ thống như vậy sẽ trục trặc rất nhanh.</para>
+    <para id="id5789665">3. Tuổi thọ trung bình t của một hệ thống điện tử gồm n thành phần sẽ là: </para>
+    <para id="id5789673">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mi>t</m:mi>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>t</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>t</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext/>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>t</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {t} } = {  {1}  over  {t rSub { size 8{1} } } } + {  {1}  over  {t rSub { size 8{2} } } } + "."  "."  "."  "."  "."  "." "    "+ {  {1}  over  {t rSub { size 8{n} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="id5789808">Nếu t1=t2=...=tn thì 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mi>n</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t= {  {t rSub { size 8{i} } }  over  {n} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id5789890">Vậy nếu một transistor có tuổi thọ là 108h, thì một máy tính gồm 500000 ngàn transistor sẽ chỉ có tuổi thọ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle></m:msup><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mtext>200</m:mtext></m:mrow><m:mtext> giôø</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"10" rSup { size 8{8} } }  over  {5 "." "10" rSup { size 8{5} } } } ="200"" giôø"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="id5789982">Các thành phần trong IC được chế tạo đồng thời và cũng cùng phương pháp, nên tuổi thọ IC xấp xỉ một tuổi thọ một transistor Planar.</para>
+    <para id="id5789992">4. Một hệ thống (hay một máy) điện tử có cấu tạo như hình vẽ:</para>
+    <para id="id5790000">Vật liệuBộ phận linh kiệnBộ phận linh kiệnMạch điện tử cơ bảnBộ phận cấu thành hệ thốngHệ thống điện tử thốnfBộ phận chức năng</para>
+    <para id="id5309369">Sự kết tụ áp dụng vào IC thường thực hiện ở giai đoạn bộ phận chức năng. Song khái niệm kết tụ không nhất thiết dừng lại ở giai đoạn này. Người ta vẫn nỗ lực để kết tụ với mật độ cực cao trong IC, nằm hướng tới việc kết tụ toàn thể hệ thống điện tử trên một phiếm (chíp)</para>
+    <table id="id5309383" summary="">
+      <tgroup cols="9">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <tbody>
+          <row>
+            <entry>Năm</entry>
+            <entry>1947</entry>
+            <entry>1950</entry>
+            <entry>1961</entry>
+            <entry>1966</entry>
+            <entry>1971</entry>
+            <entry>1980</entry>
+            <entry>1985</entry>
+            <entry>1990</entry>
+          </row>
+          <row>
+            <entry>Công nghệ</entry>
+            <entry>Phát minh Transi-stor</entry>
+            <entry>Linh kiện rời</entry>
+            <entry>SSI</entry>
+            <entry>MSI</entry>
+            <entry>LSI</entry>
+            <entry>VLSI</entry>
+            <entry>ULSI</entry>
+            <entry>GSI</entry>
+          </row>
+          <row>
+            <entry>Số Transistor trên 1 chip trong các sản phẩm thương mại</entry>
+            <entry>1</entry>
+            <entry>1</entry>
+            <entry>10</entry>
+            <entry>1001000</entry>
+            <entry>100020000</entry>
+            <entry>20000500000</entry>
+            <entry>&gt;500000</entry>
+            <entry>&gt;1000000</entry>
+          </row>
+          <row>
+            <entry>Các sản phẩm tiêu biểu</entry>
+            <entry/>
+            <entry>BJTDiode</entry>
+            <entry>Linh kiện planar, Cổng logic, Flip Flop</entry>
+            <entry>Mạch đếm, đa hợp, mạch cộng</entry>
+            <entry>Vi xử lý 8 bit, ROM, RAM</entry>
+            <entry>Vi xử lý 16 và 32 bit</entry>
+            <entry>Vi xử lý chuyên dụng, xử lý ảnh, thờI gian thực</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id5309819">SSI: Small scale integration: Tích hợp qui mô nhỏ</para>
+    <para id="id5309825">MSI: Medium scale intergration: Tích hợp qui mô trung bình</para>
+    <para id="id5309832">LSI: Large scale integration: Tích hợp theo qui mô lớn</para>
+    <para id="id5309838">GSI: Ultra large scale integration: Tích hợp qui mô khổng lồ</para>
+    <para id="id5309845">Tóm lại, công nhệ IC đưa đến những điểm lợi so với kỹ thuật linh kiện rời như sau:</para>
+    <para id="id5309853">- Giá thành sản phẩm hạ</para>
+    <para id="id5309858">- Kích cỡ nhỏ</para>
+    <para id="id5309863">- Độ khả tín cao (tất cả các thành phần được chế tạo cùng lúc và không có những điểm hàn, nối).</para>
+    <para id="id5309872">- Tăng chất lượng (do giá thành hạ, các mặt phức tạp hơn có thể được chọn để hệ thống đạt đến những tính năng tốt nhất).</para>
+    <para id="id5309882">- Các linh kiện được phối hợp tốt (matched). Vì tất cả các transistor được chế tạo đồng thời và cùng một qui trình nên các thông số tương ứng của chúng về cơ bản có cùng độ lớn đối với sự biến thiên của nhiệt độ.</para>
+    <para id="id5309896">- Tuổi thọ cao.</para>
+    <section id="id-888068368359">
+      <title>CÁC LOẠI IC.</title>
+      <para id="id5309908">Dựa trên qui trình sản xuất, có thể chia IC ra làm 3 loại:</para>
+      <section id="id-315757735392">
+        <title>IC màng (film IC):</title>
+        <para id="id5309922">Trên một đế bằng chất cách điện, dùng các lớp màng tạo nên các thành phần khác. Loại này chỉ gồm các thành phần thụ động như điện trở, tụ điện, và cuộn cảm mà thôi.</para>
+        <list id="id5309934" list-type="bulleted">
+          <item>Dây nối giữa các bộ phận: Dùng màng kim loại có điện trở súât nhỏ như Au, Al,Cu...</item>
+          <item>Điện trở: Dùng màng kim loại hoặc hợp kim có điện trở suất lớn như Ni-Cr; Ni-Cr-Al; Cr-Si; Cr có thể tạo nên điện trở có trị số rất lớn.</item>
+          <item>Tụ điện: Dùng màng kim loại để đóng vai trò bản cực và dùng màng điện môi SiO; SiO2, Al2O3; Ta2O5. Tuy nhiên khó tạo được tụ có điện dung lớn hơn 0,02F/cm2.</item>
+          <item>Cuộn cảm: dùng một màng kim loại hình xoắn. Tuy nhiên khó tạo được cuộn cảm lớn quá 5H với kích thước hợplý. Trong sơ đồ IC, người ta tránh dùng cuộn cảm để không chiếm thể tích.</item>
+          <item>Cách điện giữa các bộ phận: Dùng SiO; SiO2; Al2O3.</item>
+        </list>
+        <para id="id5310046">Có một thời, Transistor màng mỏng được nghiên cứu rất nhiều để ứng dụng vào IC màng. Nhưng tiếc là transistor màng chưa đạt đến giai đoận thực dụng, nếu không phải là ít có triển vọng thực dụng.</para>
+      </section>
+      <section id="id-240502871056">
+        <title>IC đơn tính thể (Monolithic IC):</title>
+        <para id="id5310068">Còn gọi là IC bán dẫn (Semiconductor IC) – là IC dùng một đế (Subtrate) bằng chất bán dẫn (thường là Si). Trên (hay trong) đế đó, người ta chế tạo transistor, diode, điện trở, tụ điện. Rồi dùng chất cách điện SiO2 để phủ lên che chở cho các bộ phận đó trên lớp SiO2, dùng màng kim loại để nối các bộ phận với nhau.</para>
+        <list id="id5310097" list-type="bulleted">
+          <item>Transistor, diode đều là các bộ phận bán dẫn.</item>
+          <item>Điện trở: được chế tạo bằng cách lợi dụng điện trở của lớp bán dẫn có khuếch tán tạp chất.</item>
+          <item>Tụ điện: Được chế tạo bằng cách lợi dụng điện dung của vùng hiếm tại một nối P-N bị phân cực nghịch.</item>
+        </list>
+        <para id="id5310125">Đôi khi người ta có thể thêm những thành phần khác hơn của các thành phần kể trên để dùng cho các mục đích đặc thù </para>
+        <para id="id5310132">Các thành phần trên được chế tạo thành một số rất nhiều trên cùng một chip. Có rất nhiều mối nối giữa chúng và chúng được cách ly nhờ những nối P-N bị phân cực nghịch (điện trở có hàng trăm M)</para>
+      </section>
+      <section id="id-979539960478">
+        <title>IC lai (hibrid IC).</title>
+        <para id="id5310161">Là loại IC lai giữa hai loại trên</para>
+        <para id="id5310167">Từ vi mạch màng mỏng (chỉ chứa các thành phần thụ động), người ta gắn ngay trên đế của nó những thành phần tích cực (transistor, diode) tại những nơi đã dành sẵn. Các transistor và diode gắn trong mạch lai không cần có vỏ hay để riêng, mà chỉ cần được bảo vệ bằng một lớp men tráng.</para>
+        <para id="id5310181">Ưu điểm của mạch lai là:</para>
+        <list id="id5310186" list-type="bulleted">
+          <item>Có thể tạo nhiều IC (Digital hay Analog)</item>
+          <item>Có khả năng tạo ra các phần tử thụ động có các giá trị khác nhau với sai số nhỏ.</item>
+          <item>Có khả năng đặt trên một đế, các phần tử màng mỏng, các transistor, diode và ngay cả các loại IC bán dẫn.</item>
+        </list>
+        <para id="id5310213">Thực ra khi chế tạo, người ta có thể dùng qui trình phối hợp. Các thành phần tác động được chế tạo theo các thành phần kỹ thuật planar, còn các thành phần thụ động thì theo kỹ thuật màng. Nhưng vì quá trình chế tạo các thành phần tác động và thụ động được thực hiện không đồng thời nên các đặc tính và thông số của các thành phần thụ động không phụ thuộc vào các đặc tính và thông số của các thành phần tác động mà chỉ phụ thuộc vào việc lựa chọn vật liệu, bề dầy và hình dáng. Ngoài ra, vì các transistor của IC loại này nằm trong đế, nên kích thước IC được thu nhỏ nhiều so với IC chứa transistor rời.</para>
+        <para id="id5310217">IC chế tạo bằng qui trình phối hợp của nhiều ưu điểm. Với kỹ thuật màng, trên một diện tích nhỏ có thể tạo ra một điện trở có giá trị lớn, hệ số nhiệt nhỏ. Điều khiển tốc độ ngưng động của màng, có thể tạo ra một màng điện trở với độ chính xác rất cao.</para>
+      </section>
+    </section>
+    <section id="id-392873943101">
+      <title>SƠ LƯỢC VỀ QUI TRÌNH CHẾ TẠO MỘT IC ĐƠN TINH THỂ.</title>
+      <para id="id5289604">Các giai đoạn chế tạo một IC đơn tinh thể có thành phần tác động là BJT, được đơn giản hóa gồm các bước sau:</para>
+      <para id="id5289614">0.15mm25 – 75mmn - SiNền P-Si0.025mm0.15mmn - SiNền P-Si0.5mSiO2Hình 1Bước 1:</para>
+      <para id="id5290176">a. Từ một nền P-Si (hoặc n-Si) đơn tinh thể</para>
+      <para id="id5290182">b. Tạo một lớp epitaxy mỏng loại N-Si</para>
+      <para id="id5290188">c. Phủ một lớp cách điện SiO2</para>
+      <para id="id5290197">Bước 2:</para>
+      <para id="id5290202">Dùng phương pháp quang khắc để khử lớp SiO2 ở một số chỗ nhất định, tạo ra các cửa sổ ở bề mặt tinh thể. Từ các cửa sổ, có thể khuếch tán tạp chất vào.</para>
+      <para id="id5290219">Đầu tiên, vẽ sơ đồ những nơi cần mở cửa sổ, chụp hình sơ đồ rồi lấy phim âm bản, thu nhỏ lại. Những nơi cần mở của sổ là vùng tối trên phim</para>
+      <para id="id5290227">P-SifilmuvChất cảm quangSiO2n-SiP-SiChất cảm quangSiO2n-SiHòa tanRắn lạiP-SiSiO2n-SiHòa tanThânPnnSiO2Khuếch tán pĐảoNềnPnnSiO2Khuếch tán BaseppNềnPnnSiO2Khuếch tán EmitterppnnHình 2a. Bôi một lớp cản quang trên bề mặt. Đặt phim ở trên rọi tia cực tím vào những nơi cần mở cửa sổ được lớp đen trên phim bảo vệ. Nhúng tinh thể vào dung dịch tricloetylen. Chỉ những nơi cần mở cửa sổ lớp cản quang mới bị hòa tan, các nơi khác rắn lại.</para>
+      <para id="id5806307">b.Lại đem tinh thể nhúng vào dung dịch fluorhydric. Chỉ những nơi cần mở cửa sổ lớp SiO2 bị hòa tan, những nơi khác nhờ lớp cản quang che chở.</para>
+      <para id="id5806323">c. Đem tẩy lớp cản quang</para>
+      <para id="id5806328">d. Khuếch tán chất bán dẫn P sâu đến thân, tạo ra các đảo N.</para>
+      <para id="id5806335">e. Lại mở cửa sổ, khuếch tán chất bán dẫn P vào các đảo N (khuếch tán Base)</para>
+      <para id="id5806343">f. Lại mở cửa sổ, khuếch tán chất bán dẫn N vào (khuếch tán Emitter)</para>
+      <para id="id5806350">g. Phủ kim loại. Thực hiện các chỗ nối</para>
+      <para id="id5806356">Thí dụ:</para>
+      <para id="id5806360">Một mạch điện đơn giản như sau, được chế tạo dưới dạng IC đơn tinh thể.</para>
+      <para id="id5806368"><figure id="id5806378"><media id="id17446293" alt=""><image src=".wmf" mime-type="image/wmf" height="140" width="204"/></media></figure>Hình 3</para>
+      <para id="id5806426">Thân pnpnpn+npn+n+n+n+Điện trở2Diode1Transistor5 4Diode nối3Kim loại AlSiO2CollectorBaseEmitterTiếp xúc kim loạiHình 4</para>
+    </section>
+    <section id="id-670744024914">
+      <title>IC SỐ (IC DIGITAL) VÀ IC TƯƠNG TỰ (IC ANALOG).</title>
+      <para id="id5135272">Dựa trên chức năng xử lý tín hiệu, người ta chia IC là hai loại: IC Digital và IC Analog (còn gọi là IC tuyến tính)</para>
+      <section id="id-864503506151">
+        <title>IC Digital:</title>
+        <para id="id5135288">Là loại IC xử lý tín hiệu số. Tín hiệu số (Digital signal) là tín hiệu có trị giá nhị phân (0 và 1). Hai mức điện thế tương ứng với hai trị giá (hai logic) đó là:</para>
+        <para id="id5135299">- Mức High (cao): 5V đối với IC CMOS và 3,6V đối với IC TTL</para>
+        <para id="id5135306">- Mức Low (thấp): 0V đối với IC CMOS và 0,3V đối với IC TTL</para>
+        <para id="id5135313">Thông thường logic 1 tương ứng với mức H, logic 0 tương ứng với mức L</para>
+        <para id="id5135321">Logic 1 và logic 0 để chỉ hai trạng thái đối nghịch nhau: Đóng và mở, đúng và sai, cao và thấp…</para>
+        <para id="id5135329">Chủng loại IC digital không nhiều. Chúng chỉ gồm một số các loại mạch logic căn bản, gọi là cổng logic.</para>
+        <para id="id5135338">Về công nghệ chế tạo, IC digital gồm các loại:</para>
+        <para id="id5135345">- RTL: Resistor – Transistor logic</para>
+        <para id="id5135350">- DTL: Diode – Transistor logic</para>
+        <para id="id5135356">- TTL: Transistor – Transistor logic</para>
+        <para id="id5135362">- MOS: metal – oxide Semiconductor</para>
+        <para id="id5135368">- CMOS: Complementary MOS</para>
+      </section>
+      <section id="id-738419497592">
+        <title>IC analog:</title>
+        <para id="id5135380">Là loại IC xử lý tín hiệu Analog, đó là loại tín hiệu biến đổi liên tục so với IC Digital, loại IC Analog phát triển chậm hơn. Một lý do là vì IC Analog phần lớn đều là mạch chuyện dụng (special use), trừ một vài trường hợp đặc biệt như OP-AMP (IC khuếch đại thuật toán), khuếch đại Video và những mạch phổ dụng (universal use). Do đó để thoả mãn nhu cầu sử dụng, người ta phải thiết kế, chế tạo rất nhiều loại khác nhau.</para>
+      </section>
+    </section>
+    <section id="id-324375332057">
+      <title>Tài liệu tham khảo</title>
+      <para id="id5135404">**********</para>
+      <list id="id5135408" list-type="enumerated">
+        <item>Fleeman - Electronic Devices, Discrete and Intergrated - Printice - Hall International-1998.</item>
+        <item>Boylestad and Nashelky - Electronic Devices and Circuit Theory - Printice - Hall International 1998.</item>
+        <item>J.Millman - Micro electronics, Digital and Analog, Circuits and Systems - Mc.Graw.Hill Book Company - 1979.</item>
+        <item>Nguyễn Hữu Phương - Điện tử trung cấp - Sở Giáo Dục &amp; Đào Tạo TP HCM-1992</item>
+      </list>
+    </section>
+  </content>
+</document>

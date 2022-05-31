@@ -1,0 +1,892 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Chất bán dẫn điện (Semiconductor)</title>
+  <metadata>
+  <md:content-id>m29804</md:content-id><md:title>Chất bán dẫn điện (Semiconductor)</md:title>
+  <md:abstract>Tìm hiểu kỹ cấu trúc và đặc điểm của chất bán dẫn điện, chất bán dẫn loại N, chất bán dẫn loại P và chất bán dẫn tổng hợp. Khảo sát ảnh hưởng của nhiệt độ lên chất bán dẫn, từ đó hiểu được cơ chế dẫn điện trong chất bán dẫn.</md:abstract>
+  <md:uuid>031dde5c-0684-4da8-be51-b163ca7fddaf</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5125525">CHẤT BÁN DẪN ĐIỆN THUẦN HAY NỘI BẨM:(Pure semiconductor or intrinsic semiconductor)</para>
+    <para id="id5125534">Hầu hết các chất bán dẫn đều có các nguyên tử sắp xếp theo cấu tạo tinh thể. Hai chất bán dẫn được dùng nhiều nhất trong kỹ thuật chế tạo linh kiện điện tử là Silicium và Germanium. Mỗi nguyên tử của hai chất này đều có 4 điện tử ở ngoài cùng kết hợp với 4 điện tử của 4 nguyên tử kế cận tạo thành 4 liên kết hóa trị. Vì vậy tinh thể Ge và Si ở nhiệt độ thấp là các chất cách điện.</para>
+    <figure id="id5125552">
+      <media id="id1167312385677" alt=""><image src="../../media/graphics1-abc8.png" mime-type="image/png" height="269" width="415"/></media>
+    </figure>
+    <para id="id5125576">Nếu ta tăng nhiệt độ tinh thể, nhiệt năng sẽ làm tăng năng lượng một số điện tử và làm gãy một số nối hóa trị. Các điện tử ở các nối bị gãy rời xa nhau và có thể di chuyển dễ dàng trong mạng tinh thể dưới tác dụng của điện trường. Tại các nối hóa trị bị gãy ta có các lỗ trống (hole). Về phương diện năng lượng, ta có thể nói rằng nhiệt năng làm tăng năng lượng các điện tử trong dải hóa trị.</para>
+    <figure id="id5143244">
+      <media id="id1167317231367" alt=""><image src="../../media/graphics2-df30.png" mime-type="image/png" height="272" width="438"/></media>
+    </figure>
+    <para id="id5143268">Khi năng lượng này lớn hơn năng lượng của dải cấm (0,7eV đối với Ge và 1,12eV đối với Si), điện tử có thể vượt dải cấm vào dải dẫn điện và chừa lại những lỗ trống (trạng thái năng lượng trống) trong dải hóa trị). Ta nhận thấy số điện tử trong dải dẫn điện bằng số lỗ trống trong dải hóa trị.</para>
+    <para id="id5143282">Nếu ta gọi n là mật độ điện tử có năng lượng trong dải dẫn điện và p là mật độ lỗ trống có năng lượng trong dải hóa trị. Ta có:n=p=ni</para>
+    <para id="id5143297">Người ta chứng minh được rằng:</para>
+    <para id="id5143303">ni2 = A0.T3. exp(-EG/KT)</para>
+    <para id="id5143332">Trong đó: A0 : Số Avogadro=6,203.1023</para>
+    <para id="id5143350">T : Nhiệt độ tuyệt đối (Độ Kelvin)</para>
+    <para id="id5143355">K : Hằng số Bolzman=8,62.10-5 eV/0K</para>
+    <para id="id4355169">EG : Chiều cao của dải cấm.</para>
+    <figure id="id4355184">
+      <media id="id5962881" alt=""><image src="../../media/graphics3-3879.png" mime-type="image/png" height="216" width="593"/></media>
+    </figure>
+    <para id="id4355208">Ta gọi chất bán dẫn có tính chất n=p là chất bán dẫn nội bẩm hay chất bán dẫn thuần. Thông thường người ta gặp nhiều khó khăn để chế tạo chất bán dẫn loại này.</para>
+    <section id="id-0220985824888">
+      <title>CHẤT BÁN DẪN NGOẠI LAI HAY CÓ CHẤT PHA:(Doped/Extrinsic Semiconductor)</title>
+      <section id="id-207113589168">
+        <title>Chất bán dẫn loại N: (N - type semiconductor)</title>
+        <para id="id4355241">Giả sử ta pha vào Si thuần những nguyên tử thuộc nhóm V của bảng phân loại tuần hoàn như As (Arsenic), Photpho (p), Antimony (Sb). Bán kính nguyên tử của As gần bằng bán kính nguyên tử của Si nên có thể thay thế một nguyên tử Si trong mạng tinh thể. Bốn điện tử của As kết hợp với 4 điện tử của Si lân cận tạo thành 4 nối hóa trị, Còn dư lại một điện tử của As. Ở nhiệt độ thấp, tất cả các điện tử của các nối hóa trị đều có năng lượng trong dải hóa trị, trừ những điện tử thừa của As không tạo nối hóa trị có năng lượng ED nằm trong dải cấm và cách dẫy dẫn điện một khỏang năng lượng nhỏ chừng 0,05eV.</para>
+        <figure id="id5142972">
+          <media id="id1167310195662" alt=""><image src="../../media/graphics4-3d60.png" mime-type="image/png" height="245" width="600"/></media>
+        </figure>
+        <para id="id5142996">Giả sử ta tăng nhiệt độ của tinh thể, một số nối hóa trị bị gãy, ta có những lỗ trống trong dải hóa trị và những điện tử trong dải dẫn điện giống như trong trường hợp của các chất bán dẫn thuần. Ngoài ra, các điện tử của As có năng lượng ED cũng nhận nhiệt năng để trở thành những điện tử có năng lượng trong dải dẫn điện. Vì thế ta có thể coi như hầu hết các nguyên tử As đều bị Ion hóa (vì khỏang năng lượng giữa ED và dải dẫn điện rất nhỏ), nghĩa là tất cả các điện tử lúc đầu có năng lượng ED đều được tăng năng lượng để trở thành điện tử tự do.</para>
+        <figure id="id5143044">
+          <media id="id1167315671760" alt=""><image src="../../media/graphics5-4f47.png" mime-type="image/png" height="202" width="160"/></media>
+        </figure>
+        <para id="id5143068">Nếu ta gọi ND là mật độ những nguyên tử As pha vào (còn gọi là những nguyên tử cho donor atom).</para>
+        <para id="id5143082">Ta có: n = p + ND</para>
+        <para id="id5143091">Vớin: mật độ điện tử trong dải dẫn điện.</para>
+        <para id="id5142840">P: mật độ lỗ trống trong dải hóa trị.</para>
+        <para id="id5142848">Người ta cũng chứng minh được: n.p = ni2 (n&lt;p)</para>
+        <para id="id5142864">ni: mật độ điện tử hoặc lỗ trống trong chất bán dẫn thuần trước khi pha.</para>
+        <para id="id5142876">Chất bán dẫn như trên có số điện tử trong dải dẫn điện nhiều hơn số lỗ trống trong dải hóa trị gọi là chất bán dẫn loại N.</para>
+      </section>
+      <section id="id-988945525272">
+        <title>Chất bán dẫn loại P:</title>
+        <para id="id5142895">Thay vì pha vào Si thuần một nguyên tố thuộc nhóm V, ta pha vào những nguyên tố thuộc nhóm III như Indium (In), Galium (Ga), nhôm (Al),... Bán kính nguyên tử In gần bằng bán kính nguyên tử Si nên nó có thể thay thế một nguyên tử Si trong mạng tinh thể. Ba điện tử của nguyên tử In kết hợp với ba điện tử của ba nguyên tử Si kế cận tạo thành 3 nối hóa trị, còn một điện tử của Si có năng lượng trong dải hóa trị không tạo một nối với Indium. Giữa In và Si này ta có một trang thái năng lượng trống có năng lượng EA nằm trong dải cấm và cách dải hóa trị một khoảng năng lượng nhỏ chừng 0,08eV.</para>
+        <figure id="id5142933">
+          <media id="id1167310360648" alt=""><image src="../../media/graphics6-f22f.png" mime-type="image/png" height="279" width="424"/></media>
+        </figure>
+        <para id="id5142957">Ở nhiệt độ thấp (T=00K), tất cả các điện tử đều có năng lượng trong dải hóa trị. Nếu ta tăng nhiệt độ của tinh thể sẽ có một số điện tử trong dải hóa trị nhận năng lượng và vượt dải cấm vào dải dẫn điện, đồng thời cũng có những điện tử vượt dải cấm lên chiếm chỗ những lỗ trống có năng lượng EA.</para>
+        <figure id="id4304208">
+          <media id="id1167309778237" alt=""><image src="../../media/graphics7-74bd.png" mime-type="image/png" height="292" width="553"/></media>
+        </figure>
+        <para id="id4304232">Nếu ta gọi NA là mật độ những nguyên tử In pha vào (còn được gọi là nguyên tử nhận), ta cũng có:</para>
+        <para id="id4304246">p = n + NA</para>
+        <para id="id4304255">p: mật độ lỗ trống trong dải hóa trị.</para>
+        <para id="id4304261">n: mật độ điện tử trong dải dẫn điện.</para>
+        <para id="id4304267">Người ta cũng chứng minh được:</para>
+        <para id="id4304273">n.p = ni2 (p&gt;n)</para>
+        <para id="id4304287">ni là mật độ điện tử hoặc lỗ trống trong chất bán dẫn thuần trước khi pha.</para>
+        <para id="id4304300">Chất bán dẫn như trên có số lỗ trống trong dải hóa trị nhiều hơn số điện tử trong dải dẫn điện được gọi là chất bán dẫn loại P.</para>
+        <para id="id4304310">Như vậy, trong chất bán dẫn loại p, hạt tải điện đa số là lỗ trống và hạt tải điện thiểu số là điện tử.</para>
+      </section>
+      <section id="id-263134241138">
+        <title>Chất bán dẫn hỗn hợp:</title>
+        <para id="id5689169">Ta cũng có thể pha vào Si thuần những nguyên tử cho và những nguyên tử nhận để có chất bán dẫn hỗn hợp. Hình sau là sơ đồ năng lượng của chất bán dẫn hỗn hợp.</para>
+        <figure id="id5689184">
+          <media id="id6713749" alt=""><image src="../../media/graphics8-1d00.png" mime-type="image/png" height="279" width="595"/></media>
+        </figure>
+        <para id="id5689208">Trong trường hợp chất bán dẫn hỗn hợp, ta có:</para>
+        <para id="id5689214">n+NA = p+ND</para>
+        <para id="id5689228">n.p = ni2</para>
+        <para id="id5689241">Nếu ND &gt; NA =&gt; n&gt;p, ta có chất bán dẫn hỗn hợp loại N.</para>
+        <para id="id5689259">Nếu ND &lt; NA =&gt; n&lt;p, ta có chất bán dẫn hỗn hợp loại P.</para>
+      </section>
+    </section>
+    <section id="id-918451131064">
+      <title>DẪN SUẤT CỦA CHẤT BÁN DẪN:</title>
+      <para id="id5689286">Dưới tác dụng của điện truờng, những điện tử có năng lượng trong dải dẫn điện di chuyển tạo nên dòng điện In, nhưng cũng có những điện tử di chuyển từ một nối hóa trị bị gãy đến chiếm chỗ trống của một nối hóa trị đã bị gãy. Những điện tử này cũng tạo ra một dòng điện tương đương với dòng điện do lỗ trống mang điện tích dương di chuyển ngược chiều, ta gọi dòng điện này là Ip. Hình sau đây mô tả sự di chuyển của điện tử (hay lỗ trống) trong dải hóa trị ở nhiệt độ cao.</para>
+      <figure id="id5689294">
+        <media id="id7837404" alt=""><image src="../../media/graphics9-8d50.png" mime-type="image/png" height="253" width="600"/></media>
+      </figure>
+      <figure id="id5067216">
+        <media id="id1167317121254" alt=""><image src="../../media/graphics10-4464.png" mime-type="image/png" height="270" width="600"/></media>
+      </figure>
+      <para id="id5067240">Vậy ta có thể coi như dòng điện trong chất bán dẫn là sự hợp thành của dòng điện do những điện tử trong dải dẫn điện (đa số đối với chất bán dẫn loại N và thiểu số đối với chất bán dẫn loại P) và những lỗ trống trong dải hóa trị (đa số đối với chất bán dẫn loại P và thiểu số đối với chất bán dẫn loại N).</para>
+      <figure id="id5067257">
+        <media id="id8050920" alt=""><image src="../../media/graphics11-0ea5.png" mime-type="image/png" height="308" width="600"/></media>
+      </figure>
+      <para id="id5067281">Tương ứng với những dòng điện này, ta có những mật độ dòng điện J, Jn, Jp sao cho: J = Jn+Jp</para>
+      <para id="id5067289">Ta đã chứng minh được trong kim loại:</para>
+      <para id="id5067296">J = n.e.v = n.e..E</para>
+      <para id="id5661098">Tương tự, trong chất bán dẫn, ta cũng có:</para>
+      <para id="id5661105">Jn=n.e.vn=n.e. n.E (Mật độ dòng điện trôi của điện tử, n là độ linh động của điện tử, n là mật độ điện tử trong dải dẫn điện)</para>
+      <para id="id5661141">Jp=p.e.vp=p.e.p.E (Mật độ dòng điện trôi của lỗ trống, p là độ linh động của lỗ trống, p là mật độ lỗ trống trong dải hóa trị)</para>
+      <para id="id5661181">Như vậy: J=e.(n.n+p.p).E</para>
+      <para id="id5661205">Theo định luật Ohm, ta có:</para>
+      <para id="id5661211">J = .E</para>
+      <para id="id5661221">=&gt;  = e.(n.n+p.p) được gọi là dẫn suất của chất bán dẫn.</para>
+      <para id="id5097042">Trong chất bán dẫn loại N, ta có n&gt;&gt;p nên   n = n.n.e</para>
+      <para id="id5097078">Trong chất bán dẫn loại P, ta có p&gt;&gt;n nên   p = n.p.e</para>
+    </section>
+    <section id="id-622215679054">
+      <title>CƠ CHẾ DẪN ĐIỆN TRONG CHẤT BÁN DẪN:</title>
+      <para id="id5097124">Dưới tác dụng của điện trường, các điện tử và lỗ trống di chuyển với vận tốc trung bình vn=n.E và vp=p.E.</para>
+      <para id="id5097162">Số điện tử và lỗ trống di chuyển thay đổi theo mỗi thời điểm, vì tại mỗi thời điểm có một số điện tử và lỗ trống được sinh ra dưới tác dụng của nhiệt năng. Số điện tử sinh ra trong mỗi đơn vị thời gian gọi là tốc độ sinh tạo g. Những điện tử này có đời sống trung bình n vì trong khi di chuyển điện tử có thể gặp một lỗ trống có cùng năng lượng và tái hợp với lỗ trống này. Nếu gọi n là mật độ điện tử, trong một đơn vị thời gian số điện tử bị mất đi vì sự tái hợp là n/n. Ngoài ra, trong chất bán dẫn, sự phân bố của mật độ điện tử và lỗ trống có thể không đều, do đó có sự khuếch tán của điện tử từ vùng có nhiều điện tử sang vùng có ít điện tử.</para>
+      <para id="id5674730">Xét một mẫu bán dẫn không đều có mật độ điện tử được phân bố như hình vẽ. Tại một điểm M trên tiết diện A, số điện tử đi ngang qua tiết diện này (do sự khuếch tán) tỉ lệ với dn/dx, với diện tích của điện tử và với tiết diện A.</para>
+      <figure id="id5674747">
+        <media id="id3543601" alt=""><image src="../../media/graphics12-ae34.png" mime-type="image/png" height="150" width="234"/></media>
+      </figure>
+      <para id="id5674771">Dòng điện khuếch tán của điện tử đi qua A là:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>In</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mi>e</m:mi><m:mtext>.</m:mtext><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dn</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "In" rSub { size 8{ ital "kt"} } =D rSub { size 8{n} }  "." e "."  {  { ital "dn"}  over  { ital "dx"} } A&lt;0} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5155778">Dn được gọi là hằng số khuếch tán của điện tử.</para>
+      <para id="id5155790">Suy ra mật độ dòng điện khuếch tán của điện tử là:</para>
+      <para id="id5155796">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>Jn</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>kt</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>e</m:mi>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:msub>
+                      <m:mi>D</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mtext>.</m:mtext>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dn</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "Jn" rSub { size 8{ ital "kt"} } =e "." D rSub { size 8{n} }  "."  {  { ital "dn"}  over  { ital "dx"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5689370">Tương tự, trong một giây có 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>p</m:mi><m:msub><m:mi>τ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {p}  over  {τ rSub { size 8{p} } } } } {}</m:annotation></m:semantics></m:math> lỗ trống bị mất đi, với p là mật độ lỗ trống và p là là đời sống trung bình của lỗ trống.</para>
+      <para id="id5689444">Dòng điện khuếch tán của lỗ trống trong mẫu bán dẫn trên là:</para>
+      <para id="id5689451">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>Ip</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>kt</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>D</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>p</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>e</m:mi>
+                    <m:mtext>.</m:mtext>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dp</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:mo stretchy="false">&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "Ip" rSub { size 8{ ital "kt"} } = - D rSub { size 8{p} }  "." e "."  {  { ital "dp"}  over  { ital "dx"} }  "." A&gt;0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5155274">Và mật độ dòng điện khuếch tán của lỗ trống là:</para>
+      <para id="id5155280">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>Jp</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>kt</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>e</m:mi>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:msub>
+                      <m:mi>D</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mtext>.</m:mtext>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dp</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "Jp" rSub { size 8{ ital "kt"} } =e "." D rSub { size 8{p} }  "."  {  { ital "dp"}  over  { ital "dx"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5662945">Người ta chứng minh được rằng:</para>
+      <para id="id5662951">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>D</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>p</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>μ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>p</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>D</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>μ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>KT</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mi>e</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>T</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mi>T</m:mi>
+                      <m:mrow>
+                        <m:mtext>11</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>600</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {D rSub { size 8{p} } }  over  {μ rSub { size 8{p} } } } = {  {D rSub { size 8{n} } }  over  {μ rSub { size 8{n} } } } = {  { ital "KT"}  over  {e} } =V rSub { size 8{T} } = {  {T}  over  {"11" "." "600"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5128070">Với: K là hằng số Boltzman = 1,382.10-23J/0K</para>
+      <para id="id5128089">T là nhiệt độ tuyệt đối.</para>
+      <para id="id5128096">Hệ thức này được gọi là hệ thức Einstein.</para>
+      <para id="id5128102">Ở nhiệt độ bình thường (3000K): VT=0,026V=26mV</para>
+    </section>
+    <section id="id-716605100765">
+      <title>PHƯƠNG TRÌNH LIÊN TỤC:</title>
+      <para id="id5128126">Xét một hình hộp có tiết diện A, chiều dài dx đặt trong một mẩu bán dẫn có dòng điện lỗ trống Ip đi qua. Tại một điểm có hoành độ x, cường độ dòng điện là Ip. Tại mặt có hoành độ là x+dx, cường độ dòng điện là Ip+dIp. Gọi P là mật độ lỗ trống trong hình hộp, p là đời sống trung bình của lỗ trống. Trong mỗi giây có 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>p</m:mi><m:msub><m:mi>τ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {p}  over  {τ rSub { size 8{p} } } } } {}</m:annotation></m:semantics></m:math> lỗ trống bị mất đi do sự tái hợp. Vậy mỗi giây, điện tích bên trong hộp giảm đi một lượng là:</para>
+      <para id="id5128212"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>e</m:mi></m:mrow><m:mtext>.</m:mtext><m:mi>A</m:mi><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext><m:mfrac><m:mi>p</m:mi><m:msub><m:mi>τ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{1} } =e "." A "."  ital "dx" "."  {  {p}  over  {τ rSub { size 8{p} } } } } {}</m:annotation></m:semantics></m:math> (do tái hợp)</para>
+      <para id="id5037182">Đồng thời điện tích trong hộp cũng mất đi một lượng:</para>
+      <para id="id5037187">G2=dIp (do khuếch tán).</para>
+      <figure id="id5037201">
+        <media id="id2336241" alt=""><image src="../../media/graphics13-0c97.png" mime-type="image/png" height="208" width="282"/></media>
+      </figure>
+      <para id="id5037224">Gọi g là mật độ lỗ trống được sinh ra do tác dụng nhiệt, trong mỗi giây, điện tích trong hộp tăng lên một lượng là:</para>
+      <para id="id5037234">T1=e.A.dx.g</para>
+      <para id="id5037243">Vậy điện tích trong hộp đã biến thiên một lượng là:</para>
+      <para id="id5037250">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>T</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>G</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>G</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>e</m:mi>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>A</m:mi>
+                    <m:mtext>.</m:mtext>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mi>g</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>e</m:mi>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mi>A</m:mi>
+                    <m:mtext>.</m:mtext>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mi>p</m:mi>
+                        <m:msub>
+                          <m:mi>τ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>p</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dIp</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} }  -  \( G rSub { size 8{1} } +G rSub { size 8{2} }  \) =e "." A "."  ital "dx" "." g - e "." A "."  ital "dx" "."  {  {p}  over  {τ rSub { size 8{p} } } }  -  ital "dIp"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5157527">Độ biến thiên đó bằng:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>e</m:mi><m:mtext>.</m:mtext><m:mi>A</m:mi><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e "." A "."  ital "dx" "."  {  { ital "dp"}  over  { ital "dt"} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5648150">Vậy ta có phương trình:</para>
+      <para id="id5648155"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>p</m:mi><m:msub><m:mi>τ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dIp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>e</m:mi><m:mtext>.</m:mtext><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dp"}  over  { ital "dt"} } =g -  {  {p}  over  {τ rSub { size 8{p} } } }  -  {  { ital "dIp"}  over  { ital "dx"} }  "."  {  {1}  over  {e "." A} } } {}</m:annotation></m:semantics></m:math>(1)</para>
+      <para id="id5648278">Nếu mẩu bán dẫn ở trạng thái cân bằng nhiệt và không có dòng điện đi qua, ta có:</para>
+      <para id="id5032547"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mi>;</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dp"}  over  { ital "dt"} } =0;} {}</m:annotation></m:semantics></m:math> dIp=0; P=P0=hằng số</para>
+      <para id="id5032622">Phương trình (1) cho ta:</para>
+      <para id="id5032627">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:mi>p</m:mi>
+                          <m:msub>
+                            <m:mi>τ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>p</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:mi>g</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>P</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>τ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>p</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{0=g -  {  {p}  over  {τ rSub { size 8{p} } } }  drarrow g= {  {P rSub { size 8{0} } }  over  {τ rSub { size 8{p} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4997346">Với P0 là mật độ lỗ trống ở trạng thái cân bằng nhiệt. Thay trị số của g vào phương trình (1) và để ý rằng p và IP vẫn tùy thuộc vào thời gian và khoảng cách x, phương trình (1) trở thành:</para>
+      <para id="id4997369"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∂</m:mo><m:mi>p</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>τ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∂</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>eA</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { partial p}  over  { partial t} } = -  {  {p - p rSub { size 8{0} } }  over  {τ rSub { size 8{p} } } }  -  {  { partial I rSub { size 8{p} } }  over  { partial x} }  "."  {  {1}  over  { ital "eA"} } } {}</m:annotation></m:semantics></m:math>(2)</para>
+      <para id="id5674509">Gọi là phương trình liên tục.</para>
+      <para id="id5674515">Tương tự với dòng điện tử I­n, ta có:</para>
+      <para id="id5674526"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∂</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>τ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∂</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>eA</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { partial n}  over  { partial t} } = -  {  {n - n rSub { size 8{0} } }  over  {τ rSub { size 8{n} } } }  -  {  { partial I rSub { size 8{n} } }  over  { partial x} }  "."  {  {1}  over  { ital "eA"} } } {}</m:annotation></m:semantics></m:math>(3)</para>
+      <para id="id5674676">TD: ta giải phương trình liên tục trong trường hợp p không phụ thuộc vào thời gian và dòng điện Ip là dòng điện khuếch tán của lỗ trống.</para>
+      <figure id="id5125303">
+        <media id="id1167317064834" alt=""><image src="../../media/graphics14-c0b8.png" mime-type="image/png" height="228" width="351"/></media>
+      </figure>
+      <para id="id5125327">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dp"}  over  { ital "dt"} } =0} {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>eA</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{p} } = - D rSub { size 8{p} }  "."  ital "eA" "."  {  { ital "dp"}  over  { ital "dx"} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5125654">Do đó, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dIp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>eA</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>p</m:mi></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>dx</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dIp"}  over  { ital "dx"} } = - D rSub { size 8{p} }  "."  ital "eA" "."  {  {d rSup { size 8{2} } p}  over  { ital "dx" rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5125777">Phương trình (2) trở thành:</para>
+      <para id="id5125782">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>d</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>dx</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>P</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>P</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>D</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>p</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mtext>.</m:mtext>
+                          <m:msub>
+                            <m:mi>τ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>p</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>P</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>P</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>L</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mi>p</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {d rSup { size 8{2} } p}  over  { ital "dx" rSup { size 8{2} } } } = {  {P - P rSub { size 8{0} } }  over  {D rSub { size 8{p} }  "." τ rSub { size 8{p} } } } = {  {P - P rSub { size 8{0} } }  over  {L rSup { size 8{2} } p} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5155119">Trong đó, ta đặt 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>τ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{p} } = sqrt {D rSub { size 8{p} }  "." τ rSub { size 8{p} } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5660897">Nghiệm số của phương trình (4) là:</para>
+      <para id="id5660903">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>P</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>P</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>e</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>x</m:mi>
+                              <m:msub>
+                                <m:mi>L</m:mi>
+                                <m:mstyle fontsize="6pt">
+                                  <m:mrow>
+                                    <m:mi>p</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mfenced open="" close="">
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mi>x</m:mi>
+                                  <m:msub>
+                                    <m:mi>L</m:mi>
+                                    <m:mstyle fontsize="6pt">
+                                      <m:mrow>
+                                        <m:mi>p</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{P - P rSub { size 8{0} } =A rSub { size 8{1} }  "." e rSup { size 8{ {  {x}  over  {L rSub { size 6{p} } } } } } +A rSub {2}  size 12{ "." e rSup { left ( -  {  {x}  over  {L rSub { size 6{p} } } }  right )} }} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5661057">Vì mật độ lỗ trống không thể tăng khi x tăng nên A1 = 0</para>
+      <para id="id5661069">Do đó: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mfenced open="" close=""><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>x</m:mi><m:msub><m:mi>L</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P - P rSub { size 8{0} } =A rSub { size 8{2} }  "." e rSup { size 8{ left ( -  {  {x}  over  {L rSub { size 6{p} } } }  right )} } } {}</m:annotation></m:semantics></m:math> tại x = x0.</para>
+      <para id="id5692027">Mật độ lỗ trống là p(x0),</para>
+      <para id="id5692038">Do đó: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mfenced open="" close=""><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>x</m:mi><m:msub><m:mi>L</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( x rSub { size 8{0} }  \)  - P rSub { size 8{0} } =A rSub { size 8{2} }  "." e rSup { size 8{ left ( -  {  {x}  over  {L rSub { size 6{p} } } }  right )} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4307860">Suy ra, nghiệm của phương trình (4) là:</para>
+      <para id="id4307866">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>P</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfenced open="[" close="]">
+                        <m:mrow>
+                          <m:mi>P</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>P</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mfenced>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mi>e</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfenced open="" close="">
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="6pt">
+                                      <m:mrow>
+                                        <m:mn>0</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:msub>
+                                  <m:mi>L</m:mi>
+                                  <m:mstyle fontsize="6pt">
+                                    <m:mrow>
+                                      <m:mi>p</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{P \( x \)  - P rSub { size 8{0} } = left [P \( x rSub { size 8{0} }  \)  - P rSub { size 8{0} }  right ] "." e rSup { size 8{ left ( -  {  {x - x rSub { size 6{0} } }  over  {L rSub { size 6{p} } } }  right )} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <figure id="id5098945">
+        <media id="id8370247" alt=""><image src="../../media/graphics15-e893.png" mime-type="image/png" height="220" width="304"/></media>
+      </figure>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,1691 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Transitor trường ứng (Field Effect Transitor)</title>
+  <metadata>
+  <md:content-id>m30553</md:content-id><md:title>Transitor trường ứng (Field Effect Transitor)</md:title>
+  <md:abstract/>
+  <md:uuid>a6d92b7a-835b-47d5-a09c-e6aba4a623ab</md:uuid>
+</metadata>
+
+<content>
+    <para id="id4242998">TRANSISTOR TRƯỜNG ỨNG (FIELD EFFECT TRANSISTOR)</para>
+    <para id="id4243004">Chúng ta đã khảo sát qua transistor thường, được gọi là transistor lưỡng cực vì sự dẫn điện của nó dựa vào hai loại hạt tải điện: hạt tải điện đa số trong vùng phát và hạt tải điện thiểu số trong vùng nền. Ở transistor NPN, hạt tải điện đa số là điện tử và hạt tải điện thiểu số là lỗ trống trong khi ở transistor PNP, hạt tải điện đa số là lỗ trống và hạt tải điện thiểu số là điện tử.</para>
+    <para id="id4243019">Điện trở ngõ vào của BJT (nhìn từ cực E hoặc cực B) nhỏ, từ vài trăm  đến vài K, trong lúc điện trở ngõ vào của đèn chân không rất lớn, gần như vô hạn. Lý do là ở BJT, nối nền phát luôn luôn được phân cực thuận trong lúc ở đèn chân không, lưới khiển luôn luôn được phân cực nghịch so với Catod. Do đó, ngay từ lúc transistor BJT mới ra đời, người ta đã nghĩ đến việc phát triển một loại transistor mới. Điều này dẫn đến sự ra đời của transistor trường ứng.</para>
+    <para id="id4243047">Ta phân biệt hai loại transistor trường ứng:</para>
+    <list id="id4243053" list-type="bulleted">
+      <item>Transistor trường ứng loại nối: Junction FET- JFET</item>
+      <item>Transistor trường ứng loại có cổng cách điện: Isulated gate FET-IGFET hay metal-oxyt semiconductor FET-MOSFET.</item>
+    </list>
+    <para id="id4243073">Ngoài ra, ta cũng khảo sát qua loại VMOS (MOSFET công suất-Vertical chanel MOSFET), CMOS và DMOS.</para>
+    <section id="id-872917803149">
+      <title>CẤU TẠO CĂN BẢN CỦA JFET:</title>
+      <para id="id4243089">Mô hình sau đây mô tả hai loại JFET: kênh N và kênh P.</para>
+      <para id="id4243096">Hình 1Thông lộ(kênh) N-Thân p- (được nối với cổng)N+N+VùngnguồnVùngthoátVùngcổngPTrong JFET kênh N gồm có hai vùng n+ là hai vùng nguồn và thoát. Một vùng n- pha ít tạp chất dùng làm thông lộ (kênh) nối liền vùng nguồn và vùng thoát. Một vùng p- nằm phía dưới thông lộ là thân và một vùng p nằm phía trên thông lộ. Hai vùng p và p- nối chung với nhau tạo thành cực cổng của JFET.</para>
+      <para id="id5166700">p+p+n-nSDGTiếp xúc kim loạiKênh p-DSGn+n+p-pSDGTiếp xúc kim loạiKênh n-DSGJFET Kênh PJFET Kênh NKý hiệuHình 2S (Source): cực nguồnD (Drain): cực thoátG (Gate): cưc cổng</para>
+      <para id="id5190516">Nếu so sánh với BJT, ta thấy: cực thoát D tương đương với cực thu C, cực nguồn S tương đương với cực phát E và cực cổng G tương đương với cực nền B.</para>
+      <list id="id5190526" list-type="bulleted">
+        <item>JFET kênh N tương đương với transistor NPN.</item>
+        <item>JFET kênh P tương đương với transistor PNP.</item>
+      </list>
+      <para id="id5190544">DSGDSGCEBCEBJFETKênh NJFETKênh PBJTNPNBJTPNPThoát  ThuNguồn  PhátCổng  NềnHình 3</para>
+      <para id="id5168218">Cũng giống như transistor NPN được sử dụng thông dụng hơn transistor PNP do dùng tốt hơn ở tần số cao. JFET kênh N cũng thông dụng hơn JFET kênh P với cùng một lý do. Phần sau, ta khảo sát ở JFET kênh N, với JFET kênh P, các tính chất cũng tương tự.</para>
+    </section>
+    <section id="id-378199939772">
+      <title>CƠ CHẾ HOẠT ĐỘNG CỦA JFET:</title>
+      <para id="id5168246">n+Sn+DKênh n-GatepThân p-Vùng hiếmHình 4Khi chưa phân cực, do nồng độ chất pha không đồng đều trong JFET kênh N nên ta thấy vùng hiếm rộng ở thông lộ n- và thân p-, vùng hiếm hẹp ở vùng thoát và nguồn n+.</para>
+      <para id="id5192619">Bây giờ, nếu ta mắc cực nguồn S và cực cổng G xuống mass, nghĩa là điện thế VGS=0V. Điều chỉnh điện thế VDS giữa cực thoát và cực nguồn, chúng ta sẽ khảo sát dòng điện qua JFET khi điện thế VDS thay đổi.</para>
+      <para id="id5192648">VGS = 0Vn+n+p-SDn-pGVDSNối P-N ở vùng thoát được phân cực nghịchHình 5Vì vùng thoát n+ nối với cực dương và vùng cổng G nối với cực âm của nguồn điện VDS nên nối PN ở vùng thoát được phân cực nghịch, do đó vùng hiếm ở đây rộng ra (xem hình vẽ)</para>
+      <para id="id5750952">P GateThân P- (Gate)Kênh n-n+ thoátVùng hiếm rộngID Dòng điện tử rời khỏi thông lộ và đi ra khỏi vùng thoátIS Dòng điện tử từ nguồn S đi vào thông lộHình 6</para>
+      <para id="id4242285">Khi VDS còn nhỏ, dòng điện tử từ cực âm của nguồn điện đến vùng nguồn (tạo ra dòng IS), đi qua thông lộ và trở về cực dương của nguồn điện (tạo ra dòng điện thoát ID).</para>
+      <para id="id4242313">Nếu thông lộ có chiều dài L, rộng W và dày T thì điện trở của nó là:</para>
+      <para id="id4242320"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mi>ρ</m:mi></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>L</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>WT</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R=ρ "."  {  {L}  over  { ital "WT"} } } {}</m:annotation></m:semantics></m:math>; Trong đó,  là điện trở suất của thông lộ. Điện trở suất là hàm số theo nồng độ chất pha.</para>
+      <para id="id4242405">Hình 7Dài LSDGThông lộ có bề dày TBề rộng W</para>
+      <para id="id5819066">ID (mA)IDSSVDS (volt)VGS = 0VVP (Pinch-off voltage)0Dòng điện bảo hòa thoát nguồnVùng tuyến tínhVùng điện trở động thay đổi không tuyến tínhVùng bảo hòa  vùng dòng điện gần như là hằng sốHình 8</para>
+      <para id="id5750270">P GateThân P- (Gate)Kênh n-n+ thoátDrainNhững điện tử có năng lượng cao trong dải dẫn điện xuyên qua vùng hiếm để vào vùng thoátHình 9Vùng hiếm chạm nhau (thông lộ bị nghẽn)Những electron bị hút về cực dương của nguồn điện</para>
+      <para id="id5772694">Khi VDS còn nhỏ (vài volt), điện trở R của thông lộ gần như không thay đổi nên dòng ID tăng tuyến tính theo VDS. Khi VDS đủ lớn, đặc tuyến không còn tuyến tính nữa do R bắt đầu tăng vì thông lộ hẹp dần. Nếu ta tiếp tục tăng VDS đến một trị số nào đó thì hai vùng hiếm chạm nhau, ta nói thông lộ bị nghẽn (pinched off).</para>
+      <para id="id5772738">Trị số VDS để thông lộ bắt đầu bị nghẽn được gọi là điện thế nghẽn VP (pinched off voltage). Ở trị số này, chỉ có các điện tử có năng lượng cao trong dải dẫn điện mới có đủ sức xuyên qua vùng hiếm để vào vùng thoát và bị hút về cực dương của nguồn điện VDS tạo ra dòng điện thoát ID.</para>
+      <para id="id5772776">Nếu ta cứ tiếp tục tăng VDS, dòng điện ID gần như không thay đổi và được gọi là dòng điện bảo hoà thoát - nguồn IDSS (chú ý: ký hiệu IDSS khi VGS=0V).</para>
+      <para id="id5772814">Bây giờ, nếu ta phân cực cổng-nguồn bằng một nguồn điện thế âm VGS (phân cực nghịch), ta thấy vùng hiếm rộng ra và thông lộ hẹp hơn trong trường hợp VGS=0V. Do đó điện trở của thông lộ cũng lớn hơn.</para>
+      <para id="id5772838">VGS n+n+p-SDn-pGVDSNối P-N ở vùng thoát được phân cực nghịchHình 10</para>
+      <para id="id5819426">P GateThân P- (Gate)Kênh n-n+ thoátThông lộ hẹp hơn nên điện trở lớn hơn. Có nghĩa là ID và IS nhỏ hơn ở cùng một trị VDS khi VGS âm hơnHình 11IDVDSVGS &lt; 0VGS = 0IDSSDòng bảo hòa ID giảmVPVDS ứng với trị bảo hòa giảmP GateThân P- (Gate)Thông lộ n-n+ thoátThông lộ nghẽn ở trị VDS thấp hơn khi VGS âm vì thông lộ hẹp hơn</para>
+      <para id="id4264753">Khi VDS còn nhỏ, ID cũng tăng tuyến tính theo VDS, nhưng khi VDS lớn, thông lộ bị nghẽn nhanh hơn, nghĩa là trị số VDS để thông lộ nghẽn nhỏ hơn trong trường hợp VGS=0V và do đó, dòng điện bảo hoà ID cũng nhỏ hơn IDSS.</para>
+      <para id="id4264809">Chùm đặc tuyến ID=f(VDS) với VGS là thông số được gọi là đặc tuyến ra của JFET mắc theo kiểu cực nguồn chung.</para>
+      <para id="id4264834">VDS (volt)VGS = -4VVGS = -3VVGS = -2VVGS = -1VVGS = 0VID(mA)VDS=VP=8V0VGS = VGS(off) = -8VĐặc tuyến|VDS| = |VP|-|VGS|Vùng bảo hòa (vùng dòng điện hằng số)Hình 12</para>
+      <para id="id5856049">Khi VGS càng âm, dòng ID bảo hoà càng nhỏ. Khi VGS âm đến một trị nào đó, vùng hiếm chiếm gần như toàn bộ thông lộ và các điện tử không còn đủ năng lượng để vượt qua được và khi đó ID = 0. Trị số của VGS lúc đó gọi là VGS(off). Người ta chứng minh được trị số này bằng với điện thế nghẽn.</para>
+      <para id="id5856098">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>GS</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>off</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>P</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ lline V rSub { size 8{ ital "GS" \(  ital "off" \) } }  rline = lline V rSub { size 8{P} }  rline } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5856211">Vì Vp chính là hiệu thế phân cực ngược các nối P-N vừa đủ để cho các vùng hiếm chạm nhau. Vì vậy, trong vùng bảo hoà ta có:</para>
+      <para id="id5856226">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>DS</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">∣</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>GS</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">∣</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>P</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ lline V rSub { size 8{ ital "DS"} }  rline + lline V rSub { size 8{ ital "GS"} }  rline = lline V rSub { size 8{P} }  rline } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5856352">n+Sn+DKênh n-GatepThân p-Không có hạt tải điện di chuyển qua thông lộ (ID = IS = 0)Hình 13Vì nối cổng nguồn được phân cực nghịch, dòng điện IG chính là dòng điện rỉ ngược nên rất nhỏ, do đó dòng điện chạy vào cực thoát D được xem như bằng dòng điện ra khỏi cực nguồn S. ID # IS.</para>
+      <para id="id4291804">So sánh với BJT, ta thấy:</para>
+      <para id="id4291810">DSGCEBIG (rỉ)  0VCBVBEVGSIB nhỏVCEIE IS IC  IEID  IS-+++---VDS+-+Hình 14</para>
+      <para id="id5851274">Thí dụ: một JFET kênh N có IDSS=20mA và VGS(off)=-10V.</para>
+      <para id="id5851291">Tính IS khi VGS=0V? Tính VDS bảo hoà khi VGS = -2V.</para>
+      <para id="id5851318">Giải:</para>
+      <para id="id5851322">Khi VGS=0V  ID=IDSS=20mA và ID=IS=20mA</para>
+      <para id="id5851359">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline V rSub { size 8{P} }  rline = lline V rSub { size 8{ ital "GS" \(  ital "off" \) } }  rline ="10"V} {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8V</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline V rSub { size 8{ ital "DS"} }  rline = lline V rSub { size 8{P} }  rline  -  lline V rSub { size 8{ ital "GS"} }  rline ="10" - 2=8V} {}</m:annotation></m:semantics></m:math></para>
+    </section>
+    <section id="id-447342372018">
+      <title>ĐẶC TUYẾN TRUYỀN CỦA JFET.</title>
+      <para id="id5186940">DSGTín hiệu vàoTín hiệuraCổng chungDSGTín hiệu vàoTín hiệuraNguồn chungSDGTín hiệu vàoTín hiệuraThoát chungHình 15Cũng giống như BJT, người ta cũng có 3 cách ráp của FET (JFET và MOSFET): mắc kiểu cực cổng chung (common-gate), cực nguồn chung (common-source) và cực thoát chung (common-drain).</para>
+      <para id="id5169970">So sánh với BJT NPN, ta thấy có sự tương đương như sau:</para>
+      <table id="id5169977" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry namest="c1" nameend="c2">Các cực</entry>
+              <entry namest="c3" nameend="c4">Cách mắc</entry>
+            </row>
+            <row>
+              <entry>FET</entry>
+              <entry>BJT</entry>
+              <entry>FET</entry>
+              <entry>BJT</entry>
+            </row>
+            <row>
+              <entry>Cực thoát DCực nguồn SCực cổng G</entry>
+              <entry>Cực thu CCực phát ECực nền B</entry>
+              <entry>Cực cổng chungCực nguồn chungCực thoát chung</entry>
+              <entry>Cực nền chungCực phát chungCực thu chung</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id5170152">Người ta chứng minh được khi VDS có trị số làm nghẽn thông lộ (JFET hoạt động trong vùng bảo hoà), ID và VGS thoả mãn hệ thức:</para>
+      <para id="id5170178"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =I rSub { size 8{ ital "DSS"} }  left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ] rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> hay 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =I rSub { size 8{ ital "DSS"} }  left [1+ {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{P} } } }  right ] rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5854994">Phương trình này được gọi là phương trình truyền của JFET. Các thông số ID và VGS(off) được nhà sản xuất cho biết.</para>
+      <para id="id5855014">Để ý là: VGS và VGS(off) âm trong JFET thông lộ n và dương trong thông lộ p.</para>
+      <para id="id5855032">Người ta cũng có thể biểu thị sự thay đổi của dòng điện thoát ID theo điện thế cổng nguồn VGS trong vùng bảo hoà bằng một đặc tuyến gọi là đặc tuyến truyền bằng cách vẽ đường biểu diễn của phương trình truyền ở trên.</para>
+      <para id="id5855057">IVVVGGVDD+--++-GDSVGS+-+-VDSIDHình 16</para>
+      <para id="id4287004">2 4 6 8VDS (volt)VGS = -4VVGS = -3VVGS = -2VVGS = -1VVGS = 0VID(mA)VP0VGS = VGS(off) = -8VHình 17VGS(off)-8 -6 -4 -2VGS = -6V12963Đặc tuyếntruyềnĐặc tuyếnngõ ra</para>
+    </section>
+    <section id="id-785885451497">
+      <title>ẢNH HƯỞNG CỦA NHIỆT ĐỘ TRÊN JFET.</title>
+      <para id="id5769573">Như ta đã thấy trong JFET, người ta dùng điện trường kết hợp với sự phân cực nghịch của nối P-N để làm thay đổi điện trở (tức độ dẫn điện) của thông lộ của chất bán dẫn. cũng như BJT, các thông số của JFET cũng rất nhạy đối với nhiệt độ, ta sẽ khảo sát qua hai tác động chính của nhiệt độ:</para>
+      <para id="id5769588">Khi nhiệt độ tăng, vùng hiếm giảm, do đó độ rộng của thông lộ tăng lên, do đó điện trở của thông lộ giảm. (ID tăng)</para>
+      <para id="id5769603">Khi nhiệt độ tăng, độ linh động của các hạt tải điện giảm (ID giảm)</para>
+      <para id="id5769616">Do thông lộ tăng rộng theo nhiệt độ nên VGS(off) cũng tăng theo nhiệt độ. Thực nghiệm cho thấy 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow><m:mtext> hay </m:mtext><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline V rSub { size 8{ ital "GS" \(  ital "off" \) } }  rline " hay " lline V rSub { size 8{P} }  rline } {}</m:annotation></m:semantics></m:math> tăng theo nhiệt độ với hệ số 2,2mV/10C.</para>
+      <para id="id5769744">Từ công thức:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =I rSub { size 8{ ital "DSS"} }  left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ] rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5769888">Cho thấy tác dụng này làm cho dòng điện ID tăng lên. Ngoài ra, do độ linh động của hạt tải điện giảm khi nhiệt độ tăng làm cho điện trở của thông lộ tăng lên nên dòng điện IDSS giảm khi nhiệt độ tăng, hiệu ứng này làm cho ID giảm khi nhiệt độ tăng.</para>
+      <para id="id5769919">Tổng hợp cả hai hiệu ứng này, người ta thấy nếu chọn trị số VGS thích hợp thì dòng thoát ID không đổi khi nhiệt độ thay đổi. Người ta chứng minh được trị số của VGS đó là:</para>
+      <para id="id5769947"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0,</m:mn></m:mrow></m:mrow><m:mtext>63</m:mtext><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline V rSub { size 8{ ital "GS"} }  rline = lline V rSub { size 8{P} }  rline  - 0,"63"V} {}</m:annotation></m:semantics></m:math> với VP là điện thế nghẽn ở nhiệt độ bình thường.</para>
+      <para id="id5770066">Các hình vẽ sau đây mô tả ảnh hưởng của nhiệt độ trên các đặc tuyến ra, đặc tuyến truyền và đặc tuyến của dòng ID theo nhiệt độ khi VGS làm thông số.</para>
+      <para id="id5770088">ID0VGS = 0VGS = -1V|VGS| = |VP|-0,63VID giảmID tăngVDS250 450Hình 18</para>
+      <para id="id4293710">0-100-50050100150IDIDIDSS(VDS cố định)-550C 250C +1500C|VGS| = |VP|-0,63VVGS(off)VGSt0C|VGS| = |VP|-0,63VVGS = -1VVGS = -0VHình 19</para>
+      <para id="id5171175">Ngoài ra, một tác dụng thứ ba của nhiệt độ lên JFET là làm phát sinh các hạt tải điện trong vùng hiếm giữa thông lộ-cổng và tạo ra một dòng điện rỉ cực cổng IGSS (gate leakage current). Dòng IGSS được nhà sản xuất cho biết. dòng rỉ IGSS chính là dòng điện phân cực nghịch nối P-N giữa cực cổng và cực nguồn. Dòng điện này là dòng điện rỉ cổng-nguồn khi nối tắt cực nguồn với cực thoát. Dòng IGSS tăng gấp đôi khi nhiệt độ tăng lên 100C.</para>
+      <para id="id5171225">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>GSS</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mi>t</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>GSS</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mtext>25</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>t</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>25</m:mtext>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mtext>10</m:mtext>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{ ital "GSS"} }  \( t rSup { size 8{0} } C \) =I rSub { size 8{ ital "GSS"} }  \( "25" rSup { size 8{0} } C \) 2 rSup { size 8{ {  { \( t - "25" \) }  over  {"10"} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5171376">VGGGDSIGSSVDS = 0VHình 20</para>
+    </section>
+    <section id="id-32162913702">
+      <title>MOSFET LOẠI HIẾM (DEPLETION MOSFET: DE MOSFET)</title>
+      <para id="id5171821">Ta thấy rằng khi áp một điện thế âm vào JFET kênh N thì vùng hiếm rộng ra. Sự gia tăng của vùng hiếm làm cho thông lộ hẹp lại và điện trở của thông lộ tăng lên. Kết quả sau cùng là tạo ra dòng điện ID nhỏ hơn IDSS.</para>
+      <para id="id5171845">Bây giờ, nếu ta áp điện thế dương VGS vào JFET kênh N thì vùng hiếm sẽ hẹp lại (do phân cực thuận cổng nguồn), thông lộ rộng ra và điện trở thông lộ giảm xuống, kết quả là dòng điện ID sẽ lớn hơn IDSS.</para>
+      <para id="id5171874">Trong các ứng dụng thông thường, người ta đều phân cực nghịch nối cổng nguồn (VGS âm đối với JFET kênh N và dương đối với JFET kênh P) và được gọi là điều hành theo kiểu hiếm.</para>
+      <para id="id5171892">JFET cũng có thể điều hành theo kiểu tăng (VGS dương đối với JFET kênh N và âm đối với JFET kênh P) nhưng ít khi được ứng dụng, vì mục đích của JFET là tổng trở vào lớn, nghĩa là dòng điện IG ở cực cổng - nguồn trong JFET sẽ làm giảm tổng trở vào, do đó thông thường người ta giới hạn trị số phân cực thuận của nối cổng - nguồn tối đa là 0,2V (trị số danh định là 0,5V).</para>
+      <para id="id5285992">VGGGDSIGSSVDSVDD+-VGS+-Phân cực kiểu hiếmPhân cực kiểu tăng(Tối đa 0,2V)+-+-00-4VVGSVGS = 0,2VVGS = 0VVGS = -1VVGS = -2VVGS = -3VVDSIDIDIDSSĐiều hành kiểu tăngĐiều hành kiểu hiếm0,2VHình 21JFET kênh N</para>
+      <para id="id5821974">+VGGGDSVDSVDD-VGS-+Phân cực kiểu hiếmPhân cực kiểu tăng(Tối đa 0,2V)-+-+VGGIDHình 22</para>
+      <para id="id5127844">Tuy JFET có tổng trở vào khá lớn nhưng cũng còn khá nhỏ so với đèn chân không. Để tăng tổng trở vào, người ta đã tạo một loại transistor trường khác sao cho cực cổng cách điện hẳn cực nguồn. Lớp cách điện là Oxyt bán dẫn SiO2 nên transistor được gọi là MOSFET.</para>
+      <para id="id5127865">Ta phân biệt hai loại MOSFET: MOSFET loại hiếm và MOSFET loại tăng.</para>
+      <para id="id5127872">Hình sau đây mô tả cấu tạo căn bản MOSFET loại hiếm (DE - MOSFET) kênh N và kênh P.</para>
+      <para id="id5127880">Thân p-Kênh n-n+n+NguồnSCổngGThoátDTiếp xúc kim loạiSiO2GDSThân UGDSThân nối với nguồnKý hiệuDE-MOSFET kênh NHình 23</para>
+      <para id="id5820838">Thân n-Kênh p-p+p+NguồnSCổngGThoátDTiếp xúc kim loạiSiO2GDSThân UGDSThân nối với nguồnKý hiệuDE-MOSFET kênh PHình 24</para>
+      <para id="id5227550">Chú ý rằng DE - MOSFET có 4 cực: cực thoát D, cực nguồn S, cực cổng G và thân U (subtrate). Trong các ứng dụng thông thường, thân U được nối với nguồn S.</para>
+      <para id="id5227561">Để DE-MOSFET hoạt động, người ta áp một nguồn điện VDD vào cực thoát và cực nguồn (cực dương của nguồn điện nối với cực thoát D và cực âm nối với cực nguồn S trong DE-MOSFET kênh N và ngược lại trong DE-MOSFET kênh P). Điện thế VGS giữa cực cổng và cực nguồn có thể âm (DE-MOSFET kênh N điều hành theo kiểu hiếm) hoặc dương (DE-MOSFET kênh N điều hành theo kiểu tăng)</para>
+      <para id="id5227591">Thân p-Kênh n-n+SGDSiO2- VDD ++ VGG -n+Thân p-Kênh n-n+ thoátVùng hiếm do cổng âm đẩy các điện tử và thoát dương hút các điện tử về nóTiếp xúc kim loại cực cổngVùng hiếm giữa phân cực nghịch p- và vùng thoát n+Hình 25Điều hành theo kiểu hiếm</para>
+      <para id="id5213291">Thân p-n-n+SGDSiO2- VDD +- VGG +n+Điện tử tập trung dưới sức hút nguồn dương của cực cổng làm cho điện trở thông lộ giảmĐiều hành theo kiểu tăngHình 26</para>
+      <para id="id5776074">Khi VGS = 0V (cực cổng nối thẳng với cực nguồn), điện tử di chuyển giữa cực âm của nguồn điện VDD qua kênh n- đến vùng thoát (cực dương của nguồn điện VDD) tạo ra dòng điện thoát ID. Khi điện thế VDS càng lớn thì điện tích âm ở cổng G càng nhiều (do cổng G cùng điên thế với nguồn S) càng đẩy các điện tử trong kênh n- ra xa làm cho vùng hiếm rộng thêm. Khi vùng hiếm vừa chắn ngang kênh thì kênh bị nghẽn và dòng điện thoát ID đạt đến trị số bảo hoà IDSS.</para>
+      <para id="id5776135">Khi VGS càng âm, sự nghẽn xảy ra càng sớm và dòng điện bảo hoà ID càng nhỏ.</para>
+      <para id="id5776153">Khi VGS dương (điều hành theo kiểu tăng), điện tích dương của cực cổng hút các điện tử về mặt tiếp xúc càng nhiều, vùng hiếm hẹp lại tức thông lộ rộng ra, điện trở thông lộ giảm nhỏ. Điều này làm cho dòng thoát ID lớn hơn trong trường hợp VGS = 0V.</para>
+      <para id="id5776184">00VGS(off) &lt; 0 VGSVGS = +1VVGS = 0VVGS = -1VVGS = -2VVGS = -3VVDS (volt)ID (mA)IDSSĐiều hành kiểu tăngĐiều hành kiểu hiếm2VHình 27DE-MOSFET kênh NVGS = +2VIDmaxĐặc tuyến truyềnĐặc tuyến ngõ raID (mA)Vì cực cổng cách điện hẳn khỏi cực nguồn nên tổng trở vào của DE-MOSFET lớn hơn JFET nhiều. Cũng vì thế, khi điều hành theo kiểu tăng, nguồn VGS có thể lớn hơn 0,2V. Thế nhưng ta phải có giới hạn của dòng ID gọi là IDMAX. Đặc tuyến truyền và đặc tuyến ngõ ra như sau:</para>
+      <para id="id5857264">00VGS(off) &gt; 0 VGSVGS = -1VVGS = 0VVGS = +1VVGS = +2VVGS = +3VVDS (volt)ID (mA)IDSSĐiều hành kiểu tăngĐiều hành kiểu hiếm-2VHình 28DE-MOSFET kênh PVGS = -2VIDmaxĐặc tuyến truyềnĐặc tuyến ngõ raID (mA)</para>
+      <para id="id5858228">Như vậy, khi hoạt động, DE-MOSFET giống hệt JFET chỉ có tổng trở vào lớn hơn và dòng rỉ IGSS nhỏ hơn nhiều so với JFET.</para>
+    </section>
+    <section id="id-766449580623">
+      <title>MOSFET LOẠI TĂNG (ENHANCEMENT MOSFET: E-MOSFET)</title>
+      <para id="id5858253">MOSFET loại tăng cũng có hai loại: E-MOSFET kênh N và E-MOSFET kênh P.</para>
+      <para id="id5858260">Về mặt cấu tạo cũng giống như DE-MOSFET, chỉ khác là bìng thường không có thông lộ nối liền giữa hai vùng thoát D và vùng nguồn S.</para>
+      <para id="id5858270">Thân p-n+n+NguồnSCổngGThoátDTiếp xúc kim loạiSiO2GDSThân UGDSThân nối với nguồnKý hiệuE-MOSFET kênh NHình 29Thân UMô hình cấu tạo và ký hiệu được diễn tả bằng hình vẽ sau đây:</para>
+      <para id="id5714826">Thân n-p+p+NguồnSCổngGThoátDTiếp xúc kim loạiSiO2GDSThân UGDSThân nối với nguồnKý hiệuE-MOSFET kênh PHình 30Thân U</para>
+      <para id="id5075723">Khi VGS &lt; 0V, (ở E-MOSFET kênh N), do không có thông lộ nối liền giữa hai vùng thoát nguồn nên mặc dù có nguồn điện thế VDD áp vào hai cực thoát và nguồn, điện tử cũng không thể di chuyển nên không có dòng thoát ID (ID # 0V). Lúc này, chỉ có một dòng điện rỉ rất nhỏ chạy qua.</para>
+      <para id="id5075760">Thân p-n+SGDSiO2- VDD +VGS = 0Vn+Mạch tương đươngHình 31</para>
+      <para id="id5076783">Khi VGS&gt;0, một điện trường được tạo ra ở vùng cổng. Do cổng mang điện tích dương nên hút các điện tử trong nền p- (là hạt tải điện thiểu số) đến tập trung ở mặt đối diện của vùng cổng. Khi VGS đủ lớn, lực hút mạnh, các điện tử đến tập trung nhiều và tạo thành một thông lộ tạm thời nối liền hai vùng nguồn S và thoát D. Điện thế VGS mà từ đó dòng điện thoát ID bắt đầu tăng được gọi là điện thế thềm cổng - nguồn (gate-to-source threshold voltage) VGS(th). Khi VGS tăng lớn hơn VGS(th), dòng điện thoát ID tiếp tục tăng nhanh.</para>
+      <para id="id5076853">Người ta chứng minh được rằng:</para>
+      <para id="id5076859">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>K</m:mi>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mfenced open="[" close="]">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>GS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>GS</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>th</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =K left [V rSub { size 8{ ital "GS"} }  - V rSub { size 8{ ital "GS" \(  ital "th" \) } }  right ] rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5076990">Trong đó:ID là dòng điện thoát của E-MOSFET</para>
+      <para id="id5077003">K là hằng số với đơn vị 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>A</m:mi><m:msup><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {A}  over  {V rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5077064">VGS là điện thế phân cực cổng nguồn.</para>
+      <para id="id5077077">VGS(th) là điện thế thềm cổng nguồn.</para>
+      <para id="id5077090">Hằng số K thường được tìm một cách gián tiếp từ các thông số do nhà sản xuất cung cấp.</para>
+      <para id="id5077098">Thí dụ: Một E-MOSFET kênh N có VGS(th) =3,8V và dòng điện thoát ID = 10mA khi VGS = 8V. Tìm dòng điện thoát ID khi VGS = 6V.</para>
+      <para id="id5077134">Giải: trước tiên ta tìm hằng số K từ các thông số:</para>
+      <para id="id5077144">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>K</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>D</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msup>
+                              <m:mfenced open="[" close="]">
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>V</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mstyle fontstyle="italic">
+                                          <m:mrow>
+                                            <m:mtext>GS</m:mtext>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>V</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mrow>
+                                          <m:mstyle fontstyle="italic">
+                                            <m:mrow>
+                                              <m:mtext>GS</m:mtext>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                          <m:mo stretchy="false">(</m:mo>
+                                          <m:mstyle fontstyle="italic">
+                                            <m:mrow>
+                                              <m:mtext>th</m:mtext>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                          <m:mo stretchy="false">)</m:mo>
+                                        </m:mrow>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mtext>10</m:mtext>
+                            <m:mtext>.</m:mtext>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mfenced open="[" close="]">
+                              <m:mrow>
+                                <m:mn>8</m:mn>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3,8</m:mn>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>5,</m:mn>
+                    </m:mrow>
+                    <m:mtext>67</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mfrac>
+                      <m:mi>A</m:mi>
+                      <m:msup>
+                        <m:mi>V</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{K= {  {I rSub { size 8{D} } }  over  { left [V rSub { size 8{ ital "GS"} }  - V rSub { size 8{ ital "GS" \(  ital "th" \) } }  right ] rSup { size 8{2} } } } = {  {"10" "." "10" rSup { size 8{ - 3} } }  over  { left [8 - 3,8 right ] rSup { size 8{2} } } } =5,"67" "." "10" rSup { size 8{ - 4} }  {  {A}  over  {V rSup { size 8{2} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5014713">Vậy dòng thoát ID và VGS là:</para>
+      <para id="id5014729">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>K</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mfenced open="[" close="]">
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>GS</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>GS</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>th</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>5,</m:mn>
+                    </m:mrow>
+                    <m:mtext>67</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:msup>
+                      <m:mfenced open="[" close="]">
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>3,8</m:mn>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =K left [V rSub { size 8{ ital "GS"} }  - V rSub { size 8{ ital "GS" \(  ital "th" \) } }  right ] rSup { size 8{2} } =5,"67" "." "10" rSup { size 8{ - 4} }  left [6 - 3,8 right ] rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5014906"> ID = 2,74 mA</para>
+      <para id="id5014920">Thân p-n+SGDSiO2- VDD +- VGG +n+Thông lộ tạm thờiVGS  VGS(th) 00VGSVGS = 6VVGS = 5VVGS = 4VVGS = 3VVGS = 2VVDS (volt)ID (mA)VGS(th)Hình 32VGS = 7VIDmaxĐặc tuyến truyềnĐặc tuyến ngõ raID (mA)VGSmax</para>
+    </section>
+    <section id="id-958698989472">
+      <title>XÁC ĐỊNH ĐIỂM ĐIỀU HÀNH:</title>
+      <para id="id5206854">~C2C1RD = 820RG 100Kv0(t)vGS(t) +-+VDD = 20V-VGG = -1VHình 33Ta xem mô hình của một mạch khuếch đại tín hiệu nhỏ dùng JFET kênh N mắc theo kiểu cực nguồn chung</para>
+      <para id="id5207869">RD = 820VGS +-VDD = 20VHình 34VGG = -1V+-VDS IGSS ID RG 100KMạch tương đương một chiều (tức mạch phân cực) như sau:</para>
+      <para id="id4251495">Cũng giống như transistor thường (BJT), để xác định điểm điều hành Q, người ta dùng 3 bước:</para>
+      <para id="id4251504">Áp dụng định luật Krichoff ở mạch ngõ vào để tìm VGS.</para>
+      <para id="id4251514">Dùng đặc tuyến truyền hay công thức: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =I rSub { size 8{ ital "DSS"} }  left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ] rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>trong trường hợp DE-MOSFET hoặc công thức 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>K</m:mi></m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>th</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =K left [V rSub { size 8{ ital "GS"} }  - V rSub { size 8{ ital "GS" \(  ital "th" \) } }  right ] rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>trong trường hợp E-MOSFET để xác định dòng điện thoát ID.</para>
+      <para id="id4251796">Áp dụng định luật Krichoff ở mạch ngõ ra để tìm hiệu điện thế VDS.</para>
+      <para id="id4251807">Bây giờ, ta thử ứng dụng vào mạch điện hình trên:</para>
+      <para id="id4251813">Mạch ngõ vào, ta có:</para>
+      <para id="id4251818">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>GG</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>G</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>GSS</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>GS</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{ ital "GG"} }  - R rSub { size 8{G} } I rSub { size 8{ ital "GSS"} } +V rSub { size 8{ ital "GS"} } =0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4251935">Suy ra, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GG</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>G</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{ ital "GS"} } = - V rSub { size 8{ ital "GG"} } +R rSub { size 8{G} } I rSub { size 8{ ital "GSS"} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4252050">Vì dòng điện IGSS rất nhỏ nên ta có thể bỏ qua.</para>
+      <para id="id4252062">Như vậy, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≈</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GG</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{ ital "GS"} }  approx  - V rSub { size 8{ ital "GG"} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4252149">Trong trường hợp trên, VGS = -1</para>
+      <para id="id4252159">Đây là phương trình biểu diễn đường phân cực (bias line) và giao điểm của đường thẳng này với đặc tuyến truyền là điểm điều hành Q.</para>
+      <para id="id4252167">Nhờ đặc tuyến truyền, ta có thể xác định được dòng thoát ID.</para>
+      <para id="id4252179">00VGS(off) VGSVGS = 0VVGS = -1VVGS = -2VVGS = -3VVGS = -4VVDSIDIDIDSSHình 35IDSSIDID-1VDS(off) =VDDVDSQ<figure id="id5771311"><media id="id8581771" alt=""><image src=".wmf" mime-type="image/wmf" height="47" width="88"/></media></figure>Đường thẳng lấy điệnĐường phân cựcVGS = -VGG = -1VQ</para>
+      <para id="id5771452">- Để xác định điện thế VDS, ta áp dụng định luật Kirchoff cho mạch ngõ ra:</para>
+      <para id="id5771464">VDD = RDID + VDS </para>
+      <para id="id5771490"> VDS = VDD – RDID </para>
+      <para id="id5771520">Đây là phương trình của đường thẳng lấy điện tĩnh. Giao điểm của đường thẳng này với đặc tuyến ngõ ra với VGS = -VGG = -1V chính là điểm tĩnh điều hành Q.</para>
+    </section>
+    <section id="id-533792387386">
+      <title>FET VỚI TÍN HIỆU XOAY CHIỀU VÀ MẠCH TƯƠNG ĐƯƠNG VỚI TÍN HIỆU NHỎ</title>
+      <para id="id5771550">~C2C1RD = 820RG 100Kv0(t)vGS(t) +-+VDD = 20V-VGG = -1VHình 36vS(t) vDS(t) +-vS(t) t 0 -10mV +10mV Giả sử ta áp một tín hiệu xoay chiều hình sin vs(t) có biên độ điện thế đỉnh là 10mV vào ngõ vào của một mạch khuếch đại cực nguồn chung dùng JFET kênh N</para>
+      <para id="id4352447">C1 và C2 là 2 tụ liên lạc, được chọn sao cho có dung kháng rất nhỏ ở tần số của tín hiệu và có thể được xem như nối tắt ở tần số tín hiệu.</para>
+      <para id="id4352468">Nguồn tín hiệu vs(t) sẽ chồng lên điện thế phân cực VGS nên điện thế cổng nguồn vGS(t) ở thời điểm t là:</para>
+      <para id="id4352493">vGS(t) = VGS + Vgs(t)</para>
+      <para id="id4352516">= -1V + 0,01sin t (V) </para>
+      <para id="id4352538">vGS(t) t -1V -1,01V -0,99V 0Hình 37</para>
+      <para id="id4352978">Nguồn tín hiệu có điện thế đỉnh nhỏ nên điện thế cổng nguồn vẫn luôn luôn âm. Nhờ đặc tuyến truyền, chúng ta thấy rằng điểm điều hành sẽ di chuyển khi VGS thay đổI theo tín hiệu. Ở thời điểm khi VGS ít âm hơn, dòng thoát iD(t) tăng và khi VGS âm nhiều hơn, dòng thoát iD(t) giảm. Vậy dòng điện thoát iD(t) thay đổi cùng chiều với vGS(t) và có trị số quanh dòng phân cực ID tỉnh (được giả sử là 12,25mA). Độ gia tăng của iD(t) và độ giảm của iD(t) bằng nhau với tín hiệu nhỏ (giả sử là 0,035mA). (Xem hình trang sau).</para>
+      <para id="id4353057">Sự thay đổi dòng điện thoát iD(t) sẽ làm thay đổi hiệu số điện thế giữa cực thoát và cực nguồn.</para>
+      <para id="id4353072">Ta có vDS(t) = VDD – iD(t).RD. Khi iD(t) có trị số tối đa, thì vDS(t) có trị số tối thiểu và ngược lại. Điều này có nghĩa là sự thay đổi của vDS(t) ngược chiều với sự thay đổi của dòng iD(t) tức ngược chiều với sự thay đổi của hiệu thế ngõ vào vGS(t), người ta bảo điện thế ngõ ra ngược pha - lệch pha 180o so với điện thế tín hiệu ngõ vào.</para>
+      <para id="id4353144">Người ta định nghĩa độ lợi của mạch khuếch đại là tỉ số đỉnh đối đỉnh của hiệu thế tín hiệu ngõ ra và trị số đỉnh đối đỉnh của hiệu thế tín hiệu ngõ vào:</para>
+      <para id="id4353156">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>V</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>v</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>o</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>t</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>v</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>S</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>t</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{V} } = {  {v rSub { size 8{o} }  \( t \) }  over  {v rSub { size 8{S} }  \( t \) } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4353262">Trong trường hợp của thí dụ trên:</para>
+      <para id="id4353268">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>V</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>o</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>S</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>0,</m:mn>
+                        <m:mtext>0574</m:mtext>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>P</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>P</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mo stretchy="false">〈</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mtext>180</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>o</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>0,</m:mn>
+                        <m:mtext>02</m:mtext>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>P</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>P</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{V} } = {  {v rSub { size 8{o} }  \( t \) }  over  {v rSub { size 8{S} }  \( t \) } } = {  {0,"0574"V rSub { size 8{P - P} }  \langle  - "180" rSup { size 8{o} } }  over  {0,"02"V rSub { size 8{P - P} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4353446">AV=2,87 -180o</para>
+      <para id="id4353465">Người ta dùng dấu - để biểu diễn độ lệch pha 180o</para>
+      <para id="id4353476">VGS0ID(mA)Q-1V-1,01V-0.99VVGS(off)12,285mA12,215mARD = 820v0(t) = vds(t)VDD = +20ViD(t)C2vDS(t)vS(t)t0,01V-0,01V0t0-0,99V-1,01V-1vGS(t)t012,285iD(t) (mA)12,21512,250t09,9837vDS(t) (V)9,92639,9550v0(t)t0,0287V-0,0287V0Hình 38</para>
+      <para id="id4359134">* Mạch tương đương của FET với tín hiệu nhỏ:</para>
+      <para id="id4359140">igvgsvdsidHình 39Người ta có thể coi FET như một tứ cực có dòng điện và điện thế ngõ vào là vgs và ig. Dòng điện và điện thế ngõ ra là vds và id</para>
+      <para id="id4359472">Do dòng ig rất nhỏ nên FET có tổng trở ngõ vào là:</para>
+      <para id="id4359484"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>π</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gs</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>g</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{π} } = {  {v rSub { size 8{ ital "gs"} } }  over  {i rSub { size 8{g} } } } } {}</m:annotation></m:semantics></m:math> rất lớn</para>
+      <para id="id4359570">Dòng thoát id là một hàm số theo vgs và vds. Với tín hiệu nhỏ (dòng điện và điện thế chỉ biến thiên quanh điểm điều hành), ta sẽ có:</para>
+      <para id="id4359596">
+        <m:math>
+          <m:semantics>
+            <m:mtable>
+              <m:mtr>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>i</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>D</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">∂</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∂</m:mo>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>GS</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtr>
+              <m:mtr>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>gs</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>Q</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mrow>
+                      <m:mi></m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mo stretchy="false">∂</m:mo>
+                          <m:msub>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>D</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∂</m:mo>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>Q</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mi></m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtr>
+            </m:mtable>
+            <m:annotation encoding="StarMath 5.0"> size 12{i rSub { size 8{D} } = {  { partial i rSub { size 8{D} } }  over  { partial v rSub { size 8{ ital "GS"} } } } alignl { stack {
+ \lline v rSub { size 8{ ital "gs"} }  {} # 
+ \lline  rSub { size 8{Q} }  {} 
+} } + {  { partial i rSub { size 8{D} } }  over  { partial v rSub { size 8{ ital "DS"} } } } alignl { stack {
+ \lline v rSub { size 8{ ital "DS"} }  {} # 
+ \lline  rSub { size 8{Q} }  {} 
+} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4359833">Người ta đặt:</para>
+      <para id="id4359838"><m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∂</m:mo><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle><m:mtable><m:mtr><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:msub><m:mo stretchy="false">∣</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mi>Q</m:mi></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtr></m:mtable><m:mi></m:mi><m:mtext/></m:mrow><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mrow></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  { partial i rSub { size 8{D} } }  over  { partial v rSub { size 8{ ital "GS"} } } } alignl { stack {
+ \lline  {} # 
+ \lline  rSub { size 8{Q} }  {} 
+} } "    "} {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∂</m:mo><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle><m:mtable><m:mtr><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:msub><m:mo stretchy="false">∣</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mi>Q</m:mi></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtr></m:mtable><m:mi></m:mi><m:mtext/></m:mrow><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mrow></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {r rSub { size 8{o} } } } = {  { partial i rSub { size 8{D} } }  over  { partial v rSub { size 8{ ital "DS"} } } } alignl { stack {
+ \lline  {} # 
+ \lline  rSub { size 8{Q} }  {} 
+} } "    "} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4360108">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>gs</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ds</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mtext/><m:mo stretchy="false">(</m:mo><m:mtext>coù theå ñaët </m:mtext><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{i rSub { size 8{d} } =g rSub { size 8{m} } v rSub { size 8{"gs"} } + {  {1}  over  {r rSub { size 8{o} } } } v rSub { size 8{ ital "ds"} } "     " \( "coù theå ñaët " {  {1}  over  {r rSub { size 8{o} } } } =g rSub { size 8{o} }  \) } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id4360268">vgs = r.ig</para>
+      <para id="id4360288">vgsGDSrgmvgsr0vdsidHình 40Các phương trình này được diễn tả bằng giản đồ sau đây gọi là mạch tương đương xoay chiều của FET.</para>
+      <para id="id4360991">vgsGDSgmvgsr0vdsidHình 41Riêng đối với E-MOSFET, do tổng trở vào r rất lớn, nên trong mạch tương đương người ta có thể bỏ r </para>
+    </section>
+    <section id="id-851204970608">
+      <title>ĐIỆN DẪN TRUYỀN (TRANSCONDUCTANCE) CỦA JFET VÀ DEMOSFET.</title>
+      <para id="id5083577">Cũng tương tự như ở BJT, một cách tổng quát người ta định nghĩa điện dẫn truyền của FET là tỉ số: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gs</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  {i rSub { size 8{d} }  \( t \) }  over  {v rSub { size 8{ ital "gs"} }  \( t \) } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5083692">QVGS (volt)ID(mA)VGSIDVGS(off)IDSS<figure id="id5084136"><media id="id1167992310686" alt=""><image src=".wmf" mime-type="image/wmf" height="60" width="153"/></media></figure>Độ dốc tại điểm ID = IDSS là gmoĐộ dốc tại điểm Q là:Hình 42Điện dẫn truyền có thể được suy ra từ đặc tuyến truyền, đó chính là độ dốc của tiếp tuyến với đặc tuyến truyền tại điểm điều hành Q</para>
+      <para id="id5084270">Về mặt toán học, từ phương trình truyền:</para>
+      <para id="id5084276">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>DSS</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mfenced open="[" close="]">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>GS</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>GS</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>off</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =I rSub { size 8{ ital "DSS"} }  left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ] rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5084418">Ta suy ra: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>dI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>dV</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  { ital "dI" rSub { size 8{D} } }  over  { ital "dV" rSub { size 8{ ital "GS"} } } } =I rSub { size 8{ ital "DSS"} }  left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ] rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5084604">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>g</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>m</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mn>2I</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DSS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>GS</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>off</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>GS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>GS</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>off</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = -  {  {2I rSub { size 8{ ital "DSS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } } = left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ]} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5084782">Trị số của gm khi VGS = 0volt (tức khi ID=IDSS) được gọi là gmo.</para>
+      <para id="id5084815">Vậy:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mo</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mn>2I</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{ ital "mo"} } = -  {  {2I rSub { size 8{ ital "DSS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5084934">Từ đó ta thấy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mo</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } =g rSub { size 8{ ital "mo"} }  left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ]} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5085070">Trong đó: gm: là điện dẫn truyền của JFET hay DE-MOSFET với tín hiệu nhỏ</para>
+      <para id="id5085082">gmo: là gm khi VGS= 0V </para>
+      <para id="id5085103">VGS: Điện thế phân cực cổng - nguồn</para>
+      <para id="id5085114">VGS(off): Điện thế phân cực cổng - nguồn làm JFET hay DE-MOSFET ngưng.</para>
+      <para id="id5085126">Ngoài ra từ công thức: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =I rSub { size 8{ ital "DSS"} }  left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ] rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>Ta suy ra: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msqrt><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt><m:mo stretchy="false">=</m:mo><m:mfenced open="[" close="]"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>off</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { {  {I rSub { size 8{D} } }  over  {I rSub { size 8{ ital "DSS"} } } } } = left [1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{ ital "GS" \(  ital "off" \) } } } }  right ]} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5023891">Vậy: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mo</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msqrt><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DSS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } =g rSub { size 8{ ital "mo"} }  sqrt { {  {I rSub { size 8{D} } }  over  {I rSub { size 8{ ital "DSS"} } } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5023997">Phương trình trên cho ta thấy sự liên hệ giữa điện dẫn truyền gm với dòng điện thoát ID tại điểm điều hành Q. gmo được xác định từ các thông số IDSS và VGS(off) do nhà sản xuất cung cấp.</para>
+    </section>
+    <section id="id-0279222926215">
+      <title>ĐIỆN DẪN TRUYỀN CỦA E-MOSFET.</title>
+      <para id="id5024044">Do công thức tính dòng điện thoát ID theo VGS của E-MOSFET khác với JFET và DE-MOSFET nên điện dẫn truyền của nó cũng khác.</para>
+      <para id="id5024064">Từ công thức truyền của E-MOSFET</para>
+      <para id="id5024069">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>K</m:mi>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mfenced open="[" close="]">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>GS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>GS</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>th</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =K left [V rSub { size 8{ ital "GS"} }  - V rSub { size 8{ ital "GS" \(  ital "th" \) } }  right ] rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5024208">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>dI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>dV</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>d</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>dV</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mi>K</m:mi><m:msup><m:mfenced open="[" close="]"><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>th</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  { ital "dI" rSub { size 8{D} } }  over  { ital "dV" rSub { size 8{ ital "GS"} } } } = {  {d}  over  { ital "dV" rSub { size 8{ ital "GS"} } } }  left [K left [V rSub { size 8{ ital "GS"} }  - V rSub { size 8{ ital "GS" \(  ital "th" \) } }  right ] rSup { size 8{2} }  right ]} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5024410">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>g</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>m</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>2K</m:mn>
+                    </m:mrow>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>GS</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>GS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>th</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } =2K left [V rSub { size 8{ ital "GS"} }  - V rSub { size 8{ ital "GS" \(  ital "th" \) } }  right ]} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5024530">Ngoài ra: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msqrt><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mi>K</m:mi></m:mfrac></m:msqrt><m:mo stretchy="false">+</m:mo><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GS</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>th</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{ ital "GS"} } = sqrt { {  {I rSub { size 8{D} } }  over  {K} } } +V rSub { size 8{ ital "GS" \(  ital "th" \) } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5024647">Thay vào trên ta được: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>KI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } =2 sqrt { ital "KI" rSub { size 8{D} } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5024726">Trong đó: </para>
+      <para id="id5024730">gm: là điện dẫn truyền của E-MOSFET cho tín hiệu nhỏ</para>
+      <para id="id5024742">K: là hằng số với đơn vị Amp/volt2</para>
+      <para id="id5024752">ID: Dòng diện phân cực cực thoát D</para>
+      <para id="id5024763">Ta thấy gm tùy thuộc vào dòng điện thoát ID, nếu gọi gm1 là điện dẫn truyền của E-MOSFET ứng với dòng thoát ID1 và gm2 là điện dẫn truyền của E-MOSFET ứng với dòng thoát ID2</para>
+      <para id="id5024806">VGS (volt)ID(mA)ID1QIDmax<figure id="id5025055"><media id="id1168003724643" alt=""><image src=".wmf" mime-type="image/wmf" height="29" width="144"/></media></figure>Độ dốc tại Q là gm1VGS(th)0Hình 43Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">m1</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>KI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">D1</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m1} } =2 sqrt { ital "KI" rSub { size 8{D1} } } } {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">m2</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>KI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">D2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m2} } =2 sqrt { ital "KI" rSub { size 8{D2} } } } {}</m:annotation></m:semantics></m:math> nên: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">m2</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>g</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">m1</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msqrt><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">D2</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">D1</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m2} } =g rSub { size 8{m1} }  sqrt { {  {I rSub { size 8{D2} } }  over  {I rSub { size 8{D1} } } } } } {}</m:annotation></m:semantics></m:math></para>
+    </section>
+    <section id="id-736666839097">
+      <title>TỔNG TRỞ VÀO VÀ TỔNG TRỞ RA CỦA FET.</title>
+      <para id="id5025523">- Giống như ở BJT, người ta cũng dùng hiệu ứng Early để định nghĩa tổng trở ra của FET (ở vùng bảo hòa, khi VDS tăng, dòng điện ID cũng hơi tăng và chùm đặc tuyến ra cũng hội tụ tại một điểm gọi là điện thế Early).</para>
+      <para id="id5025548">Nếu gọi VA là điện thế Early ta có:</para>
+      <list id="id5025559" list-type="bulleted">
+        <item>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>r</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>o</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>A</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>D</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mtext>     r</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>o</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mtext>: Toång trôû ra cuûa FET</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{o} } = {  {V rSub { size 8{A} } }  over  {I rSub { size 8{D} } } } "     r" rSub { size 8{o} } ": Toång trôû ra cuûa FET"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item>0VDS(volt)Early voltageID(mA)VGSHình 44ro như vậy thAy đổi theo dòng thoát ID và có trị số khoảng vài M đến hơn 10M</item>
+      </list>
+      <para id="id5026333">- Do JFET thường được dùng theo kiểu hiếm (phân cực nghịch nối cổng - nguồn) nên tổng trở vào lớn (hàng trăm M). Riêng E-MOSFET và DE-MOSFET do cực cổng cách điện hẳn khỏi cực nguồn nên tổng trở vào rất lớn (hàng trăm M). Kết quả là người ta có thể xem gần đúng tổng trở vào của FET là vô hạn.</para>
+      <para id="id5026361">Với FET : r   </para>
+      <para id="id5026390">vgsGDSrgmvgsr0vdsidHình 45 (a)vgsGDSgmvgsr0vdsidHình 45 (b)vgsGDSgmvgsvdsidHình 45 (c)Trong các mạch sử dụng với tín hiệu nhỏ người ta có thể dùng mạch tương đương cho FET như hình (a) hoặc hình (b). Nếu tải không lớn lắm, trong mạch tương đương người ta có thể bỏ cả ro</para>
+      <para id="id5831932">Hình 45</para>
+    </section>
+    <section id="id-0606792479918">
+      <title>CMOS TUYẾN TÍNH (LINEAR CMOS).</title>
+      <para id="id5831946">Nếu ta có một E-MOSFET kênh P và một E-MOSFET kênh N mắc như hình sau đây ta được một linh kiện tổ hợp và được gọi là CMOS (Complementary MOSFET).</para>
+      <para id="id5831956">G1S1D1G2D2S2vi(t)v0(t)Q1 E-MOSFET kênh PQ2 E-MOSFET kênh NQ1Q2Hình 46</para>
+      <para id="id5832790">p-n+n+S2G2D2SiO2Hình 47Thân n-p+p+D1S1G1Thật ra nó được cấu trúc như sau:</para>
+      <para id="id5653241">Cấu trúc CMOS được dùng rất nhiều trong IC tuyến tính và IC số</para>
+      <para id="id5653248">+ Bây giờ ta xét mạch căn bản như trên, ta thử xem đáp ứng của CMOS khi tín hiệu vào có dạng xung vuông như hình vẽ. Mạch này được ứng dụng làm cổng đảo và là tẩng cuối của OP-AMP (IC thuật toán).</para>
+      <para id="id5653261">- Khi vi = 5V (0  t  t1); E-MOSFET kênh P ngưng vì vGS(t)=0V, trong lúc đó E-MOSFET kênh N dẫn mạnh vì vGS(t)=5V nên điện thế ngõ ra vo(t)=0V.</para>
+      <para id="id5653309">- Khi vi(t)=0V (t  t1), E-MOSFET kênh P dẫn điện mạnh (vì vGS(t) = -5V) trong lúc E-MOSFET kênh N không dẫn điện (vì vGS(t) = 0V) nên điện thế ngõ ra vo(t)=VDD=5V.</para>
+      <para id="id5653356">G1S1D1G2D2S2vi(t)v0(t)Q1Q2Hình 48VDD = 15Vvi(t)t05Vt1vo(t)t05Vt1</para>
+      <para id="id5654527">Như vậy, tác dụng của CMOS là một mạch đảo (inverter)</para>
+      <para id="id5654534">G1S1D1G2D2S2vi(t)v0(t)Q1 PQ2 NHình 49VDD = +15V<figure id="id5766786"><media id="id1167995106950" alt=""><image src=".wmf" mime-type="image/wmf" height="43" width="128"/></media></figure>vi(t)t0vo(t)t0Ta xem một mạch khuếch đại đơn giản dùng CMOS tuyến tính:</para>
+      <para id="id5767389">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>GG</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DD</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>7,5</m:mn>
+                    </m:mrow>
+                    <m:mi>V</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{ ital "GG"} } = {  {V rSub { size 8{ ital "DD"} } }  over  {2} } =7,5V} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5767482">- Khi vi(t) dương, E-MOSFET kênh N dẫn điện mạnh hơn và E-MOSFET kênh P bắt đầu dẫn điện yếu hơn. Do đó vo(t) giảm.</para>
+      <para id="id5767501">- Khi vi(t) dương, E-MOSFET kênh P dẫn điện mạnh hơn và E-MOSFET kênh N bắt đầu dẫn điện yếu hơn, nên vo(t) tăng.</para>
+      <para id="id5767521">Như vây ta thấy tín hiệu ngõ vào và ngõ ra ngược pha nhau (lệnh pha 180o)</para>
+    </section>
+    <section id="id-387108958059">
+      <title>MOSFET CÔNG SUẤT: V-MOS VÀ D-MOS.</title>
+      <para id="id5767543">Các transistor trường ứng (JFET và MOSFET) mà ta đã khảo sát ở trên chỉ thích hợp cho các mạch có biên độ tín hiệu nhỏ như tiền khuếch đại, trộn sóng, khuếch đại cao tần, trung tần, dao động… năm 1976, người ta phát minh ra loại transistor trường có công suất vừa, đến lớn với khả năng dòng thoát đến vài chục ampere và công suất có thể lên đến vài chục Watt.</para>
+      <section id="id-572093717238">
+        <title>V-MOS:</title>
+        <para id="id5767566">Thật ra đây là một loại E-MOSFET cải tiến, cũng là không có sẵn thông lộ và điều hành theo kiểu tăng. sự khác nhau về cấu trúc E-MOSFET và V-MOS được trình bày bằng hình vẽ sau:</para>
+        <para id="id5767578">Thông lộ sẽ hình thànhp- thânn+n+NguồnSCổngGThoátDSiO2Hình 50E-MOSFET kênh NThông lộ sẽ hình thànhNguồnSCổngGSiO2V-MOS kênh NNguồnSn+n-n+n+ppThoátD</para>
+        <para id="id5768848">Khi VGS dương và lớn hơn VGS(th), thông lộ được hình thành dọc theo rãnh V và dòng electron sẽ chạy thẳng từ hai nguồn S đến cực thoát D. Vì lý do này nên được gọi là V-MOS (Vertical MOSFET).</para>
+      </section>
+      <section id="id-530042421396">
+        <title>D-MOS:</title>
+        <para id="id5768879">Cũng là một loại E-MOSFET hoạt động theo kiểu tăng, ứng dụng hiện tượng khuếch tán đôi (double-diffused) nên được gọi là D-MOS. Có cấu trúc như sau:</para>
+        <para id="id5768890">n+n+Thân n+n-p+p+NguồnSCổngGNguồnSThoát DDMOS kênh NThông lộ sẽ hình thànhHình 51</para>
+        <para id="id4300693">Các đặc tính hoạt động của V-MOS và D-MOS cũng giống như E-MOSFET. Ngoài ra, các đặc điểm riêng của V-MOS và D-MOS là:</para>
+        <para id="id4300703">- Điện trở động rds khi hoạt động rất nhỏ (thường nhỏ hơn 1)</para>
+        <para id="id4300720">- Có thể khuếch đại công suất ở tần số rất cao</para>
+        <para id="id4300727">- Dải thông của mạch khuếch đại công suất có thể lên đến vài chục MHz</para>
+        <para id="id4300737">- V-MOS và D-MOS cũng có kênh N và kênh P, nhưng kênh N thông dụng hơn</para>
+        <para id="id4300744">- V-MOS và D-MOS cũng có ký hiệu như E-MOSFET</para>
+        <para id="id4300750">Họ FET có thể tóm tắt như sau</para>
+        <para id="id4300756">FETJFETMOSFETJFETkênh NJFETKênh PDE-MOSFETKiểu hiếm + tăngE-MOSFETKiểu tăngDE-MOSFETKênh NDE-MOSFETKênh PE-MOSFETKênh NE-MOSFETKênh PV-MOSKênh ND-MOSKênh NCMOSV-MOSKênh PD-MOSKênh P </para>
+      </section>
+    </section>
+    <section id="id-934862626062">
+      <title>Bài tập cuối chương</title>
+      <list id="id4301745" list-type="enumerated">
+        <item>Tính VD, và điện dẫn truyền gm trong mạch:</item>
+      </list>
+      <para id="id4301766"><figure id="id4301776"><media id="id1167992869473" alt=""><image src=".wmf" mime-type="image/wmf" height="243" width="150"/></media></figure>IDSS = 4mAVGS(off) = -4VVD</para>
+      <list id="id4301891" list-type="enumerated">
+        <item><figure id="id4301908"><media id="id1167996661613" alt=""><image src=".wmf" mime-type="image/wmf" height="219" width="181"/></media></figure>IDSS = 4mAVGS(off) = -4VTrong mạch điện sau, tính điện thế phân cực VD và điện dẫn truyền gm.</item>
+        <item><figure id="id4302020"><media id="id1168003581953" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="243" width="144"/></media></figure>Trong mạch điện sau, tính điện thế phân cực VD, VG. Cho biết E-MOSFET có hệ số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mfenced open="" close=""><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mA</m:mtext></m:mrow></m:mstyle><m:msup><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=1 left ( {  { ital "mA"}  over  {V rSup { size 8{2} } } }  right )} {}</m:annotation></m:semantics></m:math> và VGS(th) = 3V.</item>
+      </list>
+    </section>
+  </content>
+</document>

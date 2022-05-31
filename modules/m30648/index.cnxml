@@ -1,0 +1,110 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Linh kiện quang điện tử</title>
+  <metadata>
+  <md:content-id>m30648</md:content-id><md:title>Linh kiện quang điện tử</md:title>
+  <md:abstract>Đề cập đến một số các linh kiện quang điện tử thông dụng như quang điện trở, quang diod, quang transistor, led… các linh kiện quang điện tử quá đặc biệt không được đề cập đến.</md:abstract>
+  <md:uuid>d3669d82-1d11-4446-a7f9-ece495f64464</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5247990">ÁNH SÁNG.</para>
+    <para id="id5247994">Sóng vô tuyến trong hệ thống truyền thanh, truyền hình, ánh sánh phát ở đèn tia X trong y khoa… Tuy có các công dụng khác nhau nhưng lại có chung một bản chất và được gọi là sóng điện từ hay bức xạ điện từ. Điểm khác nhau cơ bản của sóng điện từ là tần số hay bước sóng. Giữa tần số và bước sóng liên hệ bằng hệ thức 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>f</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ= {  {c}  over  {f} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id5133333">Trong đóc là vận tốc ánh sáng = 3.108m/s</para>
+    <para id="id5133342">f là tần số tính bằng Hz</para>
+    <para id="id5133347">Bước sóng  tính bằng m. Ngoài ra người ta thường dùng các ước số:</para>
+    <para id="id5133360">m = 10-6m ; nm = 10-9m và Amstron = Å = 10-10m </para>
+    <para id="id5133400">Sự khác biệt về tần số dẫn đến một sự khác biệt quan trọng khác là ta có thể thấy được sóng điện từ hay không. Mắt người chỉ thấy được sóng điện từ trong một dải tần số rất hẹp gọi là ánh sáng thấy được hay thường gọi tắt là ánh sáng. Về phía tần số thấp hơn gọi là bức xạ hồng ngoại (infrared) và phía tần số cao hơn gọi là bức xạ tử ngoại (ultraviolet).</para>
+    <para id="id5133415">Ta chỉ có thể thấy được bức xạ có tần số khoảng 4.10-14Hz (tức bước sóng 750nm) đến tần số khoảng 7,8.1014Hz (tức bước sóng khoảng 380nm)</para>
+    <para id="id5133436">Hồng ngoại(=750nm)4.1014HzTử ngoại(=380nm)7,8.1014Hz </para>
+    <para id="id5133644">Trong vùng ánh sáng thấy được, nếu chỉ có một khoảng ngắn của dải tần số nói trên thì cảm giác của mắt ghi nhận được 7 màu:</para>
+    <table id="id5133654" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>380nm 430 470 500 560 590 650 750nmTímViolet</entry>
+            <entry>LơBlue</entry>
+            <entry>LamCyan</entry>
+            <entry>Xanh láGreen</entry>
+            <entry>VàngYellow</entry>
+            <entry>CamOrange</entry>
+            <entry>ĐỏRed</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id5176650">Chú ý là giới hạn trên chỉ có tính cách tương đối. Sự khác nhau về tần số lại dẫn đến một sự khác biệt quan trọng nữa đó là năng lượng bức xạ. Năng lượng bức xạ tỉ lệ với tần số theo công thức: E=h.f với h: hằng số planck = 6,624.10-34J.sec</para>
+    <para id="id5176670">Như ta thấy, biên độ trung bình của phổ được gọi là cường độ sáng và được đo bằng đơn vị footcandles. Thí dụ nguồn sáng là một bóng đèn tròn, thì ở một điểm càng xa nguồn, cường độ sáng càng yếu nhưng số lượng ánh sáng tỏa ra trong một góc khối (hình nón) là không đổi và được gọi là quang thông. Đơn vị của quang thông là Lumens (Lm) hay Watt.</para>
+    <para id="id5176685">1 Lm = 1,496.10-10 watt</para>
+    <para id="id5176695">Đơn vị của cường độ ánh sáng là foot-candles (fc), Lm/ft2 hay W/m2. Trong đó: </para>
+    <para id="id5176716">1 Lm/ft2 = 1 fc = 1,609.10-12 W/m2</para>
+    <section id="id-492778444869">
+      <title>QUANG ĐIỆN TRỞ (PHOTORESISTANCE).</title>
+      <para id="id5176744">Hình dạngKý hiệuHình 1Là điện trở có trị số càng giảm khi được chiếu sáng càng mạnh. Điện trở tối (khi không được chiếu sáng - ở trong bóng tối) thường trên 1M, trị số này giảm rất nhỏ có thể dưới 100 khi được chiếu sáng mạnh</para>
+      <para id="id5151156">Nguyên lý làm việc của quang điện trở là khi ánh sáng chiếu vào chất bán dẫn (có thể là Cadmium sulfide – CdS, Cadmium selenide – CdSe) làm phát sinh các điện tử tự do, tức sự dẫn điện tăng lên và làm giảm điện trở của chất bán dẫn. Các đặc tính điện và độ nhạy của quang điện trở dĩ nhiên tùy thuộc vào vật liệu dùng trong chế tạo.</para>
+      <para id="id5151170">Điện trở 0fc1000100001050,1101001000Hình 2</para>
+      <para id="id5259040">Về phương diện năng lượng, ta nói ánh sáng đã cung cấp một năng lượng E=h.f để các điện tử nhảy từ dãi hóa trị lên dãi dẫn điện. Như vậy năng lượng cần thiết h.f phải lớn hơn năng lượng của dãi cấm.</para>
+      <para id="id5259054">Vài ứng dụng của quang điện trở:</para>
+      <para id="id5259060">Quang điện trở được dùng rất phổ biến trong các mạch điều khiển</para>
+      <para id="id5259067">1. Mạch báo động:</para>
+      <para id="id5259072">SCRNguồn sáng hồng ngoạiR1Bóng đèn hoặc chuông tảiB+Hình 3</para>
+      <para id="id5310816">Khi quang điện trở được chiếu sáng (trạng thái thường trực) có điện trở nhỏ, điện thế cổng của SCR giảm nhỏ không đủ dòng kích nên SCR ngưng. Khi nguồn sáng bị chắn, R tăng nhanh, điện thế cổng SCR tăng làm SCR dẫn điện, dòng điện qua tải làm cho mạch báo động hoạt động.</para>
+      <para id="id5310831">Người ta cũng có thể dùng mạch như trên, với tải là một bóng đèn để có thể cháy sáng về đêm và tắt vào ban ngày. Hoặc có thể tải là một relais để điều khiển một mạch báo động có công suất lớn hơn.</para>
+      <para id="id5310845"><figure id="id5310855"><media id="id2518822" alt=""><image src=".wmf" mime-type="image/wmf" height="295" width="406"/></media></figure>Bóng đènAHình 4220V/50Hz2. Mạch mở điện tự động về đêm dùng điện AC:</para>
+      <para id="id5310993">Ban ngày, trị số của quang điện trở nhỏ. Điện thế ở điểm A không đủ để mở Diac nên Triac không hoạt động, đèn tắt. về đêm, quang trở tăng trị số, làm tăng điện thế ở điểm A, thông Diac và kích Triac dẫn điện, bóng đèn sáng lên.</para>
+    </section>
+    <section id="id-203539974444">
+      <title>QUANG DIOD (PHOTODIODE).</title>
+      <para id="id5311015">Ta biết rằng khi một nối P-N được phân cực thuận thì vùng hiếm hẹp và dòng thuận lớn vì do hạt tải điện đa số (điện tử ở chất bán dẫn loại N và lỗ trống ở chất bán dẫn loại P) di chuyển tạo nên. Khi phân cực nghịch, vùng hiếm rộng và chỉ có dòng điện rỉ nhỏ (dòng bảo hòa nghịch I0) chạy qua.</para>
+      <para id="id5311036">RVIKý hiệuPhân cựcHình 5</para>
+      <para id="id5259395">Bây giờ ta xem một nối P-N được phân cực nghịch. Thí nghiệm cho thấy khi chiếu sáng ánh sáng vào mối nối (giả sử diod được chế tạo trong suốt), ta thấy dòng điện nghịch tăng lên gần như tỉ lệ với quang thông trong lúc dòng điện thuận không tăng. Hiện tượng này được dùng để chế tạo quang diod.</para>
+      <para id="id5259410">Khi ánh sáng chiếu vào nối P-N có đủ năng lượng làm phát sinh các cặp điện tử - lỗ trống ở sát hai bên mối nối làm mật độ hạt tải điện thiểu số tăng lên. Các hạt tải điện thiểu số này khuếch tán qua mối nối tạo nên dòng điện đáng kể cộng thêm vào dòng điện bảo hòa nghịch I0 tự nhiên của diod, thường là dưới vài trăm nA với quang diod Si và dưới vài chục A với quang diod Ge.</para>
+      <para id="id5259440">Độ nhạy của quang diod tùy thuộc vào chất bán dẫn là Si, Ge hay Selenium… Hình vẽ sau đây cho thấy độ nhạy đó theo tần số của ánh sáng chiếu vào các chất bán dẫn này:</para>
+      <para id="id5259448">(Ao)Độ nhạy (%)10075502520004000600080001000012000140000SiSeGeTử ngoạiÁnh sáng thấy đượcHồng ngoại04000fc3000fc2000fc1000fcL = 0Điện thế phân cực nghịchHình 7Dòng điện nghịch mADòng tối0,10,20,30,40,5</para>
+      <para id="id5290998">Đặc tuyến V-I của quang diod với quang thông là thông số cho thấy ở quang thông nhỏ khi điện thế phân cực nghịch nhỏ, dòng điện tăng theo điện thế phân cực, nhưng khi điện thế phân cực lớn hơn vài volt, dòng điện gần như bảo hòa (không đổi khi điện thế phân cực nghịch tăng). khi quang thông lớn, dòng điện thay đổi theo điện thế phân cực nghịch. Tần số hoạt động của quang diod có thể lên đến hành MHz. Quang diod cũng như quang điện trở thường được dùng trong các mạch điều khiển để đóng - mở mạch điện (dẫn điện khi có ánh sáng chiếu vào và ngưng khi tối).</para>
+    </section>
+    <section id="id-105056638993">
+      <title>QUANG TRANSISTOR (PHOTO TRANSISTOR).</title>
+      <para id="id5291030">Quang transistor là nới rộng đương nhiên của quang diod. Về mặt cấu tạo, quang transistor cũng giống như transistor thường nhưng cực nền để hở. Quang transistor có một thấu kính trong suốt để tập trung ánh sáng vào nối P-N giữa thu và nền.</para>
+      <para id="id5291045">Khi cực nền để hở, nối nền-phát được phân cực thuậnchút ít do các dòng điện rỉ (điện thế VBE lúc đó khoảng vài chục mV ở transistor Si) và nối thu-nền được phân cực nghịch nên transistor ở vùng tác động.</para>
+      <para id="id5291064">054321VCEĐặc tuyến V-IQuang thông12345IC (mA)NPNBhfRVCCICvoltKý hiệuPhân cựcHình 8Vì nối thu-nền được phân cực nghịch nên có dòng rỉ Ico chạy giữa cực thu và cực nền. Vì cực nền bỏ trống, nối nền-phát được phân cực thuận chút ít nên dòng điện cực thu là Ico(1+). Đây là dòng tối của quang transistor. </para>
+      <para id="id5785706">Khi có ánh sáng chiếu vào mối nối thu nền thì sự xuất hiện của các cặp điện tử và lỗ trống như trong quang diod làm phát sinh một dòng điện I do ánh sáng nên dòng điện thu trở thành: IC=(+1)(Ico+I) </para>
+      <para id="id5785749">Như vậy, trong quang transistor, cả dòng tối lẫn dòng chiếu sáng đều được nhân lên (+1) lần so với quang diod nên dễ dàng sử dụng hơn. Hình trên trình bày đặc tính V-I của quang transistor với quang thông là một thông số. Ta thấy đặc tuyến này giống như đặc tuyến của transistor thường mắc theo kiểu cực phát chung.</para>
+      <para id="id5785772">Có nhiều loại quang transistor như loại một transistor dùng để chuyển mạch dùng trong các mạch điều khiển, mạch đếm… loại quang transistor Darlington có độ nhạy rất cao. Ngoài ra người ta còn chế tạo các quang SCR, quang triac…</para>
+      <para id="id5785786">Quang transistorQuang DarlingtonAKQuang SCRT2T1GQuang TRIACHình 9</para>
+      <para id="id5534824">Vài ứng dụng của quang transistor:</para>
+      <para id="id5534830">1. Quang kế:</para>
+      <para id="id5534835">Đây là mạch đơn giản để đo cường độ ánh sáng, biến trở 5K dùng để chuẩn máy nhờ một quang kế mẩu. Khi ánh sáng chiếu vào càng mạch, quang transistor càng dẫn mạnh, kim điện kế lệch càng nhiều. Dĩ nhiên ở mạch trên ta cũng có thể dùng quang điện trở hay quang diod nhưng kém nhạy hơn.</para>
+      <para id="id5534851">9V5KKHình 10</para>
+      <para id="id5292270"><figure id="id5292281"><media id="id8538447" alt=""><image src=".wmf" mime-type="image/wmf" height="245" width="645"/></media></figure>Hình 112. Đóng hay tắt Relais:</para>
+      <para id="id5292329">Trong mạch đóng relais, khi quang transistor được chiếu sáng nó dẫn điện làm T1 thông, Relais hoạt động. Ngược lại trong mạch tắt relais, ở trạng thái thường trực quang transistor không được chiếu sáng nên quang transistor ngưng và T1 luôn thông, Relais ở trạng thái đóng. Khi được chiếu sáng, quang transistor dẫn mạnh làm T1 ngưng, Relais không hoạt động (ở trạng thái tắt).</para>
+    </section>
+    <section id="id-528886087425">
+      <title>DIOD PHÁT QUANG (LED-LIGHT EMITTING DIODE).</title>
+      <para id="id5292374">Ở quang trở, quang diod và quang transistor, năng lượng củaq ánh sáng chiếu vào chất bán dẫn và cấp năng lượng cho các điện tử vượt dãi cấm. Ngược lại khi một điện tử từ dãi dẫn điện rớt xuống dãi hoá trị thí sẽ phát ra một năng lượng E=h.f</para>
+      <para id="id5292389">Dải dẫn điệnDải hóa trịDải cấmhfHình 12Khi phân cực thuận một nối P-N, điện tử tự do từ vùng N xuyên qua vùng P và tái hợp với lỗ trống (về phương diện năng lượng ta nói các điện tử trong dãi dẫn điện – có năng lượng cao – rơi xuống dãi hoá trị - có năng lượng thấp – và kết hợp với lỗ trống), khi tái hợp thì sinh ra năng lượng.</para>
+      <para id="id5292598">Đối với diod Ge, Si thì năng lượng phát ra dưới dạng nhệit. Nhưng đối với diod cấu tạo bằng GaAs (Gallium Arsenide) năng lượng phát ra là ánh sáng hồng ngoại (không thấy được) dùng trong các mạch báo động, điều khiển từ xa…). Với GaAsP (Gallium Arsenide phosphor) năng lượng phát ra là ánh sáng vàng hay đỏ. Với GaP (Gallium phosphor), năng lượng ánh sáng phát ra màu vàng hoặc xanh lá cây. Các Led phát ra ánh sáng thấy được dùng để làm đèn báo, trang trí… Phần ngoài của LED có một thấu kính để tập trung ánh sáng phát ra ngoài.</para>
+      <para id="id5292623">Ký hiệu<figure id="id5292762"><media id="id1171122860390" alt=""><image src=".wmf" mime-type="image/wmf" height="110" width="66"/></media></figure>Phân cực<figure id="id5800649"><media id="id1171118577653" alt=""><image src=".wmf" mime-type="image/wmf" height="132" width="154"/></media></figure>Đặc tuyếnID (mA)VD (volt)1086420121.5.73SiGaAsGaAsP đỏGaAsP vàngGaP lụcHình 13</para>
+      <para id="id5801315">Để có ánh sáng liên tục, người ta phân cực thuận LED. Tùy theo vật liệu cấu tạo, điện thế thềm của LED thay đổi từ 1 đến 2.5V và dòng điện qua LED tối đa khoảng vài mA.</para>
+    </section>
+    <section id="id-668457032098">
+      <title>NỐI QUANG. (OPTO COUPLER-PHOTOCOUPLER-OPTOISOLATOR)</title>
+      <para id="id5801336">Một đèn LED và một linh kiện quang điện tử như quang transistor, quang SCR, quang Triac, quang transistor Darlington có thể tạo nên sự truyền tín hiệu mà không cần đường mạch chung.</para>
+      <para id="id5801347">Các nối quang thường được chế tạo dưới dạng IC cho phép cách ly phần điện công suất mà thường là cao thế khỏi mạch điều khiển tinh vi ở phía LED. Đây là một ưu điểm rất lớn của nối quang.</para>
+      <para id="id5801360">4N25 (Transistor output)1236544N29 (Darlington output)123654HC11C2 (SCR output)123654MOC3021 (Triac output)123654Hình 14Hình sau đây giới thiệu một số nối quang điển hình:</para>
+      <para id="id6204200">Hình sau đây giới thiệu một áp dụng của nối quang</para>
+      <para id="id6204206"><figure id="id6204217"><media id="id1171124734340" alt=""><image src=".wmf" mime-type="image/wmf" height="160" width="649"/></media></figure>TảiHình 15In 3V 30V220VAC</para>
+      <para id="id6204339">- Q1: Bảo vệ nối quang khi điện thế nguồn lớn (chia bớt dòng điện qua LED).</para>
+      <para id="id6204346">- Khi LED sáng, nối quang hoạt động kích hai SCR hoạt động (mỗi SCR hoạt động ở một bán kỳ khi có xung kích từ nối quang) cấp dòng cho tải.</para>
+      <para id="id6204357">- Khi LED tắt, nối quang ngưng, 2 SCR ngưng, ngắt dòng qua tải.</para>
+      <para id="id6204364">- Mạch này là một ví dụ về mạch SSR (Solid – State – Relay).</para>
+    </section>
+  </content>
+</document>
