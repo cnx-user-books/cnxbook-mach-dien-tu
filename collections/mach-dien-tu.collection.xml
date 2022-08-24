@@ -1,3 +1,22 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10892</md:content-id>  <md:title>Mạch điện tử</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>vi</md:language>              <md:uuid>55bb9569-0519-4efe-a2ee-a967755f56ae</md:uuid>
-<md:slug>mach-dien-tu</md:slug>
-</metadata>  <col:content>          <col:module document="m30135"/>                            <col:module document="m29976"/>                            <col:module document="m29804"/>                            <col:module document="m30107"/>                            <col:module document="m30551"/>                            <col:module document="m30553"/>                            <col:module document="m30646"/>                            <col:module document="m30648"/>                            <col:module document="m29924"/>                    </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="CN. Tr&#x1B0;&#x1A1;ng V&#x103;n T&#xE1;m">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10892</md:content-id>
+    <md:title>M&#x1EA1;ch &#x111;i&#x1EC7;n t&#x1EED;</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>55bb9569-0519-4efe-a2ee-a967755f56ae</md:uuid>
+    <md:slug>mach-dien-tu</md:slug>
+  </metadata>
+  <col:content>
+    <col:module document="m30135"/>
+    <col:module document="m29976"/>
+    <col:module document="m29804"/>
+    <col:module document="m30107"/>
+    <col:module document="m30551"/>
+    <col:module document="m30553"/>
+    <col:module document="m30646"/>
+    <col:module document="m30648"/>
+    <col:module document="m29924"/>
+  </col:content>
+</col:collection>
