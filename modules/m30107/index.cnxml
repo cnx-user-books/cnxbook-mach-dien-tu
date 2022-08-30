@@ -2009,7 +2009,7 @@
                                     <m:mi fontstyle="italic">ηV</m:mi>
                                     <m:mmultiscripts>
                                       <m:mtext/>
-                                      <m:mprescripts/>
+                                      <m:none/><m:none/><m:mprescripts/>
                                       <m:mstyle fontsize="6pt">
                                         <m:mrow>
                                           <m:mi>T</m:mi>
@@ -2830,7 +2830,7 @@
                                 </m:mrow>
                                 <m:mmultiscripts>
                                   <m:mtext/>
-                                  <m:mprescripts/>
+                                  <m:none/><m:none/><m:mprescripts/>
                                   <m:mstyle fontsize="8pt">
                                     <m:mrow>
                                       <m:mn>0</m:mn>
